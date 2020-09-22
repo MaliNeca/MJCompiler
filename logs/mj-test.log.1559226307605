@@ -1,0 +1,77 @@
+INFO  16:23:28,114 - Compiling source file: C:\pp1Projekat\workspace\MJCompiler\test\program.mj
+INFO  16:23:28,163 - #2 program
+INFO  16:23:28,163 - #36 test301
+INFO  16:23:28,163 - #36 int
+INFO  16:23:28,165 - #36 x
+INFO  16:23:28,166 - #5 ;
+INFO  16:23:28,167 - #36 int
+INFO  16:23:28,168 - #36 y
+INFO  16:23:28,168 - #5 ;
+INFO  16:23:28,168 - #3 {
+INFO  16:23:28,168 - #13 void
+INFO  16:23:28,169 - #36 main
+INFO  16:23:28,169 - #24 (
+INFO  16:23:28,169 - #25 )
+INFO  16:23:28,169 - #3 {
+INFO  16:23:28,170 - #4 }
+INFO  16:23:28,170 - #4 }
+INFO  16:23:28,175 - Program(
+  ProgName(
+   test301
+  ) [ProgName]
+  ConstVarDeclarations(
+    ConstVarDeclarations(
+      NoConstVarDeclarations(
+      ) [NoConstVarDeclarations]
+      VarD(
+        VarDeclarationTrue(
+          Type(
+           int
+          ) [Type]
+          VarI(
+            VarIdent(
+             x
+              NoBracket(
+              ) [NoBracket]
+            ) [VarIdent]
+          ) [VarI]
+        ) [VarDeclarationTrue]
+      ) [VarD]
+    ) [ConstVarDeclarations]
+    VarD(
+      VarDeclarationTrue(
+        Type(
+         int
+        ) [Type]
+        VarI(
+          VarIdent(
+           y
+            NoBracket(
+            ) [NoBracket]
+          ) [VarIdent]
+        ) [VarI]
+      ) [VarDeclarationTrue]
+    ) [VarD]
+  ) [ConstVarDeclarations]
+  MethodDeclarations(
+    NoMethodDeclarations(
+    ) [NoMethodDeclarations]
+    MethodDecl(
+      MethodVoidName(
+       main
+      ) [MethodVoidName]
+      NoFormPars(
+      ) [NoFormPars]
+      NoVarDeclList(
+      ) [NoVarDeclList]
+      NoStatements(
+      ) [NoStatements]
+    ) [MethodDecl]
+  ) [MethodDeclarations]
+) [Program]
+INFO  16:23:28,177 - ===================================
+INFO  16:23:28,180 - Obradjuje se void funkcija main na liniji 12
+INFO  16:23:28,180 -  Print count calls = 0
+INFO  16:23:28,180 -  Deklarisanih promenljivih ima = 2
+INFO  16:23:28,180 - =================
+ERROR 16:23:28,180 - USPESNO ZAVRSENO!

@@ -1,0 +1,168 @@
+INFO  18:33:04,510 - Compiling source file: C:\pp1Projekat\workspace\MJCompiler\test\program.mj
+INFO  18:33:04,605 - #2 program
+INFO  18:33:04,606 - #37 MJProgram
+INFO  18:33:04,606 - #37 int
+INFO  18:33:04,607 - #37 x
+INFO  18:33:04,607 - #5 ;
+INFO  18:33:04,609 - #37 int
+INFO  18:33:04,610 - #37 y
+INFO  18:33:04,610 - #5 ;
+INFO  18:33:04,610 - #3 {
+INFO  18:33:04,610 - #37 int
+INFO  18:33:04,611 - #37 main
+INFO  18:33:04,612 - #25 (
+INFO  18:33:04,612 - #26 )
+INFO  18:33:04,613 - #3 {
+INFO  18:33:04,613 - #21 print
+INFO  18:33:04,614 - #25 (
+INFO  18:33:04,614 - #34 1
+INFO  18:33:04,615 - #26 )
+INFO  18:33:04,617 - #5 ;
+INFO  18:33:04,617 - #37 x
+INFO  18:33:04,617 - #24 =
+INFO  18:33:04,619 - #37 y
+INFO  18:33:04,628 - #27 +
+INFO  18:33:04,628 - #34 5
+INFO  18:33:04,630 - #5 ;
+INFO  18:33:04,631 - #21 print
+INFO  18:33:04,631 - #25 (
+INFO  18:33:04,631 - #34 2
+INFO  18:33:04,631 - #26 )
+INFO  18:33:04,631 - #5 ;
+INFO  18:33:04,631 - #4 }
+INFO  18:33:04,631 - #4 }
+INFO  18:33:04,636 - Program(
+ MJProgram
+  ConstVarDeclarations(
+    ConstVarDeclarations(
+      NoConstVarDeclarations(
+      ) [NoConstVarDeclarations]
+      VarD(
+        VarDeclarationTrue(
+          Typee(
+           int
+          ) [Typee]
+          VarI(
+            VarIdent(
+             x
+              NoBracket(
+              ) [NoBracket]
+            ) [VarIdent]
+          ) [VarI]
+        ) [VarDeclarationTrue]
+      ) [VarD]
+    ) [ConstVarDeclarations]
+    VarD(
+      VarDeclarationTrue(
+        Typee(
+         int
+        ) [Typee]
+        VarI(
+          VarIdent(
+           y
+            NoBracket(
+            ) [NoBracket]
+          ) [VarIdent]
+        ) [VarI]
+      ) [VarDeclarationTrue]
+    ) [VarD]
+  ) [ConstVarDeclarations]
+  MethodDeclarations(
+    NoMethodDeclarations(
+    ) [NoMethodDeclarations]
+    MethodDecl(
+      MethodType(
+        Typee(
+         int
+        ) [Typee]
+      ) [MethodType]
+     main
+      NoFormPars(
+      ) [NoFormPars]
+      NoVarDeclList(
+      ) [NoVarDeclList]
+      Statements(
+        Statements(
+          Statements(
+            NoStatements(
+            ) [NoStatements]
+            PrintS(
+              Expr(
+                NoMinus(
+                ) [NoMinus]
+                TermOne(
+                  FactorNumber(
+                   1
+                  ) [FactorNumber]
+                ) [TermOne]
+                NoAddopTerms(
+                ) [NoAddopTerms]
+              ) [Expr]
+              NoNumOption(
+              ) [NoNumOption]
+            ) [PrintS]
+          ) [Statements]
+          DesignatorS(
+            DesignatorStatement(
+              Designator(
+               x
+                DesignatorListOne(
+                ) [DesignatorListOne]
+              ) [Designator]
+              Assign(
+                Assignop(
+                ) [Assignop]
+                Expr(
+                  NoMinus(
+                  ) [NoMinus]
+                  TermOne(
+                    FactorDesig(
+                      Designator(
+                       y
+                        DesignatorListOne(
+                        ) [DesignatorListOne]
+                      ) [Designator]
+                      NoActParsDesignatorOption(
+                      ) [NoActParsDesignatorOption]
+                    ) [FactorDesig]
+                  ) [TermOne]
+                  AddopTerms(
+                    NoAddopTerms(
+                    ) [NoAddopTerms]
+                    APlus(
+                    ) [APlus]
+                    TermOne(
+                      FactorNumber(
+                       5
+                      ) [FactorNumber]
+                    ) [TermOne]
+                  ) [AddopTerms]
+                ) [Expr]
+              ) [Assign]
+            ) [DesignatorStatement]
+          ) [DesignatorS]
+        ) [Statements]
+        PrintS(
+          Expr(
+            NoMinus(
+            ) [NoMinus]
+            TermOne(
+              FactorNumber(
+               2
+              ) [FactorNumber]
+            ) [TermOne]
+            NoAddopTerms(
+            ) [NoAddopTerms]
+          ) [Expr]
+          NoNumOption(
+          ) [NoNumOption]
+        ) [PrintS]
+      ) [Statements]
+    ) [MethodDecl]
+  ) [MethodDeclarations]
+) [Program]
+INFO  18:33:04,638 - ===================================
+INFO  18:33:04,642 - Prepoznata print naredba
+INFO  18:33:04,642 - Prepoznata print naredba
+INFO  18:33:04,642 -  Print count calls = 2
+INFO  18:33:04,642 -  Deklarisanih promenljivih ima = 2

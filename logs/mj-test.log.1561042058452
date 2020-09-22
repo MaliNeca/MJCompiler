@@ -1,0 +1,83 @@
+INFO  16:46:45,012 - Compiling source file: C:\pp1Projekat\workspace\MJCompiler\test\program.mj
+INFO  16:46:45,082 - #2 program
+INFO  16:46:45,083 - #36 MJProgram
+INFO  16:46:45,083 - #3 {
+INFO  16:46:45,084 - #36 int
+INFO  16:46:45,085 - #36 k
+INFO  16:46:45,086 - #24 (
+INFO  16:46:45,087 - #25 )
+INFO  16:46:45,088 - #3 {
+INFO  16:46:45,088 - #4 }
+INFO  16:46:45,089 - #13 void
+INFO  16:46:45,090 - #36 main
+INFO  16:46:45,090 - #24 (
+INFO  16:46:45,090 - #25 )
+INFO  16:46:45,091 - #3 {
+INFO  16:46:45,091 - #36 ka
+INFO  16:46:45,091 - #24 (
+INFO  16:46:45,091 - #25 )
+INFO  16:46:45,092 - #5 ;
+INFO  16:46:45,093 - #4 }
+INFO  16:46:45,093 - #4 }
+INFO  16:46:45,099 - Program(
+  ProgName(
+   MJProgram
+  ) [ProgName]
+  NoConstVarDeclarations(
+  ) [NoConstVarDeclarations]
+  MethodDeclarations(
+    MethodDeclarations(
+      NoMethodDeclarations(
+      ) [NoMethodDeclarations]
+      MethodDecl(
+        MethodTypeNamee(
+          Type(
+           int
+          ) [Type]
+         k
+        ) [MethodTypeNamee]
+        NoFormPars(
+        ) [NoFormPars]
+        NoVarDeclList(
+        ) [NoVarDeclList]
+        NoStatements(
+        ) [NoStatements]
+      ) [MethodDecl]
+    ) [MethodDeclarations]
+    MethodDecl(
+      MethodVoidName(
+       main
+      ) [MethodVoidName]
+      NoFormPars(
+      ) [NoFormPars]
+      NoVarDeclList(
+      ) [NoVarDeclList]
+      Statements(
+        NoStatements(
+        ) [NoStatements]
+        DesignatorS(
+          DesignatorStatement(
+            DesignatorIdent(
+             ka
+            ) [DesignatorIdent]
+            ActP(
+              NoActParamOption(
+              ) [NoActParamOption]
+            ) [ActP]
+          ) [DesignatorStatement]
+        ) [DesignatorS]
+      ) [Statements]
+    ) [MethodDecl]
+  ) [MethodDeclarations]
+) [Program]
+INFO  16:46:45,103 - ===================================
+INFO  16:46:45,107 - Obradjuje se funkcija k na liniji 5
+INFO  16:46:45,107 - Obradjuje se void funkcija main na liniji 9
+ERROR 16:46:45,108 - Greska na liniji 11 :promenljiva ka nije deklarisana!
+INFO  16:46:45,108 - Pronadjena lokalna promenljiva na liniji 11 :ime ka Var noObj: notype, -1, -1 
+ERROR 16:46:45,108 - Greska, designator nije tipa metode na liniji 4
+INFO  16:46:45,108 - Pronadjen poziv funkcije noObj na liniji 11
+INFO  16:46:45,108 -  Print count calls = 0
+INFO  16:46:45,108 -  Deklarisanih promenljivih ima = 0
+INFO  16:46:45,108 - =================
+ERROR 16:46:45,108 - GRESKA PRILIKOM PARSIRANJA!!!

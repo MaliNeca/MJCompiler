@@ -1,0 +1,146 @@
+INFO  16:37:12,930 - Compiling source file: C:\pp1Projekat\workspace\MJCompiler\test\program.mj
+INFO  16:37:12,997 - #2 program
+INFO  16:37:12,997 - #36 test301
+INFO  16:37:12,997 - #36 int
+INFO  16:37:12,998 - #36 x
+INFO  16:37:12,999 - #5 ;
+INFO  16:37:13,000 - #36 int
+INFO  16:37:13,002 - #36 y
+INFO  16:37:13,002 - #5 ;
+INFO  16:37:13,002 - #3 {
+INFO  16:37:13,002 - #13 void
+INFO  16:37:13,003 - #36 main
+INFO  16:37:13,003 - #24 (
+INFO  16:37:13,003 - #25 )
+INFO  16:37:13,004 - #3 {
+INFO  16:37:13,004 - #36 y
+INFO  16:37:13,005 - #23 =
+INFO  16:37:13,006 - #33 1
+INFO  16:37:13,007 - #5 ;
+INFO  16:37:13,009 - #36 x
+INFO  16:37:13,009 - #23 =
+INFO  16:37:13,009 - #36 y
+INFO  16:37:13,010 - #5 ;
+INFO  16:37:13,012 - #4 }
+INFO  16:37:13,016 - #4 }
+INFO  16:37:13,024 - Program(
+  ProgName(
+   test301
+  ) [ProgName]
+  ConstVarDeclarations(
+    ConstVarDeclarations(
+      NoConstVarDeclarations(
+      ) [NoConstVarDeclarations]
+      VarD(
+        VarDeclarationTrue(
+          Type(
+           int
+          ) [Type]
+          VarI(
+            VarIdent(
+             x
+              NoBracket(
+              ) [NoBracket]
+            ) [VarIdent]
+          ) [VarI]
+        ) [VarDeclarationTrue]
+      ) [VarD]
+    ) [ConstVarDeclarations]
+    VarD(
+      VarDeclarationTrue(
+        Type(
+         int
+        ) [Type]
+        VarI(
+          VarIdent(
+           y
+            NoBracket(
+            ) [NoBracket]
+          ) [VarIdent]
+        ) [VarI]
+      ) [VarDeclarationTrue]
+    ) [VarD]
+  ) [ConstVarDeclarations]
+  MethodDeclarations(
+    NoMethodDeclarations(
+    ) [NoMethodDeclarations]
+    MethodDecl(
+      MethodVoidName(
+       main
+      ) [MethodVoidName]
+      NoFormPars(
+      ) [NoFormPars]
+      NoVarDeclList(
+      ) [NoVarDeclList]
+      Statements(
+        Statements(
+          NoStatements(
+          ) [NoStatements]
+          DesignatorS(
+            DesignatorStatement(
+              Designator(
+               y
+                DesignatorListOne(
+                ) [DesignatorListOne]
+              ) [Designator]
+              Assign(
+                Assignop(
+                ) [Assignop]
+                Expr(
+                  NoMinus(
+                  ) [NoMinus]
+                  TermOne(
+                    FactorNumber(
+                     1
+                    ) [FactorNumber]
+                  ) [TermOne]
+                  NoAddopTerms(
+                  ) [NoAddopTerms]
+                ) [Expr]
+              ) [Assign]
+            ) [DesignatorStatement]
+          ) [DesignatorS]
+        ) [Statements]
+        DesignatorS(
+          DesignatorStatement(
+            Designator(
+             x
+              DesignatorListOne(
+              ) [DesignatorListOne]
+            ) [Designator]
+            Assign(
+              Assignop(
+              ) [Assignop]
+              Expr(
+                NoMinus(
+                ) [NoMinus]
+                TermOne(
+                  FactorDesig(
+                    Designator(
+                     y
+                      DesignatorListOne(
+                      ) [DesignatorListOne]
+                    ) [Designator]
+                    NoActParsDesignatorOption(
+                    ) [NoActParsDesignatorOption]
+                  ) [FactorDesig]
+                ) [TermOne]
+                NoAddopTerms(
+                ) [NoAddopTerms]
+              ) [Expr]
+            ) [Assign]
+          ) [DesignatorStatement]
+        ) [DesignatorS]
+      ) [Statements]
+    ) [MethodDecl]
+  ) [MethodDeclarations]
+) [Program]
+INFO  16:37:13,024 - ===================================
+INFO  16:37:13,027 - Obradjuje se void funkcija main na liniji 12
+INFO  16:37:13,028 - Pronadjena globalna promenljiva na liniji 15 :ime y Var y: int, 1, 0 
+INFO  16:37:13,029 - Pronadjena globalna promenljiva na liniji 16 :ime x Var x: int, 0, 0 
+INFO  16:37:13,029 - Pronadjena globalna promenljiva na liniji 16 :ime y Var y: int, 1, 0 
+INFO  16:37:13,029 -  Print count calls = 0
+INFO  16:37:13,029 -  Deklarisanih promenljivih ima = 2
+INFO  16:37:13,029 - =================
+INFO  16:37:13,030 - USPESNO ZAVRSENO!

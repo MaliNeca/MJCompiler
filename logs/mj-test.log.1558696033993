@@ -1,0 +1,922 @@
+INFO  13:05:49,677 - Compiling source file: C:\pp1Projekat\workspace\MJCompiler\test\program.mj
+INFO  13:05:49,739 - #2 program
+INFO  13:05:49,739 - #36 Program
+INFO  13:05:49,739 - #11 interface
+INFO  13:05:49,739 - #36 I
+INFO  13:05:49,739 - #3 {
+INFO  13:05:49,739 - #13 void
+INFO  13:05:49,739 - #36 m
+INFO  13:05:49,739 - #24 (
+ERROR 13:05:49,739 - 
+Sintaksna greska na liniji 2
+INFO  13:05:49,739 - #25 )
+INFO  13:05:49,739 - #5 ;
+INFO  13:05:49,739 - #4 }
+INFO  13:05:49,739 - #8 class
+INFO  13:05:49,739 - #36 A
+INFO  13:05:49,739 - #3 {
+INFO  13:05:49,739 - #36 int
+INFO  13:05:49,739 - #36 x
+INFO  13:05:49,739 - #6 [
+INFO  13:05:49,739 - #7 ]
+INFO  13:05:49,739 - #44 ,
+INFO  13:05:49,755 - #36 y
+INFO  13:05:49,755 - #6 [
+INFO  13:05:49,755 - #7 ]
+INFO  13:05:49,755 - #5 ;
+INFO  13:05:49,755 - #4 }
+INFO  13:05:49,755 - #22 const
+INFO  13:05:49,755 - #36 int
+INFO  13:05:49,755 - #36 pi
+INFO  13:05:49,755 - #23 =
+INFO  13:05:49,755 - #33 3
+INFO  13:05:49,755 - #44 ,
+INFO  13:05:49,755 - #36 e
+INFO  13:05:49,755 - #23 =
+INFO  13:05:49,755 - #33 2
+INFO  13:05:49,755 - #5 ;
+INFO  13:05:49,755 - #10 enum
+INFO  13:05:49,755 - #36 Broj
+INFO  13:05:49,755 - #3 {
+INFO  13:05:49,755 - #36 NULA
+INFO  13:05:49,755 - #44 ,
+INFO  13:05:49,755 - #36 TRI
+INFO  13:05:49,755 - #23 =
+INFO  13:05:49,755 - #33 3
+INFO  13:05:49,755 - #44 ,
+INFO  13:05:49,755 - #36 PET
+INFO  13:05:49,755 - #23 =
+INFO  13:05:49,755 - #33 5
+INFO  13:05:49,755 - #4 }
+INFO  13:05:49,755 - #8 class
+INFO  13:05:49,755 - #36 B
+INFO  13:05:49,755 - #9 extends
+INFO  13:05:49,755 - #36 A
+INFO  13:05:49,755 - #36 implements
+ERROR 13:05:49,755 - 
+Sintaksna greska na liniji 6
+INFO  13:05:49,755 - #36 I
+INFO  13:05:49,755 - #3 {
+INFO  13:05:49,755 - #36 int
+INFO  13:05:49,755 - #36 i
+INFO  13:05:49,755 - #5 ;
+ERROR 13:05:49,755 - 
+Sintaksna greska na liniji 7
+INFO  13:05:49,755 - #36 int
+INFO  13:05:49,755 - #36 x
+INFO  13:05:49,755 - #6 [
+INFO  13:05:49,755 - #7 ]
+INFO  13:05:49,755 - #5 ;
+INFO  13:05:49,755 - #3 {
+INFO  13:05:49,755 - #36 int
+INFO  13:05:49,755 - #36 getValue
+INFO  13:05:49,755 - #24 (
+INFO  13:05:49,755 - #36 int
+INFO  13:05:49,755 - #36 a
+INFO  13:05:49,755 - #25 )
+INFO  13:05:49,755 - #36 int
+INFO  13:05:49,755 - #36 b
+INFO  13:05:49,771 - #5 ;
+INFO  13:05:49,771 - #36 bool
+INFO  13:05:49,771 - #36 c
+INFO  13:05:49,771 - #5 ;
+INFO  13:05:49,771 - #3 {
+INFO  13:05:49,771 - #19 return
+INFO  13:05:49,771 - #36 this
+INFO  13:05:49,771 - #43 .
+INFO  13:05:49,771 - #36 i
+INFO  13:05:49,771 - #26 +
+INFO  13:05:49,771 - #36 this
+INFO  13:05:49,771 - #43 .
+INFO  13:05:49,771 - #36 x
+INFO  13:05:49,771 - #6 [
+INFO  13:05:49,771 - #33 0
+INFO  13:05:49,771 - #7 ]
+INFO  13:05:49,771 - #26 +
+INFO  13:05:49,771 - #36 a
+INFO  13:05:49,771 - #5 ;
+INFO  13:05:49,771 - #4 }
+INFO  13:05:49,771 - #13 void
+INFO  13:05:49,771 - #36 m
+INFO  13:05:49,771 - #24 (
+INFO  13:05:49,771 - #25 )
+INFO  13:05:49,771 - #3 {
+INFO  13:05:49,771 - #4 }
+INFO  13:05:49,786 - #4 }
+INFO  13:05:49,786 - #4 }
+ERROR 13:05:49,786 - 
+Sintaksna greska na liniji 12
+INFO  13:05:49,786 - #8 class
+INFO  13:05:49,786 - #36 C
+INFO  13:05:49,786 - #9 extends
+INFO  13:05:49,786 - #36 B
+INFO  13:05:49,786 - #3 {
+INFO  13:05:49,786 - #36 A
+INFO  13:05:49,786 - #36 theA
+INFO  13:05:49,786 - #5 ;
+INFO  13:05:49,786 - #36 int
+ERROR 13:05:49,786 - 
+Sintaksna greska na liniji 13
+INFO  13:05:49,786 - #36 a
+INFO  13:05:49,786 - #5 ;
+INFO  13:05:49,786 - #4 }
+ERROR 13:05:49,786 - 
+Sintaksna greska na liniji 13
+INFO  13:05:49,786 - #3 {
+INFO  13:05:49,786 - #13 void
+INFO  13:05:49,786 - #36 main
+INFO  13:05:49,786 - #24 (
+INFO  13:05:49,786 - #25 )
+INFO  13:05:49,786 - #36 A
+INFO  13:05:49,786 - #36 a
+INFO  13:05:49,786 - #5 ;
+INFO  13:05:49,786 - #36 C
+INFO  13:05:49,786 - #36 c
+INFO  13:05:49,786 - #5 ;
+INFO  13:05:49,786 - #36 int
+INFO  13:05:49,786 - #36 i
+INFO  13:05:49,786 - #5 ;
+INFO  13:05:49,786 - #36 int
+INFO  13:05:49,786 - #36 x
+INFO  13:05:49,786 - #6 [
+INFO  13:05:49,786 - #7 ]
+INFO  13:05:49,786 - #5 ;
+INFO  13:05:49,786 - #3 {
+INFO  13:05:49,786 - #36 a
+INFO  13:05:49,786 - #23 =
+INFO  13:05:49,786 - #36 new
+INFO  13:05:49,786 - #36 A
+ERROR 13:05:49,786 - 
+Sintaksna greska na liniji 16
+INFO  13:05:49,786 - #5 ;
+INFO  13:05:49,786 - #36 a
+INFO  13:05:49,786 - #43 .
+INFO  13:05:49,786 - #36 x
+INFO  13:05:49,786 - #23 =
+INFO  13:05:49,786 - #36 new
+INFO  13:05:49,786 - #36 int
+ERROR 13:05:49,786 - 
+Sintaksna greska na liniji 17
+INFO  13:05:49,786 - #6 [
+INFO  13:05:49,786 - #36 Broj
+INFO  13:05:49,786 - #43 .
+INFO  13:05:49,786 - #36 PET
+INFO  13:05:49,786 - #7 ]
+INFO  13:05:49,786 - #5 ;
+INFO  13:05:49,786 - #36 a
+INFO  13:05:49,786 - #43 .
+INFO  13:05:49,786 - #36 y
+INFO  13:05:49,786 - #23 =
+INFO  13:05:49,786 - #36 new
+INFO  13:05:49,786 - #36 int
+ERROR 13:05:49,786 - 
+Sintaksna greska na liniji 18
+INFO  13:05:49,786 - #6 [
+INFO  13:05:49,786 - #33 5
+INFO  13:05:49,786 - #7 ]
+INFO  13:05:49,786 - #5 ;
+INFO  13:05:49,786 - #36 c
+INFO  13:05:49,786 - #23 =
+INFO  13:05:49,786 - #36 new
+INFO  13:05:49,786 - #36 C
+ERROR 13:05:49,786 - 
+Sintaksna greska na liniji 19
+INFO  13:05:49,786 - #5 ;
+INFO  13:05:49,786 - #36 c
+INFO  13:05:49,786 - #43 .
+INFO  13:05:49,786 - #36 theA
+INFO  13:05:49,786 - #23 =
+INFO  13:05:49,786 - #36 a
+INFO  13:05:49,786 - #5 ;
+INFO  13:05:49,786 - #36 c
+INFO  13:05:49,786 - #43 .
+INFO  13:05:49,786 - #36 x
+INFO  13:05:49,786 - #23 =
+INFO  13:05:49,786 - #36 new
+INFO  13:05:49,786 - #36 int
+ERROR 13:05:49,786 - 
+Sintaksna greska na liniji 21
+INFO  13:05:49,786 - #6 [
+INFO  13:05:49,786 - #33 5
+INFO  13:05:49,786 - #7 ]
+INFO  13:05:49,786 - #5 ;
+INFO  13:05:49,786 - #36 x
+INFO  13:05:49,786 - #23 =
+INFO  13:05:49,786 - #36 new
+INFO  13:05:49,786 - #36 int
+ERROR 13:05:49,786 - 
+Sintaksna greska na liniji 22
+INFO  13:05:49,802 - #6 [
+INFO  13:05:49,802 - #36 Broj
+INFO  13:05:49,802 - #43 .
+INFO  13:05:49,802 - #36 TRI
+INFO  13:05:49,802 - #7 ]
+INFO  13:05:49,802 - #5 ;
+INFO  13:05:49,802 - #20 read
+INFO  13:05:49,802 - #24 (
+INFO  13:05:49,802 - #36 c
+INFO  13:05:49,802 - #43 .
+INFO  13:05:49,802 - #36 i
+INFO  13:05:49,802 - #25 )
+INFO  13:05:49,802 - #5 ;
+INFO  13:05:49,802 - #16 for
+INFO  13:05:49,802 - #24 (
+INFO  13:05:49,802 - #36 i
+INFO  13:05:49,802 - #23 =
+INFO  13:05:49,802 - #33 0
+INFO  13:05:49,818 - #5 ;
+INFO  13:05:49,818 - #36 i
+INFO  13:05:49,818 - #41 <
+INFO  13:05:49,818 - #33 5
+INFO  13:05:49,818 - #5 ;
+INFO  13:05:49,818 - #36 i
+INFO  13:05:49,818 - #29 ++
+INFO  13:05:49,818 - #25 )
+INFO  13:05:49,818 - #3 {
+INFO  13:05:49,818 - #20 read
+INFO  13:05:49,818 - #24 (
+INFO  13:05:49,818 - #36 c
+INFO  13:05:49,818 - #43 .
+INFO  13:05:49,818 - #36 x
+INFO  13:05:49,818 - #6 [
+INFO  13:05:49,818 - #36 i
+INFO  13:05:49,818 - #7 ]
+INFO  13:05:49,818 - #25 )
+INFO  13:05:49,818 - #5 ;
+INFO  13:05:49,818 - #20 read
+INFO  13:05:49,818 - #24 (
+INFO  13:05:49,818 - #36 c
+INFO  13:05:49,818 - #43 .
+INFO  13:05:49,818 - #36 theA
+INFO  13:05:49,818 - #43 .
+INFO  13:05:49,818 - #36 x
+INFO  13:05:49,818 - #6 [
+INFO  13:05:49,818 - #36 i
+INFO  13:05:49,818 - #7 ]
+INFO  13:05:49,818 - #25 )
+INFO  13:05:49,818 - #5 ;
+INFO  13:05:49,818 - #4 }
+INFO  13:05:49,818 - #21 print
+INFO  13:05:49,818 - #24 (
+INFO  13:05:49,818 - #36 c
+INFO  13:05:49,818 - #43 .
+INFO  13:05:49,818 - #36 getValue
+INFO  13:05:49,818 - #24 (
+INFO  13:05:49,818 - #36 c
+INFO  13:05:49,818 - #43 .
+INFO  13:05:49,818 - #36 theA
+INFO  13:05:49,833 - #43 .
+INFO  13:05:49,833 - #36 x
+INFO  13:05:49,833 - #6 [
+INFO  13:05:49,833 - #36 Broj
+INFO  13:05:49,833 - #43 .
+INFO  13:05:49,833 - #36 NULA
+INFO  13:05:49,833 - #7 ]
+INFO  13:05:49,833 - #25 )
+INFO  13:05:49,833 - #25 )
+INFO  13:05:49,833 - #5 ;
+INFO  13:05:49,833 - #36 c
+INFO  13:05:49,833 - #43 .
+INFO  13:05:49,833 - #36 m
+INFO  13:05:49,833 - #24 (
+INFO  13:05:49,833 - #25 )
+INFO  13:05:49,833 - #5 ;
+INFO  13:05:49,833 - #4 }
+INFO  13:05:49,833 - #4 }
+INFO  13:05:49,849 - Program(
+  ProgName(
+   Program
+  ) [ProgName]
+  ConstVarDeclarations(
+    ConstVarDeclarations(
+      ConstVarDeclarations(
+        ConstVarDeclarations(
+          ConstVarDeclarations(
+            ConstVarDeclarations(
+              ConstVarDeclarations(
+                ConstVarDeclarations(
+                  ConstVarDeclarations(
+                    ConstVarDeclarations(
+                      NoConstVarDeclarations(
+                      ) [NoConstVarDeclarations]
+                      ErrorD(
+                      ) [ErrorD]
+                    ) [ConstVarDeclarations]
+                    ClassD(
+                      Inheritance(
+                       A
+                        NoExtendsOption(
+                        ) [NoExtendsOption]
+                        NoImplementsOption(
+                        ) [NoImplementsOption]
+                        VarDeclarationTrue(
+                          Typee(
+                           int
+                          ) [Typee]
+                          IdentVL(
+                            VarI(
+                              VarIdent(
+                               x
+                                Bracket(
+                                ) [Bracket]
+                              ) [VarIdent]
+                            ) [VarI]
+                            VarIdent(
+                             y
+                              Bracket(
+                              ) [Bracket]
+                            ) [VarIdent]
+                          ) [IdentVL]
+                        ) [VarDeclarationTrue]
+                        NoMethodDeclOption(
+                        ) [NoMethodDeclOption]
+                      ) [Inheritance]
+                    ) [ClassD]
+                  ) [ConstVarDeclarations]
+                  ConstD(
+                    ConstDeclaration(
+                      Typee(
+                       int
+                      ) [Typee]
+                      IdentCL(
+                        ConstT(
+                          NumConst(
+                           pi
+                           3
+                          ) [NumConst]
+                        ) [ConstT]
+                        NumConst(
+                         e
+                         2
+                        ) [NumConst]
+                      ) [IdentCL]
+                    ) [ConstDeclaration]
+                  ) [ConstD]
+                ) [ConstVarDeclarations]
+                EnumD(
+                  EnumDeclaration(
+                   Broj
+                    IdentEL(
+                      IdentEL(
+                        EnumI(
+                          EnumIdent(
+                           NULA
+                            NoValueOption(
+                            ) [NoValueOption]
+                          ) [EnumIdent]
+                        ) [EnumI]
+                        EnumIdent(
+                         TRI
+                          YesValueOption(
+                           3
+                          ) [YesValueOption]
+                        ) [EnumIdent]
+                      ) [IdentEL]
+                      EnumIdent(
+                       PET
+                        YesValueOption(
+                         5
+                        ) [YesValueOption]
+                      ) [EnumIdent]
+                    ) [IdentEL]
+                  ) [EnumDeclaration]
+                ) [EnumD]
+              ) [ConstVarDeclarations]
+              ErrorD(
+              ) [ErrorD]
+            ) [ConstVarDeclarations]
+            ErrorD(
+            ) [ErrorD]
+          ) [ConstVarDeclarations]
+          VarD(
+            VarDeclarationTrue(
+              Typee(
+               int
+              ) [Typee]
+              VarI(
+                VarIdent(
+                 x
+                  Bracket(
+                  ) [Bracket]
+                ) [VarIdent]
+              ) [VarI]
+            ) [VarDeclarationTrue]
+          ) [VarD]
+        ) [ConstVarDeclarations]
+        ErrorD(
+        ) [ErrorD]
+      ) [ConstVarDeclarations]
+      ErrorD(
+      ) [ErrorD]
+    ) [ConstVarDeclarations]
+    ErrorD(
+    ) [ErrorD]
+  ) [ConstVarDeclarations]
+  MethodDeclarations(
+    NoMethodDeclarations(
+    ) [NoMethodDeclarations]
+    MethodDecl(
+      MethodVoid(
+      ) [MethodVoid]
+     main
+      NoFormPars(
+      ) [NoFormPars]
+      YesVarDeclList(
+        YesVarDeclList(
+          YesVarDeclList(
+            YesVarDeclList(
+              NoVarDeclList(
+              ) [NoVarDeclList]
+              VarDeclarationTrue(
+                Typee(
+                 A
+                ) [Typee]
+                VarI(
+                  VarIdent(
+                   a
+                    NoBracket(
+                    ) [NoBracket]
+                  ) [VarIdent]
+                ) [VarI]
+              ) [VarDeclarationTrue]
+            ) [YesVarDeclList]
+            VarDeclarationTrue(
+              Typee(
+               C
+              ) [Typee]
+              VarI(
+                VarIdent(
+                 c
+                  NoBracket(
+                  ) [NoBracket]
+                ) [VarIdent]
+              ) [VarI]
+            ) [VarDeclarationTrue]
+          ) [YesVarDeclList]
+          VarDeclarationTrue(
+            Typee(
+             int
+            ) [Typee]
+            VarI(
+              VarIdent(
+               i
+                NoBracket(
+                ) [NoBracket]
+              ) [VarIdent]
+            ) [VarI]
+          ) [VarDeclarationTrue]
+        ) [YesVarDeclList]
+        VarDeclarationTrue(
+          Typee(
+           int
+          ) [Typee]
+          VarI(
+            VarIdent(
+             x
+              Bracket(
+              ) [Bracket]
+            ) [VarIdent]
+          ) [VarI]
+        ) [VarDeclarationTrue]
+      ) [YesVarDeclList]
+      Statements(
+        Statements(
+          Statements(
+            Statements(
+              Statements(
+                Statements(
+                  Statements(
+                    Statements(
+                      Statements(
+                        Statements(
+                          Statements(
+                            NoStatements(
+                            ) [NoStatements]
+                            DesignatorS(
+                              DesignatorStatement(
+                                Designator(
+                                 a
+                                  DesignatorListOne(
+                                  ) [DesignatorListOne]
+                                ) [Designator]
+                                AssignError(
+                                  Assignop(
+                                  ) [Assignop]
+                                ) [AssignError]
+                              ) [DesignatorStatement]
+                            ) [DesignatorS]
+                          ) [Statements]
+                          DesignatorS(
+                            DesignatorStatement(
+                              Designator(
+                               a
+                                DesignatorListMany(
+                                  DesignatorListOne(
+                                  ) [DesignatorListOne]
+                                  OrIdent(
+                                   x
+                                  ) [OrIdent]
+                                ) [DesignatorListMany]
+                              ) [Designator]
+                              AssignError(
+                                Assignop(
+                                ) [Assignop]
+                              ) [AssignError]
+                            ) [DesignatorStatement]
+                          ) [DesignatorS]
+                        ) [Statements]
+                        DesignatorS(
+                          DesignatorStatement(
+                            Designator(
+                             a
+                              DesignatorListMany(
+                                DesignatorListOne(
+                                ) [DesignatorListOne]
+                                OrIdent(
+                                 y
+                                ) [OrIdent]
+                              ) [DesignatorListMany]
+                            ) [Designator]
+                            AssignError(
+                              Assignop(
+                              ) [Assignop]
+                            ) [AssignError]
+                          ) [DesignatorStatement]
+                        ) [DesignatorS]
+                      ) [Statements]
+                      DesignatorS(
+                        DesignatorStatement(
+                          Designator(
+                           c
+                            DesignatorListOne(
+                            ) [DesignatorListOne]
+                          ) [Designator]
+                          AssignError(
+                            Assignop(
+                            ) [Assignop]
+                          ) [AssignError]
+                        ) [DesignatorStatement]
+                      ) [DesignatorS]
+                    ) [Statements]
+                    DesignatorS(
+                      DesignatorStatement(
+                        Designator(
+                         c
+                          DesignatorListMany(
+                            DesignatorListOne(
+                            ) [DesignatorListOne]
+                            OrIdent(
+                             theA
+                            ) [OrIdent]
+                          ) [DesignatorListMany]
+                        ) [Designator]
+                        Assign(
+                          Assignop(
+                          ) [Assignop]
+                          Expr(
+                            NoMinus(
+                            ) [NoMinus]
+                            TermOne(
+                              FactorDesig(
+                                Designator(
+                                 a
+                                  DesignatorListOne(
+                                  ) [DesignatorListOne]
+                                ) [Designator]
+                                NoActParsDesignatorOption(
+                                ) [NoActParsDesignatorOption]
+                              ) [FactorDesig]
+                            ) [TermOne]
+                            NoAddopTerms(
+                            ) [NoAddopTerms]
+                          ) [Expr]
+                        ) [Assign]
+                      ) [DesignatorStatement]
+                    ) [DesignatorS]
+                  ) [Statements]
+                  DesignatorS(
+                    DesignatorStatement(
+                      Designator(
+                       c
+                        DesignatorListMany(
+                          DesignatorListOne(
+                          ) [DesignatorListOne]
+                          OrIdent(
+                           x
+                          ) [OrIdent]
+                        ) [DesignatorListMany]
+                      ) [Designator]
+                      AssignError(
+                        Assignop(
+                        ) [Assignop]
+                      ) [AssignError]
+                    ) [DesignatorStatement]
+                  ) [DesignatorS]
+                ) [Statements]
+                DesignatorS(
+                  DesignatorStatement(
+                    Designator(
+                     x
+                      DesignatorListOne(
+                      ) [DesignatorListOne]
+                    ) [Designator]
+                    AssignError(
+                      Assignop(
+                      ) [Assignop]
+                    ) [AssignError]
+                  ) [DesignatorStatement]
+                ) [DesignatorS]
+              ) [Statements]
+              ReadS(
+                Designator(
+                 c
+                  DesignatorListMany(
+                    DesignatorListOne(
+                    ) [DesignatorListOne]
+                    OrIdent(
+                     i
+                    ) [OrIdent]
+                  ) [DesignatorListMany]
+                ) [Designator]
+              ) [ReadS]
+            ) [Statements]
+            ForS(
+              YesDesignatorStatementOption(
+                DesignatorStatement(
+                  Designator(
+                   i
+                    DesignatorListOne(
+                    ) [DesignatorListOne]
+                  ) [Designator]
+                  Assign(
+                    Assignop(
+                    ) [Assignop]
+                    Expr(
+                      NoMinus(
+                      ) [NoMinus]
+                      TermOne(
+                        FactorNumber(
+                         0
+                        ) [FactorNumber]
+                      ) [TermOne]
+                      NoAddopTerms(
+                      ) [NoAddopTerms]
+                    ) [Expr]
+                  ) [Assign]
+                ) [DesignatorStatement]
+              ) [YesDesignatorStatementOption]
+              YesConditionOption(
+                Condition(
+                  ConditionTermOne(
+                    CondTerm(
+                      ConditionFactOne(
+                        ConditionFactExpr(
+                          Expr(
+                            NoMinus(
+                            ) [NoMinus]
+                            TermOne(
+                              FactorDesig(
+                                Designator(
+                                 i
+                                  DesignatorListOne(
+                                  ) [DesignatorListOne]
+                                ) [Designator]
+                                NoActParsDesignatorOption(
+                                ) [NoActParsDesignatorOption]
+                              ) [FactorDesig]
+                            ) [TermOne]
+                            NoAddopTerms(
+                            ) [NoAddopTerms]
+                          ) [Expr]
+                          OptionRelopExprYes(
+                            Less(
+                            ) [Less]
+                            Expr(
+                              NoMinus(
+                              ) [NoMinus]
+                              TermOne(
+                                FactorNumber(
+                                 5
+                                ) [FactorNumber]
+                              ) [TermOne]
+                              NoAddopTerms(
+                              ) [NoAddopTerms]
+                            ) [Expr]
+                          ) [OptionRelopExprYes]
+                        ) [ConditionFactExpr]
+                      ) [ConditionFactOne]
+                    ) [CondTerm]
+                  ) [ConditionTermOne]
+                ) [Condition]
+              ) [YesConditionOption]
+              YesDesignatorStatementOption(
+                DesignatorStatement(
+                  Designator(
+                   i
+                    DesignatorListOne(
+                    ) [DesignatorListOne]
+                  ) [Designator]
+                  Increment(
+                  ) [Increment]
+                ) [DesignatorStatement]
+              ) [YesDesignatorStatementOption]
+              StatementLi(
+                Statements(
+                  Statements(
+                    NoStatements(
+                    ) [NoStatements]
+                    ReadS(
+                      Designator(
+                       c
+                        DesignatorListMany(
+                          DesignatorListMany(
+                            DesignatorListOne(
+                            ) [DesignatorListOne]
+                            OrIdent(
+                             x
+                            ) [OrIdent]
+                          ) [DesignatorListMany]
+                          OrExpr(
+                            Expr(
+                              NoMinus(
+                              ) [NoMinus]
+                              TermOne(
+                                FactorDesig(
+                                  Designator(
+                                   i
+                                    DesignatorListOne(
+                                    ) [DesignatorListOne]
+                                  ) [Designator]
+                                  NoActParsDesignatorOption(
+                                  ) [NoActParsDesignatorOption]
+                                ) [FactorDesig]
+                              ) [TermOne]
+                              NoAddopTerms(
+                              ) [NoAddopTerms]
+                            ) [Expr]
+                          ) [OrExpr]
+                        ) [DesignatorListMany]
+                      ) [Designator]
+                    ) [ReadS]
+                  ) [Statements]
+                  ReadS(
+                    Designator(
+                     c
+                      DesignatorListMany(
+                        DesignatorListMany(
+                          DesignatorListMany(
+                            DesignatorListOne(
+                            ) [DesignatorListOne]
+                            OrIdent(
+                             theA
+                            ) [OrIdent]
+                          ) [DesignatorListMany]
+                          OrIdent(
+                           x
+                          ) [OrIdent]
+                        ) [DesignatorListMany]
+                        OrExpr(
+                          Expr(
+                            NoMinus(
+                            ) [NoMinus]
+                            TermOne(
+                              FactorDesig(
+                                Designator(
+                                 i
+                                  DesignatorListOne(
+                                  ) [DesignatorListOne]
+                                ) [Designator]
+                                NoActParsDesignatorOption(
+                                ) [NoActParsDesignatorOption]
+                              ) [FactorDesig]
+                            ) [TermOne]
+                            NoAddopTerms(
+                            ) [NoAddopTerms]
+                          ) [Expr]
+                        ) [OrExpr]
+                      ) [DesignatorListMany]
+                    ) [Designator]
+                  ) [ReadS]
+                ) [Statements]
+              ) [StatementLi]
+            ) [ForS]
+          ) [Statements]
+          PrintS(
+            Expr(
+              NoMinus(
+              ) [NoMinus]
+              TermOne(
+                FactorDesig(
+                  Designator(
+                   c
+                    DesignatorListMany(
+                      DesignatorListOne(
+                      ) [DesignatorListOne]
+                      OrIdent(
+                       getValue
+                      ) [OrIdent]
+                    ) [DesignatorListMany]
+                  ) [Designator]
+                  ActParsDesignatorOptionY(
+                    ActParamOption(
+                      ActParams(
+                        ExprsListOne(
+                          Expr(
+                            NoMinus(
+                            ) [NoMinus]
+                            TermOne(
+                              FactorDesig(
+                                Designator(
+                                 c
+                                  DesignatorListMany(
+                                    DesignatorListMany(
+                                      DesignatorListMany(
+                                        DesignatorListOne(
+                                        ) [DesignatorListOne]
+                                        OrIdent(
+                                         theA
+                                        ) [OrIdent]
+                                      ) [DesignatorListMany]
+                                      OrIdent(
+                                       x
+                                      ) [OrIdent]
+                                    ) [DesignatorListMany]
+                                    OrExpr(
+                                      Expr(
+                                        NoMinus(
+                                        ) [NoMinus]
+                                        TermOne(
+                                          FactorDesig(
+                                            Designator(
+                                             Broj
+                                              DesignatorListMany(
+                                                DesignatorListOne(
+                                                ) [DesignatorListOne]
+                                                OrIdent(
+                                                 NULA
+                                                ) [OrIdent]
+                                              ) [DesignatorListMany]
+                                            ) [Designator]
+                                            NoActParsDesignatorOption(
+                                            ) [NoActParsDesignatorOption]
+                                          ) [FactorDesig]
+                                        ) [TermOne]
+                                        NoAddopTerms(
+                                        ) [NoAddopTerms]
+                                      ) [Expr]
+                                    ) [OrExpr]
+                                  ) [DesignatorListMany]
+                                ) [Designator]
+                                NoActParsDesignatorOption(
+                                ) [NoActParsDesignatorOption]
+                              ) [FactorDesig]
+                            ) [TermOne]
+                            NoAddopTerms(
+                            ) [NoAddopTerms]
+                          ) [Expr]
+                        ) [ExprsListOne]
+                      ) [ActParams]
+                    ) [ActParamOption]
+                  ) [ActParsDesignatorOptionY]
+                ) [FactorDesig]
+              ) [TermOne]
+              NoAddopTerms(
+              ) [NoAddopTerms]
+            ) [Expr]
+            NoNumOption(
+            ) [NoNumOption]
+          ) [PrintS]
+        ) [Statements]
+        DesignatorS(
+          DesignatorStatement(
+            Designator(
+             c
+              DesignatorListMany(
+                DesignatorListOne(
+                ) [DesignatorListOne]
+                OrIdent(
+                 m
+                ) [OrIdent]
+              ) [DesignatorListMany]
+            ) [Designator]
+            ActP(
+              NoActParamOption(
+              ) [NoActParamOption]
+            ) [ActP]
+          ) [DesignatorStatement]
+        ) [DesignatorS]
+      ) [Statements]
+    ) [MethodDecl]
+  ) [MethodDeclarations]
+) [Program]
+INFO  13:05:49,927 - ===================================
+INFO  13:05:49,927 - Prepoznata deklaracija
+INFO  13:05:49,927 - Prepoznata deklaracija
+INFO  13:05:49,942 - Prepoznata deklaracija
+INFO  13:05:49,942 - Prepoznata deklaracija
+INFO  13:05:49,942 - Prepoznata deklaracija
+INFO  13:05:49,942 - Prepoznata deklaracija
+INFO  13:05:49,942 - Prepoznata deklaracija
+INFO  13:05:49,942 - Prepoznata print naredba
+INFO  13:05:49,942 -  Print count calls = 1
+INFO  13:05:49,942 -  Deklarisanih promenljivih ima = 7

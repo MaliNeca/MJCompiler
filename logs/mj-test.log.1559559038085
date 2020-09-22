@@ -1,0 +1,80 @@
+INFO  12:46:49,628 - Compiling source file: C:\pp1Projekat\workspace\MJCompiler\test\program.mj
+INFO  12:46:49,699 - #2 program
+INFO  12:46:49,699 - #36 test301
+INFO  12:46:49,700 - #36 int
+INFO  12:46:49,701 - #36 niz
+INFO  12:46:49,701 - #6 [
+INFO  12:46:49,702 - #7 ]
+INFO  12:46:49,702 - #5 ;
+INFO  12:46:49,703 - #3 {
+INFO  12:46:49,704 - #13 void
+INFO  12:46:49,705 - #36 main
+INFO  12:46:49,705 - #24 (
+INFO  12:46:49,705 - #25 )
+INFO  12:46:49,706 - #3 {
+INFO  12:46:49,706 - #36 niz
+INFO  12:46:49,707 - #23 =
+INFO  12:46:49,708 - #36 new
+INFO  12:46:49,711 - #36 char
+ERROR 12:46:49,711 - 
+Sintaksna greska na liniji 21
+INFO  12:46:49,711 - #6 [
+INFO  12:46:49,711 - #33 2
+INFO  12:46:49,711 - #7 ]
+INFO  12:46:49,714 - #5 ;
+INFO  12:46:49,714 - #4 }
+INFO  12:46:49,715 - #4 }
+INFO  12:46:49,716 - Program(
+  ProgName(
+   test301
+  ) [ProgName]
+  ConstVarDeclarations(
+    NoConstVarDeclarations(
+    ) [NoConstVarDeclarations]
+    VarD(
+      VarDeclarationTrue(
+        Type(
+         int
+        ) [Type]
+        VarI(
+          VarIdent(
+           niz
+            Bracket(
+            ) [Bracket]
+          ) [VarIdent]
+        ) [VarI]
+      ) [VarDeclarationTrue]
+    ) [VarD]
+  ) [ConstVarDeclarations]
+  MethodDeclarations(
+    NoMethodDeclarations(
+    ) [NoMethodDeclarations]
+    MethodDecl(
+      MethodVoidName(
+       main
+      ) [MethodVoidName]
+      NoFormPars(
+      ) [NoFormPars]
+      NoVarDeclList(
+      ) [NoVarDeclList]
+      Statements(
+        NoStatements(
+        ) [NoStatements]
+        DesignatorS(
+          DesignatorStatement(
+            Designator(
+             niz
+              DesignatorListOne(
+              ) [DesignatorListOne]
+            ) [Designator]
+            AssignError(
+              Assignop(
+              ) [Assignop]
+            ) [AssignError]
+          ) [DesignatorStatement]
+        ) [DesignatorS]
+      ) [Statements]
+    ) [MethodDecl]
+  ) [MethodDeclarations]
+) [Program]
+INFO  12:46:49,716 - ===================================

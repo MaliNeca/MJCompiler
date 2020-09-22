@@ -1,0 +1,143 @@
+INFO  15:04:13,089 - Compiling source file: C:\pp1Projekat\workspace\MJCompiler\test\program.mj
+INFO  15:04:13,142 - #2 program
+INFO  15:04:13,142 - #36 MJProgram
+INFO  15:04:13,142 - #36 int
+INFO  15:04:13,143 - #36 x
+INFO  15:04:13,144 - #5 ;
+INFO  15:04:13,145 - #36 int
+INFO  15:04:13,146 - #36 y
+INFO  15:04:13,147 - #5 ;
+INFO  15:04:13,147 - #3 {
+INFO  15:04:13,148 - #13 void
+INFO  15:04:13,149 - #36 main
+INFO  15:04:13,149 - #24 (
+INFO  15:04:13,149 - #25 )
+INFO  15:04:13,149 - #3 {
+INFO  15:04:13,150 - #21 print
+INFO  15:04:13,151 - #24 (
+INFO  15:04:13,151 - #33 1
+INFO  15:04:13,152 - #25 )
+INFO  15:04:13,154 - #5 ;
+INFO  15:04:13,154 - #36 x
+INFO  15:04:13,154 - #23 =
+INFO  15:04:13,156 - #36 y
+INFO  15:04:13,166 - #26 +
+INFO  15:04:13,166 - #33 5
+INFO  15:04:13,167 - #26 +
+INFO  15:04:13,168 - #33 3
+INFO  15:04:13,168 - #26 +
+INFO  15:04:13,168 - #5 ;
+ERROR 15:04:13,168 - 
+Sintaksna greska na liniji 8
+INFO  15:04:13,168 - #21 print
+INFO  15:04:13,168 - #24 (
+INFO  15:04:13,168 - #33 2
+INFO  15:04:13,170 - #25 )
+INFO  15:04:13,170 - #5 ;
+INFO  15:04:13,170 - #4 }
+INFO  15:04:13,170 - #4 }
+INFO  15:04:13,176 - Program(
+  ProgName(
+   MJProgram
+  ) [ProgName]
+  ConstVarDeclarations(
+    ConstVarDeclarations(
+      NoConstVarDeclarations(
+      ) [NoConstVarDeclarations]
+      VarD(
+        VarDeclarationTrue(
+          Type(
+           int
+          ) [Type]
+          VarI(
+            VarIdent(
+             x
+              NoBracket(
+              ) [NoBracket]
+            ) [VarIdent]
+          ) [VarI]
+        ) [VarDeclarationTrue]
+      ) [VarD]
+    ) [ConstVarDeclarations]
+    VarD(
+      VarDeclarationTrue(
+        Type(
+         int
+        ) [Type]
+        VarI(
+          VarIdent(
+           y
+            NoBracket(
+            ) [NoBracket]
+          ) [VarIdent]
+        ) [VarI]
+      ) [VarDeclarationTrue]
+    ) [VarD]
+  ) [ConstVarDeclarations]
+  MethodDeclarations(
+    NoMethodDeclarations(
+    ) [NoMethodDeclarations]
+    MethodDecl(
+      MethodVoidName(
+       main
+      ) [MethodVoidName]
+      NoFormPars(
+      ) [NoFormPars]
+      NoVarDeclList(
+      ) [NoVarDeclList]
+      Statements(
+        Statements(
+          Statements(
+            NoStatements(
+            ) [NoStatements]
+            PrintS(
+              Expr(
+                NoMinus(
+                ) [NoMinus]
+                TermOne(
+                  FactorNumber(
+                   1
+                  ) [FactorNumber]
+                ) [TermOne]
+                NoAddopTerms(
+                ) [NoAddopTerms]
+              ) [Expr]
+              NoNumOption(
+              ) [NoNumOption]
+            ) [PrintS]
+          ) [Statements]
+          DesignatorS(
+            DesignatorStatement(
+              Designator(
+               x
+                DesignatorListOne(
+                ) [DesignatorListOne]
+              ) [Designator]
+              AssignError(
+                Assignop(
+                ) [Assignop]
+              ) [AssignError]
+            ) [DesignatorStatement]
+          ) [DesignatorS]
+        ) [Statements]
+        PrintS(
+          Expr(
+            NoMinus(
+            ) [NoMinus]
+            TermOne(
+              FactorNumber(
+               2
+              ) [FactorNumber]
+            ) [TermOne]
+            NoAddopTerms(
+            ) [NoAddopTerms]
+          ) [Expr]
+          NoNumOption(
+          ) [NoNumOption]
+        ) [PrintS]
+      ) [Statements]
+    ) [MethodDecl]
+  ) [MethodDeclarations]
+) [Program]
+INFO  15:04:13,176 - ===================================
+INFO  15:04:13,179 - Obradjuje se void funkcija main na liniji 4

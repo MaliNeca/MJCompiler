@@ -1,0 +1,104 @@
+INFO  16:49:02,292 - Compiling source file: C:\pp1Projekat\workspace\MJCompiler\test\program.mj
+INFO  16:49:02,374 - #2 program
+INFO  16:49:02,375 - #36 MJProgram
+INFO  16:49:02,375 - #3 {
+INFO  16:49:02,377 - #36 int
+INFO  16:49:02,377 - #36 k
+INFO  16:49:02,378 - #24 (
+INFO  16:49:02,378 - #25 )
+INFO  16:49:02,379 - #3 {
+INFO  16:49:02,381 - #4 }
+INFO  16:49:02,382 - #13 void
+INFO  16:49:02,383 - #36 main
+INFO  16:49:02,383 - #24 (
+INFO  16:49:02,383 - #25 )
+INFO  16:49:02,383 - #36 int
+INFO  16:49:02,383 - #36 x
+INFO  16:49:02,383 - #5 ;
+INFO  16:49:02,385 - #3 {
+INFO  16:49:02,386 - #36 x
+INFO  16:49:02,386 - #23 =
+INFO  16:49:02,386 - #33 0
+INFO  16:49:02,388 - #36 x
+ERROR 16:49:02,388 - 
+Sintaksna greska na liniji 11
+INFO  16:49:02,390 - #23 =
+INFO  16:49:02,391 - #36 k
+INFO  16:49:02,391 - #24 (
+INFO  16:49:02,391 - #25 )
+INFO  16:49:02,391 - #5 ;
+INFO  16:49:02,391 - #4 }
+INFO  16:49:02,391 - #4 }
+INFO  16:49:02,397 - Program(
+  ProgName(
+   MJProgram
+  ) [ProgName]
+  NoConstVarDeclarations(
+  ) [NoConstVarDeclarations]
+  MethodDeclarations(
+    MethodDeclarations(
+      NoMethodDeclarations(
+      ) [NoMethodDeclarations]
+      MethodDecl(
+        MethodTypeNamee(
+          Type(
+           int
+          ) [Type]
+         k
+        ) [MethodTypeNamee]
+        NoFormPars(
+        ) [NoFormPars]
+        NoVarDeclList(
+        ) [NoVarDeclList]
+        NoStatements(
+        ) [NoStatements]
+      ) [MethodDecl]
+    ) [MethodDeclarations]
+    MethodDecl(
+      MethodVoidName(
+       main
+      ) [MethodVoidName]
+      NoFormPars(
+      ) [NoFormPars]
+      YesVarDeclList(
+        NoVarDeclList(
+        ) [NoVarDeclList]
+        VarDeclarationTrue(
+          Type(
+           int
+          ) [Type]
+          VarI(
+            VarIdent(
+             x
+              NoBracket(
+              ) [NoBracket]
+            ) [VarIdent]
+          ) [VarI]
+        ) [VarDeclarationTrue]
+      ) [YesVarDeclList]
+      Statements(
+        NoStatements(
+        ) [NoStatements]
+        DesignatorS(
+          DesignatorStatement(
+            DesignatorIdent(
+             x
+            ) [DesignatorIdent]
+            AssignError(
+              Assignop(
+              ) [Assignop]
+            ) [AssignError]
+          ) [DesignatorStatement]
+        ) [DesignatorS]
+      ) [Statements]
+    ) [MethodDecl]
+  ) [MethodDeclarations]
+) [Program]
+INFO  16:49:02,397 - ===================================
+INFO  16:49:02,402 - Obradjuje se funkcija k na liniji 5
+INFO  16:49:02,402 - Obradjuje se void funkcija main na liniji 9
+INFO  16:49:02,403 - Pronadjena lokalna promenljiva na liniji 10 :ime x Var x: int, 0, 1 
+INFO  16:49:02,404 -  Print count calls = 0
+INFO  16:49:02,404 -  Deklarisanih promenljivih ima = 1
+INFO  16:49:02,404 - =================
+ERROR 16:49:02,404 - GRESKA PRILIKOM PARSIRANJA!!!

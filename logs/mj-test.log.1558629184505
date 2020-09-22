@@ -1,0 +1,121 @@
+INFO  18:27:48,935 - Compiling source file: C:\pp1Projekat\workspace\MJCompiler\test\program.mj
+INFO  18:27:48,997 - #2 program
+INFO  18:27:48,997 - #37 MJProgram
+INFO  18:27:48,997 - #37 int
+INFO  18:27:48,998 - #37 x
+INFO  18:27:48,998 - #5 ;
+INFO  18:27:48,999 - #37 int
+INFO  18:27:49,000 - #37 y
+INFO  18:27:49,000 - #5 ;
+INFO  18:27:49,000 - #3 {
+INFO  18:27:49,000 - #37 int
+INFO  18:27:49,001 - #37 main
+INFO  18:27:49,001 - #25 (
+INFO  18:27:49,001 - #26 )
+INFO  18:27:49,002 - #3 {
+INFO  18:27:49,003 - #21 print
+INFO  18:27:49,004 - #25 (
+INFO  18:27:49,004 - #34 1
+INFO  18:27:49,005 - #26 )
+INFO  18:27:49,009 - #5 ;
+INFO  18:27:49,009 - #21 print
+INFO  18:27:49,010 - #25 (
+INFO  18:27:49,010 - #34 2
+INFO  18:27:49,030 - #26 )
+INFO  18:27:49,030 - #5 ;
+INFO  18:27:49,030 - #4 }
+INFO  18:27:49,030 - #4 }
+INFO  18:27:49,032 - Program(
+ MJProgram
+  ConstVarDeclarations(
+    ConstVarDeclarations(
+      NoConstVarDeclarations(
+      ) [NoConstVarDeclarations]
+      VarD(
+        VarDeclarationTrue(
+          Typee(
+           int
+          ) [Typee]
+          VarI(
+            VarIdent(
+             x
+              NoBracket(
+              ) [NoBracket]
+            ) [VarIdent]
+          ) [VarI]
+        ) [VarDeclarationTrue]
+      ) [VarD]
+    ) [ConstVarDeclarations]
+    VarD(
+      VarDeclarationTrue(
+        Typee(
+         int
+        ) [Typee]
+        VarI(
+          VarIdent(
+           y
+            NoBracket(
+            ) [NoBracket]
+          ) [VarIdent]
+        ) [VarI]
+      ) [VarDeclarationTrue]
+    ) [VarD]
+  ) [ConstVarDeclarations]
+  MethodDeclarations(
+    NoMethodDeclarations(
+    ) [NoMethodDeclarations]
+    MethodDecl(
+      MethodType(
+        Typee(
+         int
+        ) [Typee]
+      ) [MethodType]
+     main
+      NoFormPars(
+      ) [NoFormPars]
+      NoVarDeclList(
+      ) [NoVarDeclList]
+      Statements(
+        Statements(
+          NoStatements(
+          ) [NoStatements]
+          PrintS(
+            Expr(
+              NoMinus(
+              ) [NoMinus]
+              TermOne(
+                FactorNumber(
+                 1
+                ) [FactorNumber]
+              ) [TermOne]
+              NoAddopTerms(
+              ) [NoAddopTerms]
+            ) [Expr]
+            NoNumOption(
+            ) [NoNumOption]
+          ) [PrintS]
+        ) [Statements]
+        PrintS(
+          Expr(
+            NoMinus(
+            ) [NoMinus]
+            TermOne(
+              FactorNumber(
+               2
+              ) [FactorNumber]
+            ) [TermOne]
+            NoAddopTerms(
+            ) [NoAddopTerms]
+          ) [Expr]
+          NoNumOption(
+          ) [NoNumOption]
+        ) [PrintS]
+      ) [Statements]
+    ) [MethodDecl]
+  ) [MethodDeclarations]
+) [Program]
+INFO  18:27:49,032 - ===================================
+INFO  18:27:49,035 - Prepoznata print naredba
+INFO  18:27:49,035 - Prepoznata print naredba
+INFO  18:27:49,035 -  Print count calls = 2
+INFO  18:27:49,035 -  Deklarisanih promenljivih ima = 2

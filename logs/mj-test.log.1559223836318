@@ -1,0 +1,157 @@
+INFO  15:43:15,616 - Compiling source file: C:\pp1Projekat\workspace\MJCompiler\test\program.mj
+INFO  15:43:15,664 - #2 program
+INFO  15:43:15,664 - #36 test301
+INFO  15:43:15,664 - #36 int
+INFO  15:43:15,665 - #36 x
+INFO  15:43:15,666 - #23 =
+ERROR 15:43:15,666 - 
+Sintaksna greska na liniji 5
+INFO  15:43:15,666 - #33 1
+INFO  15:43:15,666 - #5 ;
+INFO  15:43:15,666 - #36 int
+INFO  15:43:15,667 - #36 y
+INFO  15:43:15,667 - #23 =
+ERROR 15:43:15,667 - 
+Sintaksna greska na liniji 6
+INFO  15:43:15,667 - #33 2
+INFO  15:43:15,668 - #5 ;
+INFO  15:43:15,668 - #3 {
+INFO  15:43:15,668 - #13 void
+INFO  15:43:15,668 - #36 main
+INFO  15:43:15,669 - #24 (
+INFO  15:43:15,669 - #25 )
+INFO  15:43:15,669 - #3 {
+INFO  15:43:15,670 - #36 x
+INFO  15:43:15,674 - #23 =
+INFO  15:43:15,676 - #36 y
+INFO  15:43:15,677 - #26 +
+INFO  15:43:15,678 - #33 5
+INFO  15:43:15,679 - #26 +
+INFO  15:43:15,680 - #33 2
+INFO  15:43:15,680 - #5 ;
+INFO  15:43:15,682 - #21 print
+INFO  15:43:15,682 - #24 (
+INFO  15:43:15,682 - #36 x
+INFO  15:43:15,682 - #25 )
+INFO  15:43:15,683 - #5 ;
+INFO  15:43:15,683 - #4 }
+INFO  15:43:15,683 - #4 }
+INFO  15:43:15,688 - Program(
+  ProgName(
+   test301
+  ) [ProgName]
+  ConstVarDeclarations(
+    ConstVarDeclarations(
+      NoConstVarDeclarations(
+      ) [NoConstVarDeclarations]
+      VarD(
+        VarDeclarationError(
+          Type(
+           int
+          ) [Type]
+        ) [VarDeclarationError]
+      ) [VarD]
+    ) [ConstVarDeclarations]
+    VarD(
+      VarDeclarationError(
+        Type(
+         int
+        ) [Type]
+      ) [VarDeclarationError]
+    ) [VarD]
+  ) [ConstVarDeclarations]
+  MethodDeclarations(
+    NoMethodDeclarations(
+    ) [NoMethodDeclarations]
+    MethodDecl(
+      MethodVoidName(
+       main
+      ) [MethodVoidName]
+      NoFormPars(
+      ) [NoFormPars]
+      NoVarDeclList(
+      ) [NoVarDeclList]
+      Statements(
+        Statements(
+          NoStatements(
+          ) [NoStatements]
+          DesignatorS(
+            DesignatorStatement(
+              Designator(
+               x
+                DesignatorListOne(
+                ) [DesignatorListOne]
+              ) [Designator]
+              Assign(
+                Assignop(
+                ) [Assignop]
+                Expr(
+                  NoMinus(
+                  ) [NoMinus]
+                  TermOne(
+                    FactorDesig(
+                      Designator(
+                       y
+                        DesignatorListOne(
+                        ) [DesignatorListOne]
+                      ) [Designator]
+                      NoActParsDesignatorOption(
+                      ) [NoActParsDesignatorOption]
+                    ) [FactorDesig]
+                  ) [TermOne]
+                  AddopTerms(
+                    AddopTerms(
+                      NoAddopTerms(
+                      ) [NoAddopTerms]
+                      APlus(
+                      ) [APlus]
+                      TermOne(
+                        FactorNumber(
+                         5
+                        ) [FactorNumber]
+                      ) [TermOne]
+                    ) [AddopTerms]
+                    APlus(
+                    ) [APlus]
+                    TermOne(
+                      FactorNumber(
+                       2
+                      ) [FactorNumber]
+                    ) [TermOne]
+                  ) [AddopTerms]
+                ) [Expr]
+              ) [Assign]
+            ) [DesignatorStatement]
+          ) [DesignatorS]
+        ) [Statements]
+        PrintS(
+          Expr(
+            NoMinus(
+            ) [NoMinus]
+            TermOne(
+              FactorDesig(
+                Designator(
+                 x
+                  DesignatorListOne(
+                  ) [DesignatorListOne]
+                ) [Designator]
+                NoActParsDesignatorOption(
+                ) [NoActParsDesignatorOption]
+              ) [FactorDesig]
+            ) [TermOne]
+            NoAddopTerms(
+            ) [NoAddopTerms]
+          ) [Expr]
+          NoNumOption(
+          ) [NoNumOption]
+        ) [PrintS]
+      ) [Statements]
+    ) [MethodDecl]
+  ) [MethodDeclarations]
+) [Program]
+INFO  15:43:15,689 - ===================================
+INFO  15:43:15,692 - Obradjuje se void funkcija main na liniji 11
+ERROR 15:43:15,692 - Greska na liniji 16 :promenljiva x nije deklarisana!
+INFO  15:43:15,692 - Pronadjena lokalna promenljiva na liniji 16 :ime x Var noObj: notype, -1, -1 
+ERROR 15:43:15,692 - Greska na liniji 16 :promenljiva y nije deklarisana!
+INFO  15:43:15,692 - Pronadjena lokalna promenljiva na liniji 16 :ime y Var noObj: notype, -1, -1 

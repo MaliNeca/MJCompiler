@@ -1,0 +1,546 @@
+INFO  20:37:31,184 - Compiling source file: C:\pp1Projekat\workspace\MJCompiler\test\program.mj
+INFO  20:37:31,264 - #2 program
+INFO  20:37:31,264 - #36 test301
+INFO  20:37:31,264 - #10 enum
+INFO  20:37:31,265 - #36 Broj
+INFO  20:37:31,265 - #3 {
+INFO  20:37:31,265 - #36 NULA
+INFO  20:37:31,265 - #44 ,
+INFO  20:37:31,267 - #36 JEDAN
+INFO  20:37:31,267 - #44 ,
+INFO  20:37:31,267 - #36 PET
+INFO  20:37:31,267 - #23 =
+INFO  20:37:31,267 - #33 5
+INFO  20:37:31,268 - #44 ,
+INFO  20:37:31,268 - #36 DESET
+INFO  20:37:31,268 - #23 =
+INFO  20:37:31,268 - #33 10
+INFO  20:37:31,268 - #4 }
+INFO  20:37:31,268 - #22 const
+INFO  20:37:31,269 - #36 int
+INFO  20:37:31,269 - #36 jedan
+INFO  20:37:31,269 - #23 =
+INFO  20:37:31,270 - #33 1
+INFO  20:37:31,272 - #5 ;
+INFO  20:37:31,272 - #22 const
+INFO  20:37:31,272 - #36 int
+INFO  20:37:31,272 - #36 pet
+INFO  20:37:31,273 - #23 =
+INFO  20:37:31,273 - #33 5
+INFO  20:37:31,273 - #5 ;
+INFO  20:37:31,273 - #36 int
+INFO  20:37:31,273 - #36 niz
+INFO  20:37:31,273 - #6 [
+INFO  20:37:31,273 - #7 ]
+INFO  20:37:31,273 - #5 ;
+INFO  20:37:31,275 - #36 char
+INFO  20:37:31,275 - #36 nizch
+INFO  20:37:31,275 - #6 [
+INFO  20:37:31,275 - #7 ]
+INFO  20:37:31,275 - #5 ;
+INFO  20:37:31,275 - #3 {
+INFO  20:37:31,275 - #36 int
+INFO  20:37:31,276 - #36 inc
+INFO  20:37:31,276 - #24 (
+INFO  20:37:31,276 - #36 int
+INFO  20:37:31,276 - #36 broj
+INFO  20:37:31,276 - #25 )
+INFO  20:37:31,278 - #3 {
+INFO  20:37:31,278 - #19 return
+INFO  20:37:31,279 - #36 broj
+INFO  20:37:31,279 - #26 +
+INFO  20:37:31,281 - #36 Broj
+INFO  20:37:31,281 - #43 .
+INFO  20:37:31,281 - #36 JEDAN
+INFO  20:37:31,281 - #5 ;
+INFO  20:37:31,283 - #4 }
+INFO  20:37:31,283 - #13 void
+INFO  20:37:31,284 - #36 mul
+INFO  20:37:31,284 - #24 (
+INFO  20:37:31,284 - #36 int
+INFO  20:37:31,284 - #36 arr
+INFO  20:37:31,284 - #6 [
+INFO  20:37:31,284 - #7 ]
+INFO  20:37:31,284 - #44 ,
+INFO  20:37:31,284 - #36 int
+INFO  20:37:31,284 - #36 index
+INFO  20:37:31,284 - #44 ,
+INFO  20:37:31,285 - #36 int
+INFO  20:37:31,285 - #36 b
+INFO  20:37:31,285 - #25 )
+INFO  20:37:31,285 - #3 {
+INFO  20:37:31,285 - #36 arr
+INFO  20:37:31,285 - #6 [
+INFO  20:37:31,285 - #36 index
+INFO  20:37:31,285 - #7 ]
+INFO  20:37:31,285 - #23 =
+INFO  20:37:31,286 - #36 arr
+INFO  20:37:31,286 - #6 [
+INFO  20:37:31,286 - #36 index
+INFO  20:37:31,287 - #7 ]
+INFO  20:37:31,287 - #45 *
+INFO  20:37:31,287 - #36 b
+INFO  20:37:31,287 - #5 ;
+INFO  20:37:31,288 - #4 }
+INFO  20:37:31,288 - #13 void
+INFO  20:37:31,288 - #36 main
+INFO  20:37:31,289 - #24 (
+INFO  20:37:31,289 - #25 )
+INFO  20:37:31,289 - #3 {
+INFO  20:37:31,289 - #36 niz
+INFO  20:37:31,289 - #23 =
+INFO  20:37:31,289 - #28 new
+INFO  20:37:31,289 - #36 int
+INFO  20:37:31,289 - #6 [
+INFO  20:37:31,289 - #33 2
+INFO  20:37:31,290 - #7 ]
+INFO  20:37:31,290 - #5 ;
+INFO  20:37:31,290 - #36 mul
+INFO  20:37:31,290 - #24 (
+INFO  20:37:31,290 - #36 niz
+INFO  20:37:31,290 - #44 ,
+INFO  20:37:31,290 - #36 inc
+INFO  20:37:31,290 - #24 (
+INFO  20:37:31,290 - #33 0
+INFO  20:37:31,290 - #25 )
+INFO  20:37:31,291 - #44 ,
+INFO  20:37:31,291 - #33 2
+INFO  20:37:31,291 - #25 )
+INFO  20:37:31,291 - #5 ;
+INFO  20:37:31,291 - #4 }
+INFO  20:37:31,291 - #4 }
+INFO  20:37:31,295 - Program(
+  ProgName(
+   test301
+  ) [ProgName]
+  ConstVarDeclarations(
+    ConstVarDeclarations(
+      ConstVarDeclarations(
+        ConstVarDeclarations(
+          ConstVarDeclarations(
+            NoConstVarDeclarations(
+            ) [NoConstVarDeclarations]
+            EnumD(
+              EnumDeclaration(
+               Broj
+                IdentEL(
+                  IdentEL(
+                    IdentEL(
+                      EnumI(
+                        EnumIdent(
+                         NULA
+                          NoValueOption(
+                          ) [NoValueOption]
+                        ) [EnumIdent]
+                      ) [EnumI]
+                      EnumIdent(
+                       JEDAN
+                        NoValueOption(
+                        ) [NoValueOption]
+                      ) [EnumIdent]
+                    ) [IdentEL]
+                    EnumIdent(
+                     PET
+                      YesValueOption(
+                       5
+                      ) [YesValueOption]
+                    ) [EnumIdent]
+                  ) [IdentEL]
+                  EnumIdent(
+                   DESET
+                    YesValueOption(
+                     10
+                    ) [YesValueOption]
+                  ) [EnumIdent]
+                ) [IdentEL]
+              ) [EnumDeclaration]
+            ) [EnumD]
+          ) [ConstVarDeclarations]
+          ConstD(
+            ConstDeclaration(
+              Type(
+               int
+              ) [Type]
+              ConstT(
+                NumConst(
+                 jedan
+                 1
+                ) [NumConst]
+              ) [ConstT]
+            ) [ConstDeclaration]
+          ) [ConstD]
+        ) [ConstVarDeclarations]
+        ConstD(
+          ConstDeclaration(
+            Type(
+             int
+            ) [Type]
+            ConstT(
+              NumConst(
+               pet
+               5
+              ) [NumConst]
+            ) [ConstT]
+          ) [ConstDeclaration]
+        ) [ConstD]
+      ) [ConstVarDeclarations]
+      VarD(
+        VarDeclarationTrue(
+          Type(
+           int
+          ) [Type]
+          VarI(
+            VarIdent(
+             niz
+              Bracket(
+              ) [Bracket]
+            ) [VarIdent]
+          ) [VarI]
+        ) [VarDeclarationTrue]
+      ) [VarD]
+    ) [ConstVarDeclarations]
+    VarD(
+      VarDeclarationTrue(
+        Type(
+         char
+        ) [Type]
+        VarI(
+          VarIdent(
+           nizch
+            Bracket(
+            ) [Bracket]
+          ) [VarIdent]
+        ) [VarI]
+      ) [VarDeclarationTrue]
+    ) [VarD]
+  ) [ConstVarDeclarations]
+  MethodDeclarations(
+    MethodDeclarations(
+      MethodDeclarations(
+        NoMethodDeclarations(
+        ) [NoMethodDeclarations]
+        MethodDecl(
+          MethodTypeNamee(
+            Type(
+             int
+            ) [Type]
+           inc
+          ) [MethodTypeNamee]
+          FormPars(
+            FormParsOne(
+              FormParam(
+                Type(
+                 int
+                ) [Type]
+               broj
+                NoBracket(
+                ) [NoBracket]
+              ) [FormParam]
+            ) [FormParsOne]
+          ) [FormPars]
+          NoVarDeclList(
+          ) [NoVarDeclList]
+          Statements(
+            NoStatements(
+            ) [NoStatements]
+            ReturnS(
+              YesExprOption(
+                Expr(
+                  NoMinus(
+                  ) [NoMinus]
+                  TermOne(
+                    FactorDesig(
+                      DesignatorIdent(
+                       broj
+                      ) [DesignatorIdent]
+                      NoActParsDesignatorOption(
+                      ) [NoActParsDesignatorOption]
+                    ) [FactorDesig]
+                  ) [TermOne]
+                  AddopTerms(
+                    NoAddopTerms(
+                    ) [NoAddopTerms]
+                    APlus(
+                    ) [APlus]
+                    TermOne(
+                      FactorDesig(
+                        DesignatorIdentFullstopIdent(
+                          DesignatorIdent(
+                           Broj
+                          ) [DesignatorIdent]
+                         JEDAN
+                        ) [DesignatorIdentFullstopIdent]
+                        NoActParsDesignatorOption(
+                        ) [NoActParsDesignatorOption]
+                      ) [FactorDesig]
+                    ) [TermOne]
+                  ) [AddopTerms]
+                ) [Expr]
+              ) [YesExprOption]
+            ) [ReturnS]
+          ) [Statements]
+        ) [MethodDecl]
+      ) [MethodDeclarations]
+      MethodDecl(
+        MethodVoidName(
+         mul
+        ) [MethodVoidName]
+        FormPars(
+          FormParsMany(
+            FormParsMany(
+              FormParsOne(
+                FormParam(
+                  Type(
+                   int
+                  ) [Type]
+                 arr
+                  Bracket(
+                  ) [Bracket]
+                ) [FormParam]
+              ) [FormParsOne]
+              FormParam(
+                Type(
+                 int
+                ) [Type]
+               index
+                NoBracket(
+                ) [NoBracket]
+              ) [FormParam]
+            ) [FormParsMany]
+            FormParam(
+              Type(
+               int
+              ) [Type]
+             b
+              NoBracket(
+              ) [NoBracket]
+            ) [FormParam]
+          ) [FormParsMany]
+        ) [FormPars]
+        NoVarDeclList(
+        ) [NoVarDeclList]
+        Statements(
+          NoStatements(
+          ) [NoStatements]
+          DesignatorS(
+            DesignatorStatement(
+              DesignatorIdentExpr(
+                DesignatorExprLSquare(
+                  DesignatorIdent(
+                   arr
+                  ) [DesignatorIdent]
+                ) [DesignatorExprLSquare]
+                Expr(
+                  NoMinus(
+                  ) [NoMinus]
+                  TermOne(
+                    FactorDesig(
+                      DesignatorIdent(
+                       index
+                      ) [DesignatorIdent]
+                      NoActParsDesignatorOption(
+                      ) [NoActParsDesignatorOption]
+                    ) [FactorDesig]
+                  ) [TermOne]
+                  NoAddopTerms(
+                  ) [NoAddopTerms]
+                ) [Expr]
+              ) [DesignatorIdentExpr]
+              Assign(
+                Assignop(
+                ) [Assignop]
+                Expr(
+                  NoMinus(
+                  ) [NoMinus]
+                  TermMany(
+                    TermOne(
+                      FactorDesig(
+                        DesignatorIdentExpr(
+                          DesignatorExprLSquare(
+                            DesignatorIdent(
+                             arr
+                            ) [DesignatorIdent]
+                          ) [DesignatorExprLSquare]
+                          Expr(
+                            NoMinus(
+                            ) [NoMinus]
+                            TermOne(
+                              FactorDesig(
+                                DesignatorIdent(
+                                 index
+                                ) [DesignatorIdent]
+                                NoActParsDesignatorOption(
+                                ) [NoActParsDesignatorOption]
+                              ) [FactorDesig]
+                            ) [TermOne]
+                            NoAddopTerms(
+                            ) [NoAddopTerms]
+                          ) [Expr]
+                        ) [DesignatorIdentExpr]
+                        NoActParsDesignatorOption(
+                        ) [NoActParsDesignatorOption]
+                      ) [FactorDesig]
+                    ) [TermOne]
+                    Mull(
+                    ) [Mull]
+                    FactorDesig(
+                      DesignatorIdent(
+                       b
+                      ) [DesignatorIdent]
+                      NoActParsDesignatorOption(
+                      ) [NoActParsDesignatorOption]
+                    ) [FactorDesig]
+                  ) [TermMany]
+                  NoAddopTerms(
+                  ) [NoAddopTerms]
+                ) [Expr]
+              ) [Assign]
+            ) [DesignatorStatement]
+          ) [DesignatorS]
+        ) [Statements]
+      ) [MethodDecl]
+    ) [MethodDeclarations]
+    MethodDecl(
+      MethodVoidName(
+       main
+      ) [MethodVoidName]
+      NoFormPars(
+      ) [NoFormPars]
+      NoVarDeclList(
+      ) [NoVarDeclList]
+      Statements(
+        Statements(
+          NoStatements(
+          ) [NoStatements]
+          DesignatorS(
+            DesignatorStatement(
+              DesignatorIdent(
+               niz
+              ) [DesignatorIdent]
+              Assign(
+                Assignop(
+                ) [Assignop]
+                Expr(
+                  NoMinus(
+                  ) [NoMinus]
+                  TermOne(
+                    FactorNew(
+                      Type(
+                       int
+                      ) [Type]
+                      ExprSquareOptionYes(
+                        Expr(
+                          NoMinus(
+                          ) [NoMinus]
+                          TermOne(
+                            FactorNumber(
+                             2
+                            ) [FactorNumber]
+                          ) [TermOne]
+                          NoAddopTerms(
+                          ) [NoAddopTerms]
+                        ) [Expr]
+                      ) [ExprSquareOptionYes]
+                    ) [FactorNew]
+                  ) [TermOne]
+                  NoAddopTerms(
+                  ) [NoAddopTerms]
+                ) [Expr]
+              ) [Assign]
+            ) [DesignatorStatement]
+          ) [DesignatorS]
+        ) [Statements]
+        DesignatorS(
+          DesignatorStatement(
+            DesignatorIdent(
+             mul
+            ) [DesignatorIdent]
+            ActP(
+              ActParamOption(
+                ActParams(
+                  ExprsListMany(
+                    ExprsListMany(
+                      ExprsListOne(
+                        Expr(
+                          NoMinus(
+                          ) [NoMinus]
+                          TermOne(
+                            FactorDesig(
+                              DesignatorIdent(
+                               niz
+                              ) [DesignatorIdent]
+                              NoActParsDesignatorOption(
+                              ) [NoActParsDesignatorOption]
+                            ) [FactorDesig]
+                          ) [TermOne]
+                          NoAddopTerms(
+                          ) [NoAddopTerms]
+                        ) [Expr]
+                      ) [ExprsListOne]
+                      Expr(
+                        NoMinus(
+                        ) [NoMinus]
+                        TermOne(
+                          FactorDesig(
+                            DesignatorIdent(
+                             inc
+                            ) [DesignatorIdent]
+                            ActParsDesignatorOptionY(
+                              ActParamOption(
+                                ActParams(
+                                  ExprsListOne(
+                                    Expr(
+                                      NoMinus(
+                                      ) [NoMinus]
+                                      TermOne(
+                                        FactorNumber(
+                                         0
+                                        ) [FactorNumber]
+                                      ) [TermOne]
+                                      NoAddopTerms(
+                                      ) [NoAddopTerms]
+                                    ) [Expr]
+                                  ) [ExprsListOne]
+                                ) [ActParams]
+                              ) [ActParamOption]
+                            ) [ActParsDesignatorOptionY]
+                          ) [FactorDesig]
+                        ) [TermOne]
+                        NoAddopTerms(
+                        ) [NoAddopTerms]
+                      ) [Expr]
+                    ) [ExprsListMany]
+                    Expr(
+                      NoMinus(
+                      ) [NoMinus]
+                      TermOne(
+                        FactorNumber(
+                         2
+                        ) [FactorNumber]
+                      ) [TermOne]
+                      NoAddopTerms(
+                      ) [NoAddopTerms]
+                    ) [Expr]
+                  ) [ExprsListMany]
+                ) [ActParams]
+              ) [ActParamOption]
+            ) [ActP]
+          ) [DesignatorStatement]
+        ) [DesignatorS]
+      ) [Statements]
+    ) [MethodDecl]
+  ) [MethodDeclarations]
+) [Program]
+INFO  20:37:31,296 - ===================================
+INFO  20:37:31,308 - Obradjuje se funkcija inc na liniji 14
+INFO  20:37:31,309 - Pronadjena lokalna promenljiva na liniji 17 :ime broj Var broj: int, 0, 1 
+INFO  20:37:31,310 - Obradjuje se void funkcija mul na liniji 20
+INFO  20:37:31,311 - Pronadjena lokalna promenljiva na liniji 22 :ime arr Var arr: Arr of int, 0, 1 
+INFO  20:37:31,311 - Pronadjena lokalna promenljiva na liniji 22 :ime index Var index: int, 1, 1 
+INFO  20:37:31,311 - Pronadjena lokalna promenljiva na liniji 22 :ime arr Var arr: Arr of int, 0, 1 
+INFO  20:37:31,311 - Pronadjena lokalna promenljiva na liniji 22 :ime index Var index: int, 1, 1 
+INFO  20:37:31,311 - Pronadjena lokalna promenljiva na liniji 22 :ime b Var b: int, 2, 1 
+INFO  20:37:31,311 - Obradjuje se void funkcija main na liniji 25
+INFO  20:37:31,312 - Pronadjena globalna promenljiva na liniji 31 :ime niz Var niz: Arr of int, 0, 0 
+INFO  20:37:31,312 - Pronadjena globalna promenljiva na liniji 33 :ime niz Var niz: Arr of int, 0, 0 
+INFO  20:37:39,267 - Pronadjen poziv funkcije inc na liniji 33

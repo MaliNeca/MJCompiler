@@ -1,0 +1,78 @@
+INFO  13:12:17,119 - Compiling source file: C:\pp1Projekat\workspace\MJCompiler\test\program.mj
+INFO  13:12:17,190 - #2 program
+INFO  13:12:17,190 - #36 test301
+INFO  13:12:17,192 - #36 int
+INFO  13:12:17,193 - #36 niz
+INFO  13:12:17,193 - #6 [
+INFO  13:12:17,193 - #7 ]
+INFO  13:12:17,195 - #5 ;
+INFO  13:12:17,197 - #3 {
+INFO  13:12:17,197 - #13 void
+INFO  13:12:17,198 - #36 main
+INFO  13:12:17,198 - #24 (
+INFO  13:12:17,199 - #25 )
+INFO  13:12:17,199 - #3 {
+INFO  13:12:17,200 - #36 niz
+INFO  13:12:17,201 - #23 =
+INFO  13:12:17,202 - #36 new
+INFO  13:12:17,202 - #36 int
+ERROR 13:12:17,202 - 
+Sintaksna greska na liniji 21
+INFO  13:12:17,202 - #6 [
+INFO  13:12:17,202 - #33 2
+INFO  13:12:17,202 - #7 ]
+INFO  13:12:17,207 - #5 ;
+INFO  13:12:17,207 - #4 }
+INFO  13:12:17,207 - #4 }
+INFO  13:12:17,211 - Program(
+  ProgName(
+   test301
+  ) [ProgName]
+  ConstVarDeclarations(
+    NoConstVarDeclarations(
+    ) [NoConstVarDeclarations]
+    VarD(
+      VarDeclarationTrue(
+        Type(
+         int
+        ) [Type]
+        VarI(
+          VarIdent(
+           niz
+            Bracket(
+            ) [Bracket]
+          ) [VarIdent]
+        ) [VarI]
+      ) [VarDeclarationTrue]
+    ) [VarD]
+  ) [ConstVarDeclarations]
+  MethodDeclarations(
+    NoMethodDeclarations(
+    ) [NoMethodDeclarations]
+    MethodDecl(
+      MethodVoidName(
+       main
+      ) [MethodVoidName]
+      NoFormPars(
+      ) [NoFormPars]
+      NoVarDeclList(
+      ) [NoVarDeclList]
+      Statements(
+        NoStatements(
+        ) [NoStatements]
+        DesignatorS(
+          DesignatorStatementAssignError(
+            Designator(
+             niz
+              DesignatorListOne(
+              ) [DesignatorListOne]
+            ) [Designator]
+            Assignop(
+            ) [Assignop]
+          ) [DesignatorStatementAssignError]
+        ) [DesignatorS]
+      ) [Statements]
+    ) [MethodDecl]
+  ) [MethodDeclarations]
+) [Program]
+INFO  13:12:17,211 - ===================================

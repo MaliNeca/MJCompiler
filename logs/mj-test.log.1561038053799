@@ -1,0 +1,270 @@
+INFO  15:40:33,271 - Compiling source file: C:\pp1Projekat\workspace\MJCompiler\test\program.mj
+INFO  15:40:33,359 - #2 program
+INFO  15:40:33,360 - #36 MJProgram
+INFO  15:40:33,361 - #36 int
+INFO  15:40:33,362 - #36 x
+INFO  15:40:33,363 - #5 ;
+INFO  15:40:33,364 - #36 int
+INFO  15:40:33,365 - #36 y
+INFO  15:40:33,365 - #5 ;
+INFO  15:40:33,366 - #3 {
+INFO  15:40:33,366 - #36 int
+INFO  15:40:33,366 - #36 k
+INFO  15:40:33,367 - #24 (
+INFO  15:40:33,367 - #25 )
+INFO  15:40:33,367 - #36 int
+INFO  15:40:33,368 - #36 c
+INFO  15:40:33,368 - #5 ;
+INFO  15:40:33,368 - #3 {
+INFO  15:40:33,368 - #36 c
+INFO  15:40:33,370 - #23 =
+INFO  15:40:33,370 - #33 2
+INFO  15:40:33,372 - #5 ;
+INFO  15:40:33,378 - #19 return
+INFO  15:40:33,382 - #36 c
+INFO  15:40:33,382 - #26 +
+INFO  15:40:33,383 - #33 2
+INFO  15:40:33,387 - #5 ;
+INFO  15:40:33,387 - #4 }
+INFO  15:40:33,387 - #36 int
+INFO  15:40:33,389 - #36 main
+INFO  15:40:33,389 - #24 (
+INFO  15:40:33,390 - #25 )
+INFO  15:40:33,390 - #3 {
+INFO  15:40:33,390 - #21 print
+INFO  15:40:33,390 - #24 (
+INFO  15:40:33,390 - #33 1
+INFO  15:40:33,391 - #25 )
+INFO  15:40:33,392 - #5 ;
+INFO  15:40:33,392 - #36 x
+INFO  15:40:33,392 - #23 =
+INFO  15:40:33,392 - #36 y
+INFO  15:40:33,393 - #26 +
+INFO  15:40:33,393 - #33 5
+INFO  15:40:33,393 - #26 +
+INFO  15:40:33,393 - #5 ;
+ERROR 15:40:33,393 - 
+Sintaksna greska na liniji 14
+INFO  15:40:33,393 - #21 print
+INFO  15:40:33,394 - #24 (
+INFO  15:40:33,394 - #33 2
+INFO  15:40:33,395 - #25 )
+INFO  15:40:33,395 - #5 ;
+INFO  15:40:33,395 - #36 k
+INFO  15:40:33,395 - #24 (
+INFO  15:40:33,396 - #25 )
+INFO  15:40:33,397 - #5 ;
+INFO  15:40:33,397 - #4 }
+INFO  15:40:33,397 - #4 }
+INFO  15:40:33,402 - Program(
+  ProgName(
+   MJProgram
+  ) [ProgName]
+  ConstVarDeclarations(
+    ConstVarDeclarations(
+      NoConstVarDeclarations(
+      ) [NoConstVarDeclarations]
+      VarD(
+        VarDeclarationTrue(
+          Type(
+           int
+          ) [Type]
+          VarI(
+            VarIdent(
+             x
+              NoBracket(
+              ) [NoBracket]
+            ) [VarIdent]
+          ) [VarI]
+        ) [VarDeclarationTrue]
+      ) [VarD]
+    ) [ConstVarDeclarations]
+    VarD(
+      VarDeclarationTrue(
+        Type(
+         int
+        ) [Type]
+        VarI(
+          VarIdent(
+           y
+            NoBracket(
+            ) [NoBracket]
+          ) [VarIdent]
+        ) [VarI]
+      ) [VarDeclarationTrue]
+    ) [VarD]
+  ) [ConstVarDeclarations]
+  MethodDeclarations(
+    MethodDeclarations(
+      NoMethodDeclarations(
+      ) [NoMethodDeclarations]
+      MethodDecl(
+        MethodTypeNamee(
+          Type(
+           int
+          ) [Type]
+         k
+        ) [MethodTypeNamee]
+        NoFormPars(
+        ) [NoFormPars]
+        YesVarDeclList(
+          NoVarDeclList(
+          ) [NoVarDeclList]
+          VarDeclarationTrue(
+            Type(
+             int
+            ) [Type]
+            VarI(
+              VarIdent(
+               c
+                NoBracket(
+                ) [NoBracket]
+              ) [VarIdent]
+            ) [VarI]
+          ) [VarDeclarationTrue]
+        ) [YesVarDeclList]
+        Statements(
+          Statements(
+            NoStatements(
+            ) [NoStatements]
+            DesignatorS(
+              DesignatorStatement(
+                DesignatorIdent(
+                 c
+                ) [DesignatorIdent]
+                Assign(
+                  Assignop(
+                  ) [Assignop]
+                  Expr(
+                    NoMinus(
+                    ) [NoMinus]
+                    TermOne(
+                      FactorNumber(
+                       2
+                      ) [FactorNumber]
+                    ) [TermOne]
+                    NoAddopTerms(
+                    ) [NoAddopTerms]
+                  ) [Expr]
+                ) [Assign]
+              ) [DesignatorStatement]
+            ) [DesignatorS]
+          ) [Statements]
+          ReturnS(
+            YesExprOption(
+              Expr(
+                NoMinus(
+                ) [NoMinus]
+                TermOne(
+                  FactorDesig(
+                    DesignatorIdent(
+                     c
+                    ) [DesignatorIdent]
+                    NoActParsDesignatorOption(
+                    ) [NoActParsDesignatorOption]
+                  ) [FactorDesig]
+                ) [TermOne]
+                AddopTerms(
+                  NoAddopTerms(
+                  ) [NoAddopTerms]
+                  APlus(
+                  ) [APlus]
+                  TermOne(
+                    FactorNumber(
+                     2
+                    ) [FactorNumber]
+                  ) [TermOne]
+                ) [AddopTerms]
+              ) [Expr]
+            ) [YesExprOption]
+          ) [ReturnS]
+        ) [Statements]
+      ) [MethodDecl]
+    ) [MethodDeclarations]
+    MethodDecl(
+      MethodTypeNamee(
+        Type(
+         int
+        ) [Type]
+       main
+      ) [MethodTypeNamee]
+      NoFormPars(
+      ) [NoFormPars]
+      NoVarDeclList(
+      ) [NoVarDeclList]
+      Statements(
+        Statements(
+          Statements(
+            Statements(
+              NoStatements(
+              ) [NoStatements]
+              PrintS(
+                Expr(
+                  NoMinus(
+                  ) [NoMinus]
+                  TermOne(
+                    FactorNumber(
+                     1
+                    ) [FactorNumber]
+                  ) [TermOne]
+                  NoAddopTerms(
+                  ) [NoAddopTerms]
+                ) [Expr]
+                NoNumOption(
+                ) [NoNumOption]
+              ) [PrintS]
+            ) [Statements]
+            DesignatorS(
+              DesignatorStatement(
+                DesignatorIdent(
+                 x
+                ) [DesignatorIdent]
+                AssignError(
+                  Assignop(
+                  ) [Assignop]
+                ) [AssignError]
+              ) [DesignatorStatement]
+            ) [DesignatorS]
+          ) [Statements]
+          PrintS(
+            Expr(
+              NoMinus(
+              ) [NoMinus]
+              TermOne(
+                FactorNumber(
+                 2
+                ) [FactorNumber]
+              ) [TermOne]
+              NoAddopTerms(
+              ) [NoAddopTerms]
+            ) [Expr]
+            NoNumOption(
+            ) [NoNumOption]
+          ) [PrintS]
+        ) [Statements]
+        DesignatorS(
+          DesignatorStatement(
+            DesignatorIdent(
+             k
+            ) [DesignatorIdent]
+            ActP(
+              NoActParamOption(
+              ) [NoActParamOption]
+            ) [ActP]
+          ) [DesignatorStatement]
+        ) [DesignatorS]
+      ) [Statements]
+    ) [MethodDecl]
+  ) [MethodDeclarations]
+) [Program]
+INFO  15:40:33,403 - ===================================
+INFO  15:40:33,407 - Obradjuje se funkcija k na liniji 5
+INFO  15:40:33,408 - Pronadjena lokalna promenljiva na liniji 6 :ime c Var c: int, 0, 1 
+INFO  15:40:33,408 - Pronadjena lokalna promenljiva na liniji 7 :ime c Var c: int, 0, 1 
+INFO  15:40:33,409 - Obradjuje se funkcija main na liniji 10
+INFO  15:40:33,409 - Pronadjena globalna promenljiva na liniji 14 :ime x Var x: int, 0, 0 
+ERROR 15:40:33,409 - Greska, ne postoji main methoda
+INFO  15:40:33,409 -  Print count calls = 2
+INFO  15:40:33,409 -  Deklarisanih promenljivih ima = 3
+INFO  15:40:33,409 - =================
+ERROR 15:40:33,409 - GRESKA PRILIKOM PARSIRANJA!!!

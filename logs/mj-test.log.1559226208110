@@ -1,0 +1,72 @@
+INFO  16:23:11,390 - Compiling source file: C:\pp1Projekat\workspace\MJCompiler\test\program.mj
+INFO  16:23:11,445 - #2 program
+INFO  16:23:11,445 - #36 test301
+INFO  16:23:11,445 - #36 int
+INFO  16:23:11,446 - #36 x
+INFO  16:23:11,447 - #5 ;
+INFO  16:23:11,448 - #36 int
+INFO  16:23:11,448 - #36 y
+INFO  16:23:11,448 - #5 ;
+INFO  16:23:11,448 - #3 {
+INFO  16:23:11,449 - #13 void
+INFO  16:23:11,449 - #36 main
+INFO  16:23:11,449 - #24 (
+INFO  16:23:11,449 - #25 )
+INFO  16:23:11,450 - #3 {
+INFO  16:23:11,450 - #4 }
+INFO  16:23:11,451 - #4 }
+INFO  16:23:11,455 - Program(
+  ProgName(
+   test301
+  ) [ProgName]
+  ConstVarDeclarations(
+    ConstVarDeclarations(
+      NoConstVarDeclarations(
+      ) [NoConstVarDeclarations]
+      VarD(
+        VarDeclarationTrue(
+          Type(
+           int
+          ) [Type]
+          VarI(
+            VarIdent(
+             x
+              NoBracket(
+              ) [NoBracket]
+            ) [VarIdent]
+          ) [VarI]
+        ) [VarDeclarationTrue]
+      ) [VarD]
+    ) [ConstVarDeclarations]
+    VarD(
+      VarDeclarationTrue(
+        Type(
+         int
+        ) [Type]
+        VarI(
+          VarIdent(
+           y
+            NoBracket(
+            ) [NoBracket]
+          ) [VarIdent]
+        ) [VarI]
+      ) [VarDeclarationTrue]
+    ) [VarD]
+  ) [ConstVarDeclarations]
+  MethodDeclarations(
+    NoMethodDeclarations(
+    ) [NoMethodDeclarations]
+    MethodDecl(
+      MethodVoidName(
+       main
+      ) [MethodVoidName]
+      NoFormPars(
+      ) [NoFormPars]
+      NoVarDeclList(
+      ) [NoVarDeclList]
+      NoStatements(
+      ) [NoStatements]
+    ) [MethodDecl]
+  ) [MethodDeclarations]
+) [Program]
+INFO  16:23:11,458 - ===================================

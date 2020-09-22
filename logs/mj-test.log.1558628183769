@@ -1,0 +1,74 @@
+INFO  18:15:27,551 - Compiling source file: C:\pp1Projekat\workspace\MJCompiler\test\program.mj
+INFO  18:15:27,617 - #2 program
+INFO  18:15:27,617 - #37 MJProgram
+INFO  18:15:27,617 - #37 int
+INFO  18:15:27,618 - #37 x
+INFO  18:15:27,618 - #5 ;
+INFO  18:15:27,619 - #37 int
+INFO  18:15:27,619 - #37 y
+INFO  18:15:27,620 - #5 ;
+INFO  18:15:27,620 - #3 {
+INFO  18:15:27,620 - #37 int
+INFO  18:15:27,621 - #37 main
+INFO  18:15:27,621 - #25 (
+INFO  18:15:27,621 - #26 )
+INFO  18:15:27,622 - #3 {
+INFO  18:15:27,623 - #4 }
+INFO  18:15:27,623 - #4 }
+INFO  18:15:27,626 - Program(
+ MJProgram
+  ConstVarDeclarations(
+    ConstVarDeclarations(
+      NoConstVarDeclarations(
+      ) [NoConstVarDeclarations]
+      VarD(
+        VarDeclarationTrue(
+          Typee(
+           int
+          ) [Typee]
+          VarI(
+            VarIdent(
+             x
+              NoBracket(
+              ) [NoBracket]
+            ) [VarIdent]
+          ) [VarI]
+        ) [VarDeclarationTrue]
+      ) [VarD]
+    ) [ConstVarDeclarations]
+    VarD(
+      VarDeclarationTrue(
+        Typee(
+         int
+        ) [Typee]
+        VarI(
+          VarIdent(
+           y
+            NoBracket(
+            ) [NoBracket]
+          ) [VarIdent]
+        ) [VarI]
+      ) [VarDeclarationTrue]
+    ) [VarD]
+  ) [ConstVarDeclarations]
+  MethodDeclarations(
+    NoMethodDeclarations(
+    ) [NoMethodDeclarations]
+    MethodDecl(
+      MethodType(
+        Typee(
+         int
+        ) [Typee]
+      ) [MethodType]
+     main
+      NoFormPars(
+      ) [NoFormPars]
+      NoVarDeclList(
+      ) [NoVarDeclList]
+      NoStatements(
+      ) [NoStatements]
+    ) [MethodDecl]
+  ) [MethodDeclarations]
+) [Program]
+INFO  18:15:27,628 - ===================================
+INFO  18:15:27,630 -  Print count calls = 0

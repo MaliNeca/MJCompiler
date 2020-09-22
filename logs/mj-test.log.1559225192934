@@ -1,0 +1,170 @@
+INFO  15:45:13,219 - Compiling source file: C:\pp1Projekat\workspace\MJCompiler\test\program.mj
+INFO  15:45:13,297 - #2 program
+INFO  15:45:13,298 - #36 test301
+INFO  15:45:13,298 - #3 {
+INFO  15:45:13,299 - #13 void
+INFO  15:45:13,300 - #36 main
+INFO  15:45:13,300 - #24 (
+INFO  15:45:13,300 - #25 )
+INFO  15:45:13,301 - #3 {
+INFO  15:45:13,302 - #36 int
+INFO  15:45:13,302 - #36 x
+ERROR 15:45:13,302 - 
+Sintaksna greska na liniji 12
+INFO  15:45:13,303 - #5 ;
+INFO  15:45:13,303 - #36 int
+INFO  15:45:13,303 - #36 y
+INFO  15:45:13,303 - #5 ;
+INFO  15:45:13,304 - #36 y
+INFO  15:45:13,304 - #23 =
+INFO  15:45:13,304 - #33 2
+INFO  15:45:13,308 - #5 ;
+INFO  15:45:13,310 - #36 x
+INFO  15:45:13,310 - #23 =
+INFO  15:45:13,310 - #36 y
+INFO  15:45:13,376 - #26 +
+INFO  15:45:13,378 - #33 5
+INFO  15:45:13,380 - #26 +
+INFO  15:45:13,380 - #33 2
+INFO  15:45:13,380 - #5 ;
+INFO  15:45:13,381 - #21 print
+INFO  15:45:13,381 - #24 (
+INFO  15:45:13,381 - #36 x
+INFO  15:45:13,381 - #25 )
+INFO  15:45:13,383 - #5 ;
+INFO  15:45:13,383 - #4 }
+INFO  15:45:13,384 - #4 }
+INFO  15:45:13,396 - Program(
+  ProgName(
+   test301
+  ) [ProgName]
+  NoConstVarDeclarations(
+  ) [NoConstVarDeclarations]
+  MethodDeclarations(
+    NoMethodDeclarations(
+    ) [NoMethodDeclarations]
+    MethodDecl(
+      MethodVoidName(
+       main
+      ) [MethodVoidName]
+      NoFormPars(
+      ) [NoFormPars]
+      NoVarDeclList(
+      ) [NoVarDeclList]
+      Statements(
+        Statements(
+          Statements(
+            Statements(
+              NoStatements(
+              ) [NoStatements]
+              DesignatorStatementError(
+              ) [DesignatorStatementError]
+            ) [Statements]
+            DesignatorS(
+              DesignatorStatement(
+                Designator(
+                 y
+                  DesignatorListOne(
+                  ) [DesignatorListOne]
+                ) [Designator]
+                Assign(
+                  Assignop(
+                  ) [Assignop]
+                  Expr(
+                    NoMinus(
+                    ) [NoMinus]
+                    TermOne(
+                      FactorNumber(
+                       2
+                      ) [FactorNumber]
+                    ) [TermOne]
+                    NoAddopTerms(
+                    ) [NoAddopTerms]
+                  ) [Expr]
+                ) [Assign]
+              ) [DesignatorStatement]
+            ) [DesignatorS]
+          ) [Statements]
+          DesignatorS(
+            DesignatorStatement(
+              Designator(
+               x
+                DesignatorListOne(
+                ) [DesignatorListOne]
+              ) [Designator]
+              Assign(
+                Assignop(
+                ) [Assignop]
+                Expr(
+                  NoMinus(
+                  ) [NoMinus]
+                  TermOne(
+                    FactorDesig(
+                      Designator(
+                       y
+                        DesignatorListOne(
+                        ) [DesignatorListOne]
+                      ) [Designator]
+                      NoActParsDesignatorOption(
+                      ) [NoActParsDesignatorOption]
+                    ) [FactorDesig]
+                  ) [TermOne]
+                  AddopTerms(
+                    AddopTerms(
+                      NoAddopTerms(
+                      ) [NoAddopTerms]
+                      APlus(
+                      ) [APlus]
+                      TermOne(
+                        FactorNumber(
+                         5
+                        ) [FactorNumber]
+                      ) [TermOne]
+                    ) [AddopTerms]
+                    APlus(
+                    ) [APlus]
+                    TermOne(
+                      FactorNumber(
+                       2
+                      ) [FactorNumber]
+                    ) [TermOne]
+                  ) [AddopTerms]
+                ) [Expr]
+              ) [Assign]
+            ) [DesignatorStatement]
+          ) [DesignatorS]
+        ) [Statements]
+        PrintS(
+          Expr(
+            NoMinus(
+            ) [NoMinus]
+            TermOne(
+              FactorDesig(
+                Designator(
+                 x
+                  DesignatorListOne(
+                  ) [DesignatorListOne]
+                ) [Designator]
+                NoActParsDesignatorOption(
+                ) [NoActParsDesignatorOption]
+              ) [FactorDesig]
+            ) [TermOne]
+            NoAddopTerms(
+            ) [NoAddopTerms]
+          ) [Expr]
+          NoNumOption(
+          ) [NoNumOption]
+        ) [PrintS]
+      ) [Statements]
+    ) [MethodDecl]
+  ) [MethodDeclarations]
+) [Program]
+INFO  15:45:13,398 - ===================================
+INFO  15:45:13,403 - Obradjuje se void funkcija main na liniji 10
+ERROR 15:45:13,403 - Greska na liniji 14 :promenljiva y nije deklarisana!
+INFO  15:45:13,404 - Pronadjena lokalna promenljiva na liniji 14 :ime y Var noObj: notype, -1, -1 
+ERROR 15:45:13,404 - Greska, expr i designator nisu istog tipa na liniji 14
+ERROR 15:45:13,405 - Greska na liniji 16 :promenljiva x nije deklarisana!
+INFO  15:45:13,405 - Pronadjena lokalna promenljiva na liniji 16 :ime x Var noObj: notype, -1, -1 
+ERROR 15:45:13,405 - Greska na liniji 16 :promenljiva y nije deklarisana!
+INFO  15:45:13,405 - Pronadjena lokalna promenljiva na liniji 16 :ime y Var noObj: notype, -1, -1 

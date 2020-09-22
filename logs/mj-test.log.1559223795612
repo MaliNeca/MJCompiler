@@ -1,0 +1,141 @@
+INFO  15:42:19,251 - Compiling source file: C:\pp1Projekat\workspace\MJCompiler\test\program.mj
+INFO  15:42:19,309 - #2 program
+INFO  15:42:19,309 - #36 test301
+INFO  15:42:19,309 - #3 {
+INFO  15:42:19,310 - #13 void
+INFO  15:42:19,310 - #36 main
+INFO  15:42:19,310 - #24 (
+INFO  15:42:19,311 - #25 )
+INFO  15:42:19,311 - #3 {
+INFO  15:42:19,312 - #36 int
+INFO  15:42:19,312 - #36 x
+ERROR 15:42:19,313 - 
+Sintaksna greska na liniji 13
+INFO  15:42:19,313 - #23 =
+INFO  15:42:19,313 - #33 1
+INFO  15:42:19,313 - #5 ;
+INFO  15:42:19,314 - #36 int
+INFO  15:42:19,314 - #36 y
+INFO  15:42:19,314 - #23 =
+INFO  15:42:19,314 - #33 2
+INFO  15:42:19,314 - #5 ;
+INFO  15:42:19,315 - #36 x
+INFO  15:42:19,315 - #23 =
+INFO  15:42:19,315 - #36 y
+INFO  15:42:19,320 - #26 +
+INFO  15:42:19,321 - #33 5
+INFO  15:42:19,322 - #26 +
+INFO  15:42:19,322 - #33 2
+INFO  15:42:19,322 - #5 ;
+INFO  15:42:19,324 - #21 print
+INFO  15:42:19,324 - #24 (
+INFO  15:42:19,324 - #36 x
+INFO  15:42:19,324 - #25 )
+INFO  15:42:19,325 - #5 ;
+INFO  15:42:19,325 - #4 }
+INFO  15:42:19,325 - #4 }
+INFO  15:42:19,330 - Program(
+  ProgName(
+   test301
+  ) [ProgName]
+  NoConstVarDeclarations(
+  ) [NoConstVarDeclarations]
+  MethodDeclarations(
+    NoMethodDeclarations(
+    ) [NoMethodDeclarations]
+    MethodDecl(
+      MethodVoidName(
+       main
+      ) [MethodVoidName]
+      NoFormPars(
+      ) [NoFormPars]
+      NoVarDeclList(
+      ) [NoVarDeclList]
+      Statements(
+        Statements(
+          Statements(
+            NoStatements(
+            ) [NoStatements]
+            DesignatorStatementError(
+            ) [DesignatorStatementError]
+          ) [Statements]
+          DesignatorS(
+            DesignatorStatement(
+              Designator(
+               x
+                DesignatorListOne(
+                ) [DesignatorListOne]
+              ) [Designator]
+              Assign(
+                Assignop(
+                ) [Assignop]
+                Expr(
+                  NoMinus(
+                  ) [NoMinus]
+                  TermOne(
+                    FactorDesig(
+                      Designator(
+                       y
+                        DesignatorListOne(
+                        ) [DesignatorListOne]
+                      ) [Designator]
+                      NoActParsDesignatorOption(
+                      ) [NoActParsDesignatorOption]
+                    ) [FactorDesig]
+                  ) [TermOne]
+                  AddopTerms(
+                    AddopTerms(
+                      NoAddopTerms(
+                      ) [NoAddopTerms]
+                      APlus(
+                      ) [APlus]
+                      TermOne(
+                        FactorNumber(
+                         5
+                        ) [FactorNumber]
+                      ) [TermOne]
+                    ) [AddopTerms]
+                    APlus(
+                    ) [APlus]
+                    TermOne(
+                      FactorNumber(
+                       2
+                      ) [FactorNumber]
+                    ) [TermOne]
+                  ) [AddopTerms]
+                ) [Expr]
+              ) [Assign]
+            ) [DesignatorStatement]
+          ) [DesignatorS]
+        ) [Statements]
+        PrintS(
+          Expr(
+            NoMinus(
+            ) [NoMinus]
+            TermOne(
+              FactorDesig(
+                Designator(
+                 x
+                  DesignatorListOne(
+                  ) [DesignatorListOne]
+                ) [Designator]
+                NoActParsDesignatorOption(
+                ) [NoActParsDesignatorOption]
+              ) [FactorDesig]
+            ) [TermOne]
+            NoAddopTerms(
+            ) [NoAddopTerms]
+          ) [Expr]
+          NoNumOption(
+          ) [NoNumOption]
+        ) [PrintS]
+      ) [Statements]
+    ) [MethodDecl]
+  ) [MethodDeclarations]
+) [Program]
+INFO  15:42:19,331 - ===================================
+INFO  15:42:19,334 - Obradjuje se void funkcija main na liniji 10
+ERROR 15:42:19,334 - Greska na liniji 16 :promenljiva x nije deklarisana!
+INFO  15:42:19,335 - Pronadjena lokalna promenljiva na liniji 16 :ime x Var noObj: notype, -1, -1 
+ERROR 15:42:19,335 - Greska na liniji 16 :promenljiva y nije deklarisana!
+INFO  15:42:19,335 - Pronadjena lokalna promenljiva na liniji 16 :ime y Var noObj: notype, -1, -1 

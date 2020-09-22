@@ -1,0 +1,145 @@
+INFO  18:58:33,885 - Compiling source file: C:\pp1Projekat\workspace\MJCompiler\test\program.mj
+INFO  18:58:33,957 - #2 program
+INFO  18:58:33,957 - #36 MJProgram
+INFO  18:58:33,957 - #36 int
+INFO  18:58:33,958 - #36 x
+INFO  18:58:33,958 - #5 ;
+INFO  18:58:33,960 - #36 int
+INFO  18:58:33,961 - #36 y
+INFO  18:58:33,961 - #5 ;
+INFO  18:58:33,961 - #3 {
+INFO  18:58:33,961 - #36 int
+INFO  18:58:33,962 - #36 main
+INFO  18:58:33,963 - #24 (
+INFO  18:58:33,963 - #25 )
+INFO  18:58:33,964 - #3 {
+INFO  18:58:33,964 - #21 print
+INFO  18:58:33,965 - #24 (
+INFO  18:58:33,965 - #33 1
+INFO  18:58:33,966 - #25 )
+INFO  18:58:33,968 - #5 ;
+INFO  18:58:33,968 - #36 x
+INFO  18:58:33,968 - #23 =
+INFO  18:58:33,969 - #36 y
+INFO  18:58:33,982 - #26 +
+INFO  18:58:33,983 - #33 5
+INFO  18:58:33,984 - #26 +
+INFO  18:58:33,984 - #5 ;
+ERROR 18:58:33,985 - 
+Sintaksna greska na liniji 7
+INFO  18:58:33,985 - #21 print
+INFO  18:58:33,985 - #24 (
+INFO  18:58:33,985 - #33 2
+INFO  18:58:33,986 - #25 )
+INFO  18:58:33,987 - #5 ;
+INFO  18:58:33,987 - #4 }
+INFO  18:58:33,987 - #4 }
+INFO  18:58:33,990 - Program(
+ MJProgram
+  ConstVarDeclarations(
+    ConstVarDeclarations(
+      NoConstVarDeclarations(
+      ) [NoConstVarDeclarations]
+      VarD(
+        VarDeclarationTrue(
+          Typee(
+           int
+          ) [Typee]
+          VarI(
+            VarIdent(
+             x
+              NoBracket(
+              ) [NoBracket]
+            ) [VarIdent]
+          ) [VarI]
+        ) [VarDeclarationTrue]
+      ) [VarD]
+    ) [ConstVarDeclarations]
+    VarD(
+      VarDeclarationTrue(
+        Typee(
+         int
+        ) [Typee]
+        VarI(
+          VarIdent(
+           y
+            NoBracket(
+            ) [NoBracket]
+          ) [VarIdent]
+        ) [VarI]
+      ) [VarDeclarationTrue]
+    ) [VarD]
+  ) [ConstVarDeclarations]
+  MethodDeclarations(
+    NoMethodDeclarations(
+    ) [NoMethodDeclarations]
+    MethodDecl(
+      MethodType(
+        Typee(
+         int
+        ) [Typee]
+      ) [MethodType]
+     main
+      NoFormPars(
+      ) [NoFormPars]
+      NoVarDeclList(
+      ) [NoVarDeclList]
+      Statements(
+        Statements(
+          Statements(
+            NoStatements(
+            ) [NoStatements]
+            PrintS(
+              Expr(
+                NoMinus(
+                ) [NoMinus]
+                TermOne(
+                  FactorNumber(
+                   1
+                  ) [FactorNumber]
+                ) [TermOne]
+                NoAddopTerms(
+                ) [NoAddopTerms]
+              ) [Expr]
+              NoNumOption(
+              ) [NoNumOption]
+            ) [PrintS]
+          ) [Statements]
+          DesignatorS(
+            DesignatorStatement(
+              Designator(
+               x
+                DesignatorListOne(
+                ) [DesignatorListOne]
+              ) [Designator]
+              AssignError(
+                Assignop(
+                ) [Assignop]
+              ) [AssignError]
+            ) [DesignatorStatement]
+          ) [DesignatorS]
+        ) [Statements]
+        PrintS(
+          Expr(
+            NoMinus(
+            ) [NoMinus]
+            TermOne(
+              FactorNumber(
+               2
+              ) [FactorNumber]
+            ) [TermOne]
+            NoAddopTerms(
+            ) [NoAddopTerms]
+          ) [Expr]
+          NoNumOption(
+          ) [NoNumOption]
+        ) [PrintS]
+      ) [Statements]
+    ) [MethodDecl]
+  ) [MethodDeclarations]
+) [Program]
+INFO  18:58:33,991 - ===================================
+INFO  18:58:34,003 - Prepoznata print naredba
+INFO  18:58:34,003 - Prepoznata print naredba
+INFO  18:58:34,003 -  Print count calls = 2
+INFO  18:58:34,004 -  Deklarisanih promenljivih ima = 2

@@ -1,0 +1,146 @@
+INFO  16:51:00,333 - Compiling source file: C:\pp1Projekat\workspace\MJCompiler\test\program.mj
+INFO  16:51:00,416 - #2 program
+INFO  16:51:00,416 - #36 MJProgram
+INFO  16:51:00,416 - #3 {
+INFO  16:51:00,418 - #36 int
+INFO  16:51:00,419 - #36 k
+INFO  16:51:00,420 - #24 (
+INFO  16:51:00,421 - #25 )
+INFO  16:51:00,422 - #3 {
+INFO  16:51:00,422 - #4 }
+INFO  16:51:00,423 - #13 void
+INFO  16:51:00,424 - #36 main
+INFO  16:51:00,425 - #24 (
+INFO  16:51:00,425 - #25 )
+INFO  16:51:00,425 - #36 int
+INFO  16:51:00,425 - #36 x
+INFO  16:51:00,425 - #5 ;
+INFO  16:51:00,427 - #3 {
+INFO  16:51:00,428 - #36 x
+INFO  16:51:00,428 - #23 =
+INFO  16:51:00,428 - #33 0
+INFO  16:51:00,430 - #5 ;
+INFO  16:51:00,432 - #36 x
+INFO  16:51:00,436 - #23 =
+INFO  16:51:00,436 - #36 k
+INFO  16:51:00,437 - #24 (
+INFO  16:51:00,437 - #25 )
+INFO  16:51:00,438 - #5 ;
+INFO  16:51:00,438 - #4 }
+INFO  16:51:00,439 - #4 }
+INFO  16:51:00,444 - Program(
+  ProgName(
+   MJProgram
+  ) [ProgName]
+  NoConstVarDeclarations(
+  ) [NoConstVarDeclarations]
+  MethodDeclarations(
+    MethodDeclarations(
+      NoMethodDeclarations(
+      ) [NoMethodDeclarations]
+      MethodDecl(
+        MethodTypeNamee(
+          Type(
+           int
+          ) [Type]
+         k
+        ) [MethodTypeNamee]
+        NoFormPars(
+        ) [NoFormPars]
+        NoVarDeclList(
+        ) [NoVarDeclList]
+        NoStatements(
+        ) [NoStatements]
+      ) [MethodDecl]
+    ) [MethodDeclarations]
+    MethodDecl(
+      MethodVoidName(
+       main
+      ) [MethodVoidName]
+      NoFormPars(
+      ) [NoFormPars]
+      YesVarDeclList(
+        NoVarDeclList(
+        ) [NoVarDeclList]
+        VarDeclarationTrue(
+          Type(
+           int
+          ) [Type]
+          VarI(
+            VarIdent(
+             x
+              NoBracket(
+              ) [NoBracket]
+            ) [VarIdent]
+          ) [VarI]
+        ) [VarDeclarationTrue]
+      ) [YesVarDeclList]
+      Statements(
+        Statements(
+          NoStatements(
+          ) [NoStatements]
+          DesignatorS(
+            DesignatorStatement(
+              DesignatorIdent(
+               x
+              ) [DesignatorIdent]
+              Assign(
+                Assignop(
+                ) [Assignop]
+                Expr(
+                  NoMinus(
+                  ) [NoMinus]
+                  TermOne(
+                    FactorNumber(
+                     0
+                    ) [FactorNumber]
+                  ) [TermOne]
+                  NoAddopTerms(
+                  ) [NoAddopTerms]
+                ) [Expr]
+              ) [Assign]
+            ) [DesignatorStatement]
+          ) [DesignatorS]
+        ) [Statements]
+        DesignatorS(
+          DesignatorStatement(
+            DesignatorIdent(
+             x
+            ) [DesignatorIdent]
+            Assign(
+              Assignop(
+              ) [Assignop]
+              Expr(
+                NoMinus(
+                ) [NoMinus]
+                TermOne(
+                  FactorDesig(
+                    DesignatorIdent(
+                     k
+                    ) [DesignatorIdent]
+                    ActParsDesignatorOptionY(
+                      NoActParamOption(
+                      ) [NoActParamOption]
+                    ) [ActParsDesignatorOptionY]
+                  ) [FactorDesig]
+                ) [TermOne]
+                NoAddopTerms(
+                ) [NoAddopTerms]
+              ) [Expr]
+            ) [Assign]
+          ) [DesignatorStatement]
+        ) [DesignatorS]
+      ) [Statements]
+    ) [MethodDecl]
+  ) [MethodDeclarations]
+) [Program]
+INFO  16:51:00,445 - ===================================
+INFO  16:51:00,448 - Obradjuje se funkcija k na liniji 5
+INFO  16:51:00,448 - Obradjuje se void funkcija main na liniji 9
+INFO  16:51:00,449 - Pronadjena lokalna promenljiva na liniji 10 :ime x Var x: int, 0, 1 
+INFO  16:51:00,449 - Pronadjena lokalna promenljiva na liniji 11 :ime x Var x: int, 0, 1 
+INFO  16:51:00,449 - aeas 11
+INFO  16:51:00,450 -  Print count calls = 0
+INFO  16:51:00,450 -  Deklarisanih promenljivih ima = 1
+INFO  16:51:00,450 - =================
+INFO  16:51:00,456 - PARSIRANJE USPESNO ZAVRSENO!!!

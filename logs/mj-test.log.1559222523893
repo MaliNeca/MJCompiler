@@ -1,0 +1,175 @@
+INFO  15:06:53,627 - Compiling source file: C:\pp1Projekat\workspace\MJCompiler\test\program.mj
+INFO  15:06:53,674 - #2 program
+INFO  15:06:53,674 - #36 MJProgram
+INFO  15:06:53,674 - #36 int
+INFO  15:06:53,675 - #36 x
+INFO  15:06:53,676 - #5 ;
+INFO  15:06:53,677 - #36 int
+INFO  15:06:53,677 - #36 y
+INFO  15:06:53,677 - #5 ;
+INFO  15:06:53,678 - #3 {
+INFO  15:06:53,678 - #13 void
+INFO  15:06:53,680 - #36 an
+INFO  15:06:53,681 - #24 (
+INFO  15:06:53,681 - #25 )
+INFO  15:06:53,682 - #3 {
+INFO  15:06:53,683 - #21 print
+INFO  15:06:53,684 - #24 (
+INFO  15:06:53,684 - #33 1
+INFO  15:06:53,685 - #25 )
+INFO  15:06:53,687 - #5 ;
+INFO  15:06:53,687 - #36 x
+INFO  15:06:53,688 - #23 =
+INFO  15:06:53,688 - #36 y
+INFO  15:06:53,712 - #26 +
+INFO  15:06:53,713 - #33 5
+INFO  15:06:53,714 - #26 +
+INFO  15:06:53,715 - #33 3
+INFO  15:06:53,715 - #5 ;
+INFO  15:06:53,716 - #21 print
+INFO  15:06:53,716 - #24 (
+INFO  15:06:53,716 - #33 2
+INFO  15:06:53,716 - #25 )
+INFO  15:06:53,716 - #5 ;
+INFO  15:06:53,716 - #4 }
+INFO  15:06:53,716 - #4 }
+INFO  15:06:53,723 - Program(
+  ProgName(
+   MJProgram
+  ) [ProgName]
+  ConstVarDeclarations(
+    ConstVarDeclarations(
+      NoConstVarDeclarations(
+      ) [NoConstVarDeclarations]
+      VarD(
+        VarDeclarationTrue(
+          Type(
+           int
+          ) [Type]
+          VarI(
+            VarIdent(
+             x
+              NoBracket(
+              ) [NoBracket]
+            ) [VarIdent]
+          ) [VarI]
+        ) [VarDeclarationTrue]
+      ) [VarD]
+    ) [ConstVarDeclarations]
+    VarD(
+      VarDeclarationTrue(
+        Type(
+         int
+        ) [Type]
+        VarI(
+          VarIdent(
+           y
+            NoBracket(
+            ) [NoBracket]
+          ) [VarIdent]
+        ) [VarI]
+      ) [VarDeclarationTrue]
+    ) [VarD]
+  ) [ConstVarDeclarations]
+  MethodDeclarations(
+    NoMethodDeclarations(
+    ) [NoMethodDeclarations]
+    MethodDecl(
+      MethodVoidName(
+       an
+      ) [MethodVoidName]
+      NoFormPars(
+      ) [NoFormPars]
+      NoVarDeclList(
+      ) [NoVarDeclList]
+      Statements(
+        Statements(
+          Statements(
+            NoStatements(
+            ) [NoStatements]
+            PrintS(
+              Expr(
+                NoMinus(
+                ) [NoMinus]
+                TermOne(
+                  FactorNumber(
+                   1
+                  ) [FactorNumber]
+                ) [TermOne]
+                NoAddopTerms(
+                ) [NoAddopTerms]
+              ) [Expr]
+              NoNumOption(
+              ) [NoNumOption]
+            ) [PrintS]
+          ) [Statements]
+          DesignatorS(
+            DesignatorStatement(
+              Designator(
+               x
+                DesignatorListOne(
+                ) [DesignatorListOne]
+              ) [Designator]
+              Assign(
+                Assignop(
+                ) [Assignop]
+                Expr(
+                  NoMinus(
+                  ) [NoMinus]
+                  TermOne(
+                    FactorDesig(
+                      Designator(
+                       y
+                        DesignatorListOne(
+                        ) [DesignatorListOne]
+                      ) [Designator]
+                      NoActParsDesignatorOption(
+                      ) [NoActParsDesignatorOption]
+                    ) [FactorDesig]
+                  ) [TermOne]
+                  AddopTerms(
+                    AddopTerms(
+                      NoAddopTerms(
+                      ) [NoAddopTerms]
+                      APlus(
+                      ) [APlus]
+                      TermOne(
+                        FactorNumber(
+                         5
+                        ) [FactorNumber]
+                      ) [TermOne]
+                    ) [AddopTerms]
+                    APlus(
+                    ) [APlus]
+                    TermOne(
+                      FactorNumber(
+                       3
+                      ) [FactorNumber]
+                    ) [TermOne]
+                  ) [AddopTerms]
+                ) [Expr]
+              ) [Assign]
+            ) [DesignatorStatement]
+          ) [DesignatorS]
+        ) [Statements]
+        PrintS(
+          Expr(
+            NoMinus(
+            ) [NoMinus]
+            TermOne(
+              FactorNumber(
+               2
+              ) [FactorNumber]
+            ) [TermOne]
+            NoAddopTerms(
+            ) [NoAddopTerms]
+          ) [Expr]
+          NoNumOption(
+          ) [NoNumOption]
+        ) [PrintS]
+      ) [Statements]
+    ) [MethodDecl]
+  ) [MethodDeclarations]
+) [Program]
+INFO  15:06:53,725 - ===================================
+INFO  15:06:53,728 - Obradjuje se void funkcija an na liniji 4

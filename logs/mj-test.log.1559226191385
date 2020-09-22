@@ -1,0 +1,438 @@
+INFO  16:16:30,971 - Compiling source file: C:\pp1Projekat\workspace\MJCompiler\test\program.mj
+INFO  16:16:31,023 - #2 program
+INFO  16:16:31,024 - #36 test301
+INFO  16:16:31,024 - #3 {
+INFO  16:16:31,025 - #13 void
+INFO  16:16:31,026 - #36 main
+INFO  16:16:31,026 - #24 (
+INFO  16:16:31,026 - #25 )
+INFO  16:16:31,027 - #3 {
+INFO  16:16:31,027 - #4 }
+INFO  16:16:31,028 - #4 }
+INFO  16:16:31,031 - Program(
+  ProgName(
+   test301
+  ) [ProgName]
+  NoConstVarDeclarations(
+  ) [NoConstVarDeclarations]
+  MethodDeclarations(
+    NoMethodDeclarations(
+    ) [NoMethodDeclarations]
+    MethodDecl(
+      MethodVoidName(
+       main
+      ) [MethodVoidName]
+      NoFormPars(
+      ) [NoFormPars]
+      NoVarDeclList(
+      ) [NoVarDeclList]
+      NoStatements(
+      ) [NoStatements]
+    ) [MethodDecl]
+  ) [MethodDeclarations]
+) [Program]
+INFO  16:16:31,033 - ===================================
+INFO  16:16:50,899 - Obradjuje se void funkcija main na liniji 10
+INFO  16:19:13,063 - Compiling source file: C:\pp1Projekat\workspace\MJCompiler\test\program.mj
+INFO  16:19:13,258 - #2 program
+INFO  16:19:13,258 - #36 test301
+INFO  16:19:13,259 - #3 {
+INFO  16:19:13,260 - #13 void
+INFO  16:19:13,261 - #36 main
+INFO  16:19:13,261 - #24 (
+INFO  16:19:13,262 - #25 )
+INFO  16:19:13,263 - #3 {
+INFO  16:19:13,266 - #4 }
+INFO  16:19:13,266 - #4 }
+INFO  16:19:13,288 - Program(
+  ProgName(
+   test301
+  ) [ProgName]
+  NoConstVarDeclarations(
+  ) [NoConstVarDeclarations]
+  MethodDeclarations(
+    NoMethodDeclarations(
+    ) [NoMethodDeclarations]
+    MethodDecl(
+      MethodVoidName(
+       main
+      ) [MethodVoidName]
+      NoFormPars(
+      ) [NoFormPars]
+      NoVarDeclList(
+      ) [NoVarDeclList]
+      NoStatements(
+      ) [NoStatements]
+    ) [MethodDecl]
+  ) [MethodDeclarations]
+) [Program]
+INFO  16:19:13,293 - ===================================
+INFO  16:19:13,299 - Obradjuje se void funkcija main na liniji 10
+INFO  16:19:13,300 -  Print count calls = 0
+INFO  16:19:13,300 -  Deklarisanih promenljivih ima = 0
+INFO  16:19:13,300 - =================
+ERROR 16:19:13,305 - USPESNO ZAVRSENO!
+INFO  16:20:13,291 - Compiling source file: C:\pp1Projekat\workspace\MJCompiler\test\program.mj
+INFO  16:20:13,377 - #2 program
+INFO  16:20:13,377 - #36 test301
+INFO  16:20:13,377 - #3 {
+INFO  16:20:13,379 - #13 void
+INFO  16:20:13,379 - #36 main
+INFO  16:20:13,380 - #24 (
+INFO  16:20:13,380 - #25 )
+INFO  16:20:13,381 - #3 {
+INFO  16:20:13,383 - #4 }
+INFO  16:20:13,384 - #4 }
+INFO  16:20:13,396 - Program(
+  ProgName(
+   test301
+  ) [ProgName]
+  NoConstVarDeclarations(
+  ) [NoConstVarDeclarations]
+  MethodDeclarations(
+    NoMethodDeclarations(
+    ) [NoMethodDeclarations]
+    MethodDecl(
+      MethodVoidName(
+       main
+      ) [MethodVoidName]
+      NoFormPars(
+      ) [NoFormPars]
+      NoVarDeclList(
+      ) [NoVarDeclList]
+      NoStatements(
+      ) [NoStatements]
+    ) [MethodDecl]
+  ) [MethodDeclarations]
+) [Program]
+INFO  16:20:13,397 - ===================================
+INFO  16:20:13,401 - Obradjuje se void funkcija main na liniji 10
+INFO  16:20:13,401 -  Print count calls = 0
+INFO  16:20:13,401 -  Deklarisanih promenljivih ima = 0
+INFO  16:20:13,401 - =================
+ERROR 16:20:13,402 - USPESNO ZAVRSENO!
+INFO  16:21:05,430 - Compiling source file: C:\pp1Projekat\workspace\MJCompiler\test\program.mj
+INFO  16:21:05,485 - #2 program
+INFO  16:21:05,485 - #36 test301
+INFO  16:21:05,485 - #36 int
+INFO  16:21:05,486 - #36 x
+INFO  16:21:05,487 - #5 ;
+INFO  16:21:05,488 - #36 int
+INFO  16:21:05,488 - #36 y
+INFO  16:21:05,488 - #5 ;
+INFO  16:21:05,488 - #3 {
+INFO  16:21:05,489 - #13 void
+INFO  16:21:05,489 - #36 main
+INFO  16:21:05,489 - #24 (
+INFO  16:21:05,489 - #25 )
+INFO  16:21:05,490 - #3 {
+INFO  16:21:05,490 - #36 y
+INFO  16:21:05,491 - #23 =
+INFO  16:21:05,492 - #33 1
+INFO  16:21:05,493 - #5 ;
+INFO  16:21:05,495 - #36 x
+INFO  16:21:05,495 - #23 =
+INFO  16:21:05,495 - #36 y
+INFO  16:21:05,495 - #26 +
+INFO  16:21:05,496 - #33 3
+INFO  16:21:05,497 - #5 ;
+INFO  16:21:05,497 - #21 print
+INFO  16:21:05,497 - #24 (
+INFO  16:21:05,497 - #33 1
+INFO  16:21:05,497 - #25 )
+INFO  16:21:05,498 - #5 ;
+INFO  16:21:05,498 - #4 }
+INFO  16:21:05,498 - #4 }
+INFO  16:21:05,502 - Program(
+  ProgName(
+   test301
+  ) [ProgName]
+  ConstVarDeclarations(
+    ConstVarDeclarations(
+      NoConstVarDeclarations(
+      ) [NoConstVarDeclarations]
+      VarD(
+        VarDeclarationTrue(
+          Type(
+           int
+          ) [Type]
+          VarI(
+            VarIdent(
+             x
+              NoBracket(
+              ) [NoBracket]
+            ) [VarIdent]
+          ) [VarI]
+        ) [VarDeclarationTrue]
+      ) [VarD]
+    ) [ConstVarDeclarations]
+    VarD(
+      VarDeclarationTrue(
+        Type(
+         int
+        ) [Type]
+        VarI(
+          VarIdent(
+           y
+            NoBracket(
+            ) [NoBracket]
+          ) [VarIdent]
+        ) [VarI]
+      ) [VarDeclarationTrue]
+    ) [VarD]
+  ) [ConstVarDeclarations]
+  MethodDeclarations(
+    NoMethodDeclarations(
+    ) [NoMethodDeclarations]
+    MethodDecl(
+      MethodVoidName(
+       main
+      ) [MethodVoidName]
+      NoFormPars(
+      ) [NoFormPars]
+      NoVarDeclList(
+      ) [NoVarDeclList]
+      Statements(
+        Statements(
+          Statements(
+            NoStatements(
+            ) [NoStatements]
+            DesignatorS(
+              DesignatorStatement(
+                Designator(
+                 y
+                  DesignatorListOne(
+                  ) [DesignatorListOne]
+                ) [Designator]
+                Assign(
+                  Assignop(
+                  ) [Assignop]
+                  Expr(
+                    NoMinus(
+                    ) [NoMinus]
+                    TermOne(
+                      FactorNumber(
+                       1
+                      ) [FactorNumber]
+                    ) [TermOne]
+                    NoAddopTerms(
+                    ) [NoAddopTerms]
+                  ) [Expr]
+                ) [Assign]
+              ) [DesignatorStatement]
+            ) [DesignatorS]
+          ) [Statements]
+          DesignatorS(
+            DesignatorStatement(
+              Designator(
+               x
+                DesignatorListOne(
+                ) [DesignatorListOne]
+              ) [Designator]
+              Assign(
+                Assignop(
+                ) [Assignop]
+                Expr(
+                  NoMinus(
+                  ) [NoMinus]
+                  TermOne(
+                    FactorDesig(
+                      Designator(
+                       y
+                        DesignatorListOne(
+                        ) [DesignatorListOne]
+                      ) [Designator]
+                      NoActParsDesignatorOption(
+                      ) [NoActParsDesignatorOption]
+                    ) [FactorDesig]
+                  ) [TermOne]
+                  AddopTerms(
+                    NoAddopTerms(
+                    ) [NoAddopTerms]
+                    APlus(
+                    ) [APlus]
+                    TermOne(
+                      FactorNumber(
+                       3
+                      ) [FactorNumber]
+                    ) [TermOne]
+                  ) [AddopTerms]
+                ) [Expr]
+              ) [Assign]
+            ) [DesignatorStatement]
+          ) [DesignatorS]
+        ) [Statements]
+        PrintS(
+          Expr(
+            NoMinus(
+            ) [NoMinus]
+            TermOne(
+              FactorNumber(
+               1
+              ) [FactorNumber]
+            ) [TermOne]
+            NoAddopTerms(
+            ) [NoAddopTerms]
+          ) [Expr]
+          NoNumOption(
+          ) [NoNumOption]
+        ) [PrintS]
+      ) [Statements]
+    ) [MethodDecl]
+  ) [MethodDeclarations]
+) [Program]
+INFO  16:21:05,503 - ===================================
+INFO  16:21:05,507 - Obradjuje se void funkcija main na liniji 12
+INFO  16:21:39,171 - Compiling source file: C:\pp1Projekat\workspace\MJCompiler\test\program.mj
+INFO  16:21:39,275 - #2 program
+INFO  16:21:39,275 - #36 test301
+INFO  16:21:39,275 - #36 int
+INFO  16:21:39,276 - #36 x
+INFO  16:21:39,277 - #5 ;
+INFO  16:21:39,278 - #36 int
+INFO  16:21:39,278 - #36 y
+INFO  16:21:39,278 - #5 ;
+INFO  16:21:39,279 - #3 {
+INFO  16:21:39,279 - #13 void
+INFO  16:21:39,279 - #36 main
+INFO  16:21:39,280 - #24 (
+INFO  16:21:39,280 - #25 )
+INFO  16:21:39,281 - #3 {
+INFO  16:21:39,281 - #4 }
+INFO  16:21:39,281 - #4 }
+INFO  16:21:39,287 - Program(
+  ProgName(
+   test301
+  ) [ProgName]
+  ConstVarDeclarations(
+    ConstVarDeclarations(
+      NoConstVarDeclarations(
+      ) [NoConstVarDeclarations]
+      VarD(
+        VarDeclarationTrue(
+          Type(
+           int
+          ) [Type]
+          VarI(
+            VarIdent(
+             x
+              NoBracket(
+              ) [NoBracket]
+            ) [VarIdent]
+          ) [VarI]
+        ) [VarDeclarationTrue]
+      ) [VarD]
+    ) [ConstVarDeclarations]
+    VarD(
+      VarDeclarationTrue(
+        Type(
+         int
+        ) [Type]
+        VarI(
+          VarIdent(
+           y
+            NoBracket(
+            ) [NoBracket]
+          ) [VarIdent]
+        ) [VarI]
+      ) [VarDeclarationTrue]
+    ) [VarD]
+  ) [ConstVarDeclarations]
+  MethodDeclarations(
+    NoMethodDeclarations(
+    ) [NoMethodDeclarations]
+    MethodDecl(
+      MethodVoidName(
+       main
+      ) [MethodVoidName]
+      NoFormPars(
+      ) [NoFormPars]
+      NoVarDeclList(
+      ) [NoVarDeclList]
+      NoStatements(
+      ) [NoStatements]
+    ) [MethodDecl]
+  ) [MethodDeclarations]
+) [Program]
+INFO  16:21:39,287 - ===================================
+INFO  16:21:39,293 - Obradjuje se void funkcija main na liniji 12
+INFO  16:21:39,293 -  Print count calls = 0
+INFO  16:21:39,293 -  Deklarisanih promenljivih ima = 2
+INFO  16:21:39,293 - =================
+INFO  16:23:06,069 - Compiling source file: C:\pp1Projekat\workspace\MJCompiler\test\program.mj
+INFO  16:23:06,148 - #2 program
+INFO  16:23:06,148 - #36 test301
+INFO  16:23:06,148 - #36 int
+INFO  16:23:06,151 - #36 x
+INFO  16:23:06,152 - #5 ;
+INFO  16:23:06,154 - #36 int
+INFO  16:23:06,155 - #36 y
+INFO  16:23:06,155 - #5 ;
+INFO  16:23:06,156 - #3 {
+INFO  16:23:06,156 - #13 void
+INFO  16:23:06,157 - #36 main
+INFO  16:23:06,158 - #24 (
+INFO  16:23:06,158 - #25 )
+INFO  16:23:06,159 - #3 {
+INFO  16:23:06,159 - #4 }
+INFO  16:23:06,160 - #4 }
+INFO  16:23:06,165 - Program(
+  ProgName(
+   test301
+  ) [ProgName]
+  ConstVarDeclarations(
+    ConstVarDeclarations(
+      NoConstVarDeclarations(
+      ) [NoConstVarDeclarations]
+      VarD(
+        VarDeclarationTrue(
+          Type(
+           int
+          ) [Type]
+          VarI(
+            VarIdent(
+             x
+              NoBracket(
+              ) [NoBracket]
+            ) [VarIdent]
+          ) [VarI]
+        ) [VarDeclarationTrue]
+      ) [VarD]
+    ) [ConstVarDeclarations]
+    VarD(
+      VarDeclarationTrue(
+        Type(
+         int
+        ) [Type]
+        VarI(
+          VarIdent(
+           y
+            NoBracket(
+            ) [NoBracket]
+          ) [VarIdent]
+        ) [VarI]
+      ) [VarDeclarationTrue]
+    ) [VarD]
+  ) [ConstVarDeclarations]
+  MethodDeclarations(
+    NoMethodDeclarations(
+    ) [NoMethodDeclarations]
+    MethodDecl(
+      MethodVoidName(
+       main
+      ) [MethodVoidName]
+      NoFormPars(
+      ) [NoFormPars]
+      NoVarDeclList(
+      ) [NoVarDeclList]
+      NoStatements(
+      ) [NoStatements]
+    ) [MethodDecl]
+  ) [MethodDeclarations]
+) [Program]
+INFO  16:23:06,165 - ===================================
+INFO  16:23:06,169 - Obradjuje se void funkcija main na liniji 12
+INFO  16:23:06,169 -  Print count calls = 0
+INFO  16:23:06,169 -  Deklarisanih promenljivih ima = 2
+INFO  16:23:06,169 - =================
+ERROR 16:23:06,169 - USPESNO ZAVRSENO!

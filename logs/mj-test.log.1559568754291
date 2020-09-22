@@ -1,0 +1,294 @@
+INFO  15:28:32,914 - Compiling source file: C:\pp1Projekat\workspace\MJCompiler\test\program.mj
+INFO  15:28:33,569 - #2 program
+INFO  15:28:33,569 - #36 test301
+INFO  15:28:33,569 - #10 enum
+INFO  15:28:33,578 - #36 Broj
+INFO  15:28:33,578 - #3 {
+INFO  15:28:33,578 - #36 NULA
+INFO  15:28:33,578 - #44 ,
+INFO  15:28:33,589 - #36 JEDAN
+INFO  15:28:33,589 - #44 ,
+INFO  15:28:33,589 - #36 PET
+INFO  15:28:33,589 - #23 =
+INFO  15:28:33,589 - #33 5
+INFO  15:28:33,589 - #44 ,
+INFO  15:28:33,589 - #36 DESET
+INFO  15:28:33,589 - #23 =
+INFO  15:28:33,590 - #33 10
+INFO  15:28:33,590 - #4 }
+INFO  15:28:33,590 - #22 const
+INFO  15:28:33,590 - #36 int
+INFO  15:28:33,590 - #36 jedan
+INFO  15:28:33,595 - #23 =
+INFO  15:28:33,595 - #33 1
+INFO  15:28:33,597 - #5 ;
+INFO  15:28:33,597 - #22 const
+INFO  15:28:33,597 - #36 int
+INFO  15:28:33,597 - #36 pet
+INFO  15:28:33,597 - #23 =
+INFO  15:28:33,597 - #33 5
+INFO  15:28:33,597 - #5 ;
+INFO  15:28:33,598 - #36 int
+INFO  15:28:33,598 - #36 niz
+INFO  15:28:33,598 - #6 [
+INFO  15:28:33,598 - #7 ]
+INFO  15:28:33,598 - #5 ;
+INFO  15:28:33,611 - #36 char
+INFO  15:28:33,611 - #36 nizch
+INFO  15:28:33,611 - #6 [
+INFO  15:28:33,611 - #7 ]
+INFO  15:28:33,611 - #5 ;
+INFO  15:28:33,611 - #3 {
+INFO  15:28:33,612 - #13 void
+INFO  15:28:33,616 - #36 main
+INFO  15:28:33,616 - #24 (
+INFO  15:28:33,616 - #25 )
+INFO  15:28:33,621 - #36 int
+INFO  15:28:33,625 - #36 bodovi
+INFO  15:28:33,625 - #5 ;
+INFO  15:28:33,629 - #36 Broj
+INFO  15:28:33,630 - #36 nula
+INFO  15:28:33,630 - #44 ,
+INFO  15:28:33,630 - #36 jedan
+INFO  15:28:33,630 - #5 ;
+INFO  15:28:33,630 - #3 {
+INFO  15:28:33,630 - #36 nula
+INFO  15:28:33,635 - #23 =
+INFO  15:28:33,635 - #36 Broj
+INFO  15:28:33,647 - #43 .
+INFO  15:28:33,647 - #36 NULA
+INFO  15:28:33,647 - #5 ;
+INFO  15:28:33,666 - #36 jedan
+INFO  15:28:33,667 - #23 =
+INFO  15:28:33,667 - #36 Broj
+INFO  15:28:33,667 - #43 .
+INFO  15:28:33,667 - #36 JEDAN
+INFO  15:28:33,667 - #5 ;
+INFO  15:28:33,667 - #4 }
+INFO  15:28:33,667 - #4 }
+INFO  15:28:33,683 - Program(
+  ProgName(
+   test301
+  ) [ProgName]
+  ConstVarDeclarations(
+    ConstVarDeclarations(
+      ConstVarDeclarations(
+        ConstVarDeclarations(
+          ConstVarDeclarations(
+            NoConstVarDeclarations(
+            ) [NoConstVarDeclarations]
+            EnumD(
+              EnumDeclaration(
+               Broj
+                IdentEL(
+                  IdentEL(
+                    IdentEL(
+                      EnumI(
+                        EnumIdent(
+                         NULA
+                          NoValueOption(
+                          ) [NoValueOption]
+                        ) [EnumIdent]
+                      ) [EnumI]
+                      EnumIdent(
+                       JEDAN
+                        NoValueOption(
+                        ) [NoValueOption]
+                      ) [EnumIdent]
+                    ) [IdentEL]
+                    EnumIdent(
+                     PET
+                      YesValueOption(
+                       5
+                      ) [YesValueOption]
+                    ) [EnumIdent]
+                  ) [IdentEL]
+                  EnumIdent(
+                   DESET
+                    YesValueOption(
+                     10
+                    ) [YesValueOption]
+                  ) [EnumIdent]
+                ) [IdentEL]
+              ) [EnumDeclaration]
+            ) [EnumD]
+          ) [ConstVarDeclarations]
+          ConstD(
+            ConstDeclaration(
+              Type(
+               int
+              ) [Type]
+              ConstT(
+                NumConst(
+                 jedan
+                 1
+                ) [NumConst]
+              ) [ConstT]
+            ) [ConstDeclaration]
+          ) [ConstD]
+        ) [ConstVarDeclarations]
+        ConstD(
+          ConstDeclaration(
+            Type(
+             int
+            ) [Type]
+            ConstT(
+              NumConst(
+               pet
+               5
+              ) [NumConst]
+            ) [ConstT]
+          ) [ConstDeclaration]
+        ) [ConstD]
+      ) [ConstVarDeclarations]
+      VarD(
+        VarDeclarationTrue(
+          Type(
+           int
+          ) [Type]
+          VarI(
+            VarIdent(
+             niz
+              Bracket(
+              ) [Bracket]
+            ) [VarIdent]
+          ) [VarI]
+        ) [VarDeclarationTrue]
+      ) [VarD]
+    ) [ConstVarDeclarations]
+    VarD(
+      VarDeclarationTrue(
+        Type(
+         char
+        ) [Type]
+        VarI(
+          VarIdent(
+           nizch
+            Bracket(
+            ) [Bracket]
+          ) [VarIdent]
+        ) [VarI]
+      ) [VarDeclarationTrue]
+    ) [VarD]
+  ) [ConstVarDeclarations]
+  MethodDeclarations(
+    NoMethodDeclarations(
+    ) [NoMethodDeclarations]
+    MethodDecl(
+      MethodVoidName(
+       main
+      ) [MethodVoidName]
+      NoFormPars(
+      ) [NoFormPars]
+      YesVarDeclList(
+        YesVarDeclList(
+          NoVarDeclList(
+          ) [NoVarDeclList]
+          VarDeclarationTrue(
+            Type(
+             int
+            ) [Type]
+            VarI(
+              VarIdent(
+               bodovi
+                NoBracket(
+                ) [NoBracket]
+              ) [VarIdent]
+            ) [VarI]
+          ) [VarDeclarationTrue]
+        ) [YesVarDeclList]
+        VarDeclarationTrue(
+          Type(
+           Broj
+          ) [Type]
+          IdentVL(
+            VarI(
+              VarIdent(
+               nula
+                NoBracket(
+                ) [NoBracket]
+              ) [VarIdent]
+            ) [VarI]
+            VarIdent(
+             jedan
+              NoBracket(
+              ) [NoBracket]
+            ) [VarIdent]
+          ) [IdentVL]
+        ) [VarDeclarationTrue]
+      ) [YesVarDeclList]
+      Statements(
+        Statements(
+          NoStatements(
+          ) [NoStatements]
+          DesignatorS(
+            DesignatorStatement(
+              DesignatorIdent(
+               nula
+              ) [DesignatorIdent]
+              Assign(
+                Assignop(
+                ) [Assignop]
+                Expr(
+                  NoMinus(
+                  ) [NoMinus]
+                  TermOne(
+                    FactorDesig(
+                      DesignatorIdentFullstopIdent(
+                        DesignatorIdent(
+                         Broj
+                        ) [DesignatorIdent]
+                       NULA
+                      ) [DesignatorIdentFullstopIdent]
+                      NoActParsDesignatorOption(
+                      ) [NoActParsDesignatorOption]
+                    ) [FactorDesig]
+                  ) [TermOne]
+                  NoAddopTerms(
+                  ) [NoAddopTerms]
+                ) [Expr]
+              ) [Assign]
+            ) [DesignatorStatement]
+          ) [DesignatorS]
+        ) [Statements]
+        DesignatorS(
+          DesignatorStatement(
+            DesignatorIdent(
+             jedan
+            ) [DesignatorIdent]
+            Assign(
+              Assignop(
+              ) [Assignop]
+              Expr(
+                NoMinus(
+                ) [NoMinus]
+                TermOne(
+                  FactorDesig(
+                    DesignatorIdentFullstopIdent(
+                      DesignatorIdent(
+                       Broj
+                      ) [DesignatorIdent]
+                     JEDAN
+                    ) [DesignatorIdentFullstopIdent]
+                    NoActParsDesignatorOption(
+                    ) [NoActParsDesignatorOption]
+                  ) [FactorDesig]
+                ) [TermOne]
+                NoAddopTerms(
+                ) [NoAddopTerms]
+              ) [Expr]
+            ) [Assign]
+          ) [DesignatorStatement]
+        ) [DesignatorS]
+      ) [Statements]
+    ) [MethodDecl]
+  ) [MethodDeclarations]
+) [Program]
+INFO  15:28:33,683 - ===================================
+INFO  15:28:45,302 - Obradjuje se void funkcija main na liniji 14
+INFO  15:28:45,304 - Pronadjena lokalna promenljiva na liniji 18 :ime nula Var nula: int, 1, 1 
+INFO  15:31:57,620 - Pronadjena lokalna promenljiva na liniji 19 :ime jedan Var jedan: int, 2, 1 
+INFO  15:32:00,035 -  Print count calls = 0
+INFO  15:32:00,036 -  Deklarisanih promenljivih ima = 5
+INFO  15:32:00,037 - =================
+INFO  15:32:00,039 - USPESNO ZAVRSENO!

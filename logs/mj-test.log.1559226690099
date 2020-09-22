@@ -1,0 +1,108 @@
+INFO  16:30:50,410 - Compiling source file: C:\pp1Projekat\workspace\MJCompiler\test\program.mj
+INFO  16:30:50,466 - #2 program
+INFO  16:30:50,467 - #36 test301
+INFO  16:30:50,467 - #36 int
+INFO  16:30:50,469 - #36 x
+INFO  16:30:50,470 - #5 ;
+INFO  16:30:50,471 - #36 int
+INFO  16:30:50,472 - #36 y
+INFO  16:30:50,472 - #5 ;
+INFO  16:30:50,472 - #3 {
+INFO  16:30:50,472 - #13 void
+INFO  16:30:50,473 - #36 main
+INFO  16:30:50,473 - #24 (
+INFO  16:30:50,473 - #25 )
+INFO  16:30:50,474 - #3 {
+INFO  16:30:50,474 - #36 y
+INFO  16:30:50,475 - #23 =
+INFO  16:30:50,476 - #33 1
+INFO  16:30:50,478 - #5 ;
+INFO  16:30:50,479 - #4 }
+INFO  16:30:50,480 - #4 }
+INFO  16:30:50,484 - Program(
+  ProgName(
+   test301
+  ) [ProgName]
+  ConstVarDeclarations(
+    ConstVarDeclarations(
+      NoConstVarDeclarations(
+      ) [NoConstVarDeclarations]
+      VarD(
+        VarDeclarationTrue(
+          Type(
+           int
+          ) [Type]
+          VarI(
+            VarIdent(
+             x
+              NoBracket(
+              ) [NoBracket]
+            ) [VarIdent]
+          ) [VarI]
+        ) [VarDeclarationTrue]
+      ) [VarD]
+    ) [ConstVarDeclarations]
+    VarD(
+      VarDeclarationTrue(
+        Type(
+         int
+        ) [Type]
+        VarI(
+          VarIdent(
+           y
+            NoBracket(
+            ) [NoBracket]
+          ) [VarIdent]
+        ) [VarI]
+      ) [VarDeclarationTrue]
+    ) [VarD]
+  ) [ConstVarDeclarations]
+  MethodDeclarations(
+    NoMethodDeclarations(
+    ) [NoMethodDeclarations]
+    MethodDecl(
+      MethodVoidName(
+       main
+      ) [MethodVoidName]
+      NoFormPars(
+      ) [NoFormPars]
+      NoVarDeclList(
+      ) [NoVarDeclList]
+      Statements(
+        NoStatements(
+        ) [NoStatements]
+        DesignatorS(
+          DesignatorStatement(
+            Designator(
+             y
+              DesignatorListOne(
+              ) [DesignatorListOne]
+            ) [Designator]
+            Assign(
+              Assignop(
+              ) [Assignop]
+              Expr(
+                NoMinus(
+                ) [NoMinus]
+                TermOne(
+                  FactorNumber(
+                   1
+                  ) [FactorNumber]
+                ) [TermOne]
+                NoAddopTerms(
+                ) [NoAddopTerms]
+              ) [Expr]
+            ) [Assign]
+          ) [DesignatorStatement]
+        ) [DesignatorS]
+      ) [Statements]
+    ) [MethodDecl]
+  ) [MethodDeclarations]
+) [Program]
+INFO  16:30:50,492 - ===================================
+INFO  16:30:50,495 - Obradjuje se void funkcija main na liniji 12
+INFO  16:30:50,495 - Pronadjena globalna promenljiva na liniji 15 :ime y Var y: int, 1, 0 
+INFO  16:30:50,496 -  Print count calls = 0
+INFO  16:30:50,497 -  Deklarisanih promenljivih ima = 2
+INFO  16:30:50,497 - =================
+INFO  16:30:50,497 - USPESNO ZAVRSENO!

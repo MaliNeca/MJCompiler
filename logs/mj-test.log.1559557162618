@@ -1,0 +1,80 @@
+INFO  12:18:02,568 - Compiling source file: C:\pp1Projekat\workspace\MJCompiler\test\program.mj
+INFO  12:18:02,709 - #2 program
+INFO  12:18:02,710 - #36 test301
+INFO  12:18:02,710 - #36 int
+INFO  12:18:02,711 - #36 niz
+INFO  12:18:02,712 - #6 [
+INFO  12:18:02,712 - #7 ]
+INFO  12:18:02,713 - #5 ;
+INFO  12:18:02,715 - #3 {
+INFO  12:18:02,717 - #13 void
+INFO  12:18:02,718 - #36 main
+INFO  12:18:02,719 - #24 (
+INFO  12:18:02,720 - #25 )
+INFO  12:18:02,722 - #3 {
+INFO  12:18:02,723 - #36 niz
+INFO  12:18:02,726 - #23 =
+INFO  12:18:02,727 - #36 new
+INFO  12:18:02,729 - #36 int
+ERROR 12:18:02,730 - 
+Sintaksna greska na liniji 18
+INFO  12:18:02,730 - #6 [
+INFO  12:18:02,730 - #33 2
+INFO  12:18:02,730 - #7 ]
+INFO  12:18:02,732 - #5 ;
+INFO  12:18:02,732 - #4 }
+INFO  12:18:02,732 - #4 }
+INFO  12:18:02,739 - Program(
+  ProgName(
+   test301
+  ) [ProgName]
+  ConstVarDeclarations(
+    NoConstVarDeclarations(
+    ) [NoConstVarDeclarations]
+    VarD(
+      VarDeclarationTrue(
+        Type(
+         int
+        ) [Type]
+        VarI(
+          VarIdent(
+           niz
+            Bracket(
+            ) [Bracket]
+          ) [VarIdent]
+        ) [VarI]
+      ) [VarDeclarationTrue]
+    ) [VarD]
+  ) [ConstVarDeclarations]
+  MethodDeclarations(
+    NoMethodDeclarations(
+    ) [NoMethodDeclarations]
+    MethodDecl(
+      MethodVoidName(
+       main
+      ) [MethodVoidName]
+      NoFormPars(
+      ) [NoFormPars]
+      NoVarDeclList(
+      ) [NoVarDeclList]
+      Statements(
+        NoStatements(
+        ) [NoStatements]
+        DesignatorS(
+          DesignatorStatement(
+            Designator(
+             niz
+              DesignatorListOne(
+              ) [DesignatorListOne]
+            ) [Designator]
+            AssignError(
+              Assignop(
+              ) [Assignop]
+            ) [AssignError]
+          ) [DesignatorStatement]
+        ) [DesignatorS]
+      ) [Statements]
+    ) [MethodDecl]
+  ) [MethodDeclarations]
+) [Program]
+INFO  12:18:02,739 - ===================================

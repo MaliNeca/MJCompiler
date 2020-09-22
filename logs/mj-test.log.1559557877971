@@ -1,0 +1,109 @@
+INFO  12:27:57,968 - Compiling source file: C:\pp1Projekat\workspace\MJCompiler\test\program.mj
+INFO  12:27:58,010 - #2 program
+INFO  12:27:58,010 - #36 test301
+INFO  12:27:58,010 - #36 int
+INFO  12:27:58,011 - #36 niz
+INFO  12:27:58,011 - #6 [
+INFO  12:27:58,011 - #7 ]
+INFO  12:27:58,011 - #5 ;
+INFO  12:27:58,013 - #3 {
+INFO  12:27:58,014 - #13 void
+INFO  12:27:58,014 - #36 main
+INFO  12:27:58,014 - #24 (
+INFO  12:27:58,015 - #25 )
+INFO  12:27:58,015 - #3 {
+INFO  12:27:58,016 - #36 niz
+INFO  12:27:58,016 - #23 =
+INFO  12:27:58,017 - #36 new
+INFO  12:27:58,019 - #6 [
+INFO  12:27:58,019 - #33 2
+INFO  12:27:58,020 - #7 ]
+INFO  12:27:58,021 - #5 ;
+INFO  12:27:58,023 - #4 }
+INFO  12:27:58,023 - #4 }
+INFO  12:27:58,026 - Program(
+  ProgName(
+   test301
+  ) [ProgName]
+  ConstVarDeclarations(
+    NoConstVarDeclarations(
+    ) [NoConstVarDeclarations]
+    VarD(
+      VarDeclarationTrue(
+        Type(
+         int
+        ) [Type]
+        VarI(
+          VarIdent(
+           niz
+            Bracket(
+            ) [Bracket]
+          ) [VarIdent]
+        ) [VarI]
+      ) [VarDeclarationTrue]
+    ) [VarD]
+  ) [ConstVarDeclarations]
+  MethodDeclarations(
+    NoMethodDeclarations(
+    ) [NoMethodDeclarations]
+    MethodDecl(
+      MethodVoidName(
+       main
+      ) [MethodVoidName]
+      NoFormPars(
+      ) [NoFormPars]
+      NoVarDeclList(
+      ) [NoVarDeclList]
+      Statements(
+        NoStatements(
+        ) [NoStatements]
+        DesignatorS(
+          DesignatorStatement(
+            Designator(
+             niz
+              DesignatorListOne(
+              ) [DesignatorListOne]
+            ) [Designator]
+            Assign(
+              Assignop(
+              ) [Assignop]
+              Expr(
+                NoMinus(
+                ) [NoMinus]
+                TermOne(
+                  FactorDesig(
+                    Designator(
+                     new
+                      DesignatorListMany(
+                        DesignatorListOne(
+                        ) [DesignatorListOne]
+                        OrExpr(
+                          Expr(
+                            NoMinus(
+                            ) [NoMinus]
+                            TermOne(
+                              FactorNumber(
+                               2
+                              ) [FactorNumber]
+                            ) [TermOne]
+                            NoAddopTerms(
+                            ) [NoAddopTerms]
+                          ) [Expr]
+                        ) [OrExpr]
+                      ) [DesignatorListMany]
+                    ) [Designator]
+                    NoActParsDesignatorOption(
+                    ) [NoActParsDesignatorOption]
+                  ) [FactorDesig]
+                ) [TermOne]
+                NoAddopTerms(
+                ) [NoAddopTerms]
+              ) [Expr]
+            ) [Assign]
+          ) [DesignatorStatement]
+        ) [DesignatorS]
+      ) [Statements]
+    ) [MethodDecl]
+  ) [MethodDeclarations]
+) [Program]
+INFO  12:27:58,026 - ===================================

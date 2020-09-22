@@ -1,0 +1,222 @@
+INFO  10:11:46,516 - Compiling source file: C:\pp1Projekat\workspace\MJCompiler\test\program.mj
+INFO  10:11:46,594 - #2 program
+INFO  10:11:46,594 - #36 test301
+INFO  10:11:46,594 - #36 int
+INFO  10:11:46,596 - #36 x
+INFO  10:11:46,596 - #5 ;
+INFO  10:11:46,598 - #36 int
+INFO  10:11:46,599 - #36 y
+INFO  10:11:46,599 - #5 ;
+INFO  10:11:46,599 - #3 {
+INFO  10:11:46,599 - #13 void
+INFO  10:11:46,600 - #36 main
+INFO  10:11:46,600 - #24 (
+INFO  10:11:46,601 - #25 )
+INFO  10:11:46,601 - #3 {
+INFO  10:11:46,602 - #36 x
+INFO  10:11:46,602 - #23 =
+INFO  10:11:46,602 - #33 3
+INFO  10:11:46,605 - #5 ;
+INFO  10:11:46,607 - #21 print
+INFO  10:11:46,607 - #24 (
+INFO  10:11:46,607 - #33 1
+INFO  10:11:46,608 - #25 )
+INFO  10:11:46,610 - #5 ;
+INFO  10:11:46,611 - #36 y
+INFO  10:11:46,612 - #23 =
+INFO  10:11:46,612 - #33 4
+INFO  10:11:46,612 - #26 +
+INFO  10:11:46,612 - #33 9
+INFO  10:11:46,612 - #5 ;
+INFO  10:11:46,612 - #21 print
+INFO  10:11:46,612 - #24 (
+INFO  10:11:46,613 - #36 x
+INFO  10:11:46,614 - #25 )
+INFO  10:11:46,614 - #5 ;
+INFO  10:11:46,614 - #21 print
+INFO  10:11:46,614 - #24 (
+INFO  10:11:46,615 - #36 y
+INFO  10:11:46,615 - #25 )
+INFO  10:11:46,615 - #5 ;
+INFO  10:11:46,615 - #4 }
+INFO  10:11:46,615 - #4 }
+INFO  10:11:46,619 - Program(
+  ProgName(
+   test301
+  ) [ProgName]
+  ConstVarDeclarations(
+    ConstVarDeclarations(
+      NoConstVarDeclarations(
+      ) [NoConstVarDeclarations]
+      VarD(
+        VarDeclarationTrue(
+          Type(
+           int
+          ) [Type]
+          VarI(
+            VarIdent(
+             x
+              NoBracket(
+              ) [NoBracket]
+            ) [VarIdent]
+          ) [VarI]
+        ) [VarDeclarationTrue]
+      ) [VarD]
+    ) [ConstVarDeclarations]
+    VarD(
+      VarDeclarationTrue(
+        Type(
+         int
+        ) [Type]
+        VarI(
+          VarIdent(
+           y
+            NoBracket(
+            ) [NoBracket]
+          ) [VarIdent]
+        ) [VarI]
+      ) [VarDeclarationTrue]
+    ) [VarD]
+  ) [ConstVarDeclarations]
+  MethodDeclarations(
+    NoMethodDeclarations(
+    ) [NoMethodDeclarations]
+    MethodDecl(
+      MethodVoidName(
+       main
+      ) [MethodVoidName]
+      NoFormPars(
+      ) [NoFormPars]
+      NoVarDeclList(
+      ) [NoVarDeclList]
+      Statements(
+        Statements(
+          Statements(
+            Statements(
+              Statements(
+                NoStatements(
+                ) [NoStatements]
+                DesignatorS(
+                  DesignatorStatement(
+                    DesignatorIdent(
+                     x
+                    ) [DesignatorIdent]
+                    Assign(
+                      Assignop(
+                      ) [Assignop]
+                      Expr(
+                        NoMinus(
+                        ) [NoMinus]
+                        TermOne(
+                          FactorNumber(
+                           3
+                          ) [FactorNumber]
+                        ) [TermOne]
+                        NoAddopTerms(
+                        ) [NoAddopTerms]
+                      ) [Expr]
+                    ) [Assign]
+                  ) [DesignatorStatement]
+                ) [DesignatorS]
+              ) [Statements]
+              PrintS(
+                Expr(
+                  NoMinus(
+                  ) [NoMinus]
+                  TermOne(
+                    FactorNumber(
+                     1
+                    ) [FactorNumber]
+                  ) [TermOne]
+                  NoAddopTerms(
+                  ) [NoAddopTerms]
+                ) [Expr]
+                NoNumOption(
+                ) [NoNumOption]
+              ) [PrintS]
+            ) [Statements]
+            DesignatorS(
+              DesignatorStatement(
+                DesignatorIdent(
+                 y
+                ) [DesignatorIdent]
+                Assign(
+                  Assignop(
+                  ) [Assignop]
+                  Expr(
+                    NoMinus(
+                    ) [NoMinus]
+                    TermOne(
+                      FactorNumber(
+                       4
+                      ) [FactorNumber]
+                    ) [TermOne]
+                    AddopTerms(
+                      NoAddopTerms(
+                      ) [NoAddopTerms]
+                      APlus(
+                      ) [APlus]
+                      TermOne(
+                        FactorNumber(
+                         9
+                        ) [FactorNumber]
+                      ) [TermOne]
+                    ) [AddopTerms]
+                  ) [Expr]
+                ) [Assign]
+              ) [DesignatorStatement]
+            ) [DesignatorS]
+          ) [Statements]
+          PrintS(
+            Expr(
+              NoMinus(
+              ) [NoMinus]
+              TermOne(
+                FactorDesig(
+                  DesignatorIdent(
+                   x
+                  ) [DesignatorIdent]
+                  NoActParsDesignatorOption(
+                  ) [NoActParsDesignatorOption]
+                ) [FactorDesig]
+              ) [TermOne]
+              NoAddopTerms(
+              ) [NoAddopTerms]
+            ) [Expr]
+            NoNumOption(
+            ) [NoNumOption]
+          ) [PrintS]
+        ) [Statements]
+        PrintS(
+          Expr(
+            NoMinus(
+            ) [NoMinus]
+            TermOne(
+              FactorDesig(
+                DesignatorIdent(
+                 y
+                ) [DesignatorIdent]
+                NoActParsDesignatorOption(
+                ) [NoActParsDesignatorOption]
+              ) [FactorDesig]
+            ) [TermOne]
+            NoAddopTerms(
+            ) [NoAddopTerms]
+          ) [Expr]
+          NoNumOption(
+          ) [NoNumOption]
+        ) [PrintS]
+      ) [Statements]
+    ) [MethodDecl]
+  ) [MethodDeclarations]
+) [Program]
+INFO  10:11:46,620 - ===================================
+INFO  10:11:46,626 - Obradjuje se void funkcija main na liniji 9
+INFO  10:11:46,626 - Pronadjena globalna promenljiva na liniji 10 :ime x Var x: int, 0, 0 
+INFO  10:11:46,626 - Pronadjena globalna promenljiva na liniji 12 :ime y Var y: int, 1, 0 
+INFO  10:11:46,627 - Pronadjena globalna promenljiva na liniji 13 :ime x Var x: int, 0, 0 
+INFO  10:11:46,627 - Pronadjena globalna promenljiva na liniji 15 :ime y Var y: int, 1, 0 
+INFO  10:11:46,627 -  Print count calls = 3
+INFO  10:11:46,627 -  Deklarisanih promenljivih ima = 2
+INFO  10:11:46,627 - =================
+INFO  10:11:46,635 - PARSIRANJE USPESNO ZAVRSENO!!!

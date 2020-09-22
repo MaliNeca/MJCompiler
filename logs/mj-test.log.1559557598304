@@ -1,0 +1,69 @@
+INFO  12:26:03,676 - Compiling source file: C:\pp1Projekat\workspace\MJCompiler\test\program.mj
+INFO  12:26:03,730 - #2 program
+INFO  12:26:03,730 - #36 test301
+INFO  12:26:03,730 - #36 int
+INFO  12:26:03,731 - #36 niz
+INFO  12:26:03,732 - #6 [
+INFO  12:26:03,732 - #7 ]
+INFO  12:26:03,732 - #5 ;
+INFO  12:26:03,734 - #3 {
+INFO  12:26:03,735 - #13 void
+INFO  12:26:03,735 - #36 main
+INFO  12:26:03,735 - #24 (
+INFO  12:26:03,735 - #25 )
+INFO  12:26:03,736 - #3 {
+INFO  12:26:03,737 - #36 niz
+INFO  12:26:03,737 - #37 ==
+ERROR 12:26:03,738 - 
+Sintaksna greska na liniji 18
+INFO  12:26:03,739 - #36 new
+INFO  12:26:03,739 - #36 int
+INFO  12:26:03,739 - #6 [
+INFO  12:26:03,739 - #33 2
+INFO  12:26:03,739 - #7 ]
+INFO  12:26:03,743 - #5 ;
+INFO  12:26:03,743 - #4 }
+INFO  12:26:03,743 - #4 }
+INFO  12:26:03,747 - Program(
+  ProgName(
+   test301
+  ) [ProgName]
+  ConstVarDeclarations(
+    NoConstVarDeclarations(
+    ) [NoConstVarDeclarations]
+    VarD(
+      VarDeclarationTrue(
+        Type(
+         int
+        ) [Type]
+        VarI(
+          VarIdent(
+           niz
+            Bracket(
+            ) [Bracket]
+          ) [VarIdent]
+        ) [VarI]
+      ) [VarDeclarationTrue]
+    ) [VarD]
+  ) [ConstVarDeclarations]
+  MethodDeclarations(
+    NoMethodDeclarations(
+    ) [NoMethodDeclarations]
+    MethodDecl(
+      MethodVoidName(
+       main
+      ) [MethodVoidName]
+      NoFormPars(
+      ) [NoFormPars]
+      NoVarDeclList(
+      ) [NoVarDeclList]
+      Statements(
+        NoStatements(
+        ) [NoStatements]
+        DesignatorStatementError(
+        ) [DesignatorStatementError]
+      ) [Statements]
+    ) [MethodDecl]
+  ) [MethodDeclarations]
+) [Program]
+INFO  12:26:03,747 - ===================================

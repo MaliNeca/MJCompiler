@@ -1,0 +1,94 @@
+INFO  13:34:26,363 - Compiling source file: C:\pp1Projekat\workspace\MJCompiler\test\program.mj
+INFO  13:34:26,427 - #2 program
+INFO  13:34:26,427 - #36 test301
+INFO  13:34:26,427 - #36 int
+INFO  13:34:26,431 - #36 niz
+INFO  13:34:26,431 - #6 [
+INFO  13:34:26,431 - #7 ]
+INFO  13:34:26,431 - #5 ;
+INFO  13:34:26,431 - #3 {
+INFO  13:34:26,435 - #13 void
+INFO  13:34:26,435 - #36 main
+INFO  13:34:26,435 - #24 (
+INFO  13:34:26,435 - #25 )
+INFO  13:34:26,435 - #3 {
+INFO  13:34:26,435 - #36 niz
+INFO  13:34:26,439 - #23 =
+INFO  13:34:26,440 - #28 new
+INFO  13:34:26,441 - #36 int
+INFO  13:34:26,441 - #6 [
+INFO  13:34:26,441 - #33 2
+INFO  13:34:26,441 - #7 ]
+INFO  13:34:26,441 - #5 ;
+INFO  13:34:26,441 - #4 }
+INFO  13:34:26,444 - #4 }
+INFO  13:34:26,450 - Program(
+  ProgName(
+   test301
+  ) [ProgName]
+  ConstVarDeclarations(
+    NoConstVarDeclarations(
+    ) [NoConstVarDeclarations]
+    VarD(
+      VarDeclarationTrue(
+        Type(
+         int
+        ) [Type]
+        VarI(
+          VarIdent(
+           niz
+            Bracket(
+            ) [Bracket]
+          ) [VarIdent]
+        ) [VarI]
+      ) [VarDeclarationTrue]
+    ) [VarD]
+  ) [ConstVarDeclarations]
+  MethodDeclarations(
+    NoMethodDeclarations(
+    ) [NoMethodDeclarations]
+    MethodDecl(
+      MethodVoidName(
+       main
+      ) [MethodVoidName]
+      NoFormPars(
+      ) [NoFormPars]
+      NoVarDeclList(
+      ) [NoVarDeclList]
+      Statements(
+        NoStatements(
+        ) [NoStatements]
+        DesignatorS(
+          DesignatorStatementAssign(
+            Designator(
+             niz
+              DesignatorListOne(
+              ) [DesignatorListOne]
+            ) [Designator]
+            Assignop(
+            ) [Assignop]
+            ExprTermm(
+              TermOne(
+                FactorNew(
+                  Type(
+                   int
+                  ) [Type]
+                  ExprSquareOptionYes(
+                    ExprTermm(
+                      TermOne(
+                        FactorNumber(
+                         2
+                        ) [FactorNumber]
+                      ) [TermOne]
+                    ) [ExprTermm]
+                  ) [ExprSquareOptionYes]
+                ) [FactorNew]
+              ) [TermOne]
+            ) [ExprTermm]
+          ) [DesignatorStatementAssign]
+        ) [DesignatorS]
+      ) [Statements]
+    ) [MethodDecl]
+  ) [MethodDeclarations]
+) [Program]
+INFO  13:34:26,451 - ===================================

@@ -1,0 +1,387 @@
+INFO  10:16:39,569 - Compiling source file: C:\pp1Projekat\workspace\MJCompiler\test\program.mj
+INFO  10:16:39,650 - #2 program
+INFO  10:16:39,650 - #36 test301
+INFO  10:16:39,650 - #36 int
+INFO  10:16:39,651 - #36 x
+INFO  10:16:39,652 - #5 ;
+INFO  10:16:39,653 - #36 int
+INFO  10:16:39,654 - #36 y
+INFO  10:16:39,654 - #5 ;
+INFO  10:16:39,654 - #3 {
+INFO  10:16:39,654 - #36 int
+INFO  10:16:39,654 - #36 k
+INFO  10:16:39,655 - #24 (
+INFO  10:16:39,655 - #25 )
+INFO  10:16:39,656 - #36 int
+INFO  10:16:39,656 - #36 c
+INFO  10:16:39,656 - #5 ;
+INFO  10:16:39,656 - #3 {
+INFO  10:16:39,657 - #36 c
+INFO  10:16:39,657 - #23 =
+INFO  10:16:39,657 - #33 2
+INFO  10:16:39,659 - #5 ;
+INFO  10:16:39,661 - #21 print
+INFO  10:16:39,663 - #24 (
+INFO  10:16:39,664 - #33 0
+INFO  10:16:39,664 - #25 )
+INFO  10:16:39,664 - #5 ;
+INFO  10:16:39,664 - #19 return
+INFO  10:16:39,664 - #36 c
+INFO  10:16:39,664 - #26 +
+INFO  10:16:39,665 - #33 2
+INFO  10:16:39,667 - #5 ;
+INFO  10:16:39,668 - #4 }
+INFO  10:16:39,668 - #13 void
+INFO  10:16:39,669 - #36 main
+INFO  10:16:39,669 - #24 (
+INFO  10:16:39,670 - #25 )
+INFO  10:16:39,670 - #3 {
+INFO  10:16:39,670 - #36 x
+INFO  10:16:39,670 - #23 =
+INFO  10:16:39,670 - #33 3
+INFO  10:16:39,670 - #5 ;
+INFO  10:16:39,670 - #21 print
+INFO  10:16:39,670 - #24 (
+INFO  10:16:39,670 - #33 1
+INFO  10:16:39,671 - #25 )
+INFO  10:16:39,671 - #5 ;
+INFO  10:16:39,671 - #36 y
+INFO  10:16:39,671 - #23 =
+INFO  10:16:39,671 - #33 4
+INFO  10:16:39,671 - #26 +
+INFO  10:16:39,671 - #33 9
+INFO  10:16:39,671 - #26 +
+INFO  10:16:39,671 - #36 k
+INFO  10:16:39,671 - #24 (
+INFO  10:16:39,671 - #25 )
+INFO  10:16:39,672 - #5 ;
+INFO  10:16:39,672 - #21 print
+INFO  10:16:39,672 - #24 (
+INFO  10:16:39,672 - #36 x
+INFO  10:16:39,672 - #25 )
+INFO  10:16:39,673 - #5 ;
+INFO  10:16:39,673 - #36 k
+INFO  10:16:39,673 - #24 (
+INFO  10:16:39,673 - #25 )
+INFO  10:16:39,673 - #5 ;
+INFO  10:16:39,673 - #21 print
+INFO  10:16:39,673 - #24 (
+INFO  10:16:39,673 - #36 y
+INFO  10:16:39,674 - #25 )
+INFO  10:16:39,674 - #5 ;
+INFO  10:16:39,674 - #4 }
+INFO  10:16:39,674 - #4 }
+INFO  10:16:39,679 - Program(
+  ProgName(
+   test301
+  ) [ProgName]
+  ConstVarDeclarations(
+    ConstVarDeclarations(
+      NoConstVarDeclarations(
+      ) [NoConstVarDeclarations]
+      VarD(
+        VarDeclarationTrue(
+          Type(
+           int
+          ) [Type]
+          VarI(
+            VarIdent(
+             x
+              NoBracket(
+              ) [NoBracket]
+            ) [VarIdent]
+          ) [VarI]
+        ) [VarDeclarationTrue]
+      ) [VarD]
+    ) [ConstVarDeclarations]
+    VarD(
+      VarDeclarationTrue(
+        Type(
+         int
+        ) [Type]
+        VarI(
+          VarIdent(
+           y
+            NoBracket(
+            ) [NoBracket]
+          ) [VarIdent]
+        ) [VarI]
+      ) [VarDeclarationTrue]
+    ) [VarD]
+  ) [ConstVarDeclarations]
+  MethodDeclarations(
+    MethodDeclarations(
+      NoMethodDeclarations(
+      ) [NoMethodDeclarations]
+      MethodDecl(
+        MethodTypeNamee(
+          Type(
+           int
+          ) [Type]
+         k
+        ) [MethodTypeNamee]
+        NoFormPars(
+        ) [NoFormPars]
+        YesVarDeclList(
+          NoVarDeclList(
+          ) [NoVarDeclList]
+          VarDeclarationTrue(
+            Type(
+             int
+            ) [Type]
+            VarI(
+              VarIdent(
+               c
+                NoBracket(
+                ) [NoBracket]
+              ) [VarIdent]
+            ) [VarI]
+          ) [VarDeclarationTrue]
+        ) [YesVarDeclList]
+        Statements(
+          Statements(
+            Statements(
+              NoStatements(
+              ) [NoStatements]
+              DesignatorS(
+                DesignatorStatement(
+                  DesignatorIdent(
+                   c
+                  ) [DesignatorIdent]
+                  Assign(
+                    Assignop(
+                    ) [Assignop]
+                    Expr(
+                      NoMinus(
+                      ) [NoMinus]
+                      TermOne(
+                        FactorNumber(
+                         2
+                        ) [FactorNumber]
+                      ) [TermOne]
+                      NoAddopTerms(
+                      ) [NoAddopTerms]
+                    ) [Expr]
+                  ) [Assign]
+                ) [DesignatorStatement]
+              ) [DesignatorS]
+            ) [Statements]
+            PrintS(
+              Expr(
+                NoMinus(
+                ) [NoMinus]
+                TermOne(
+                  FactorNumber(
+                   0
+                  ) [FactorNumber]
+                ) [TermOne]
+                NoAddopTerms(
+                ) [NoAddopTerms]
+              ) [Expr]
+              NoNumOption(
+              ) [NoNumOption]
+            ) [PrintS]
+          ) [Statements]
+          ReturnS(
+            YesExprOption(
+              Expr(
+                NoMinus(
+                ) [NoMinus]
+                TermOne(
+                  FactorDesig(
+                    DesignatorIdent(
+                     c
+                    ) [DesignatorIdent]
+                    NoActParsDesignatorOption(
+                    ) [NoActParsDesignatorOption]
+                  ) [FactorDesig]
+                ) [TermOne]
+                AddopTerms(
+                  NoAddopTerms(
+                  ) [NoAddopTerms]
+                  APlus(
+                  ) [APlus]
+                  TermOne(
+                    FactorNumber(
+                     2
+                    ) [FactorNumber]
+                  ) [TermOne]
+                ) [AddopTerms]
+              ) [Expr]
+            ) [YesExprOption]
+          ) [ReturnS]
+        ) [Statements]
+      ) [MethodDecl]
+    ) [MethodDeclarations]
+    MethodDecl(
+      MethodVoidName(
+       main
+      ) [MethodVoidName]
+      NoFormPars(
+      ) [NoFormPars]
+      NoVarDeclList(
+      ) [NoVarDeclList]
+      Statements(
+        Statements(
+          Statements(
+            Statements(
+              Statements(
+                Statements(
+                  NoStatements(
+                  ) [NoStatements]
+                  DesignatorS(
+                    DesignatorStatement(
+                      DesignatorIdent(
+                       x
+                      ) [DesignatorIdent]
+                      Assign(
+                        Assignop(
+                        ) [Assignop]
+                        Expr(
+                          NoMinus(
+                          ) [NoMinus]
+                          TermOne(
+                            FactorNumber(
+                             3
+                            ) [FactorNumber]
+                          ) [TermOne]
+                          NoAddopTerms(
+                          ) [NoAddopTerms]
+                        ) [Expr]
+                      ) [Assign]
+                    ) [DesignatorStatement]
+                  ) [DesignatorS]
+                ) [Statements]
+                PrintS(
+                  Expr(
+                    NoMinus(
+                    ) [NoMinus]
+                    TermOne(
+                      FactorNumber(
+                       1
+                      ) [FactorNumber]
+                    ) [TermOne]
+                    NoAddopTerms(
+                    ) [NoAddopTerms]
+                  ) [Expr]
+                  NoNumOption(
+                  ) [NoNumOption]
+                ) [PrintS]
+              ) [Statements]
+              DesignatorS(
+                DesignatorStatement(
+                  DesignatorIdent(
+                   y
+                  ) [DesignatorIdent]
+                  Assign(
+                    Assignop(
+                    ) [Assignop]
+                    Expr(
+                      NoMinus(
+                      ) [NoMinus]
+                      TermOne(
+                        FactorNumber(
+                         4
+                        ) [FactorNumber]
+                      ) [TermOne]
+                      AddopTerms(
+                        AddopTerms(
+                          NoAddopTerms(
+                          ) [NoAddopTerms]
+                          APlus(
+                          ) [APlus]
+                          TermOne(
+                            FactorNumber(
+                             9
+                            ) [FactorNumber]
+                          ) [TermOne]
+                        ) [AddopTerms]
+                        APlus(
+                        ) [APlus]
+                        TermOne(
+                          FactorDesig(
+                            DesignatorIdent(
+                             k
+                            ) [DesignatorIdent]
+                            ActParsDesignatorOptionY(
+                              NoActParamOption(
+                              ) [NoActParamOption]
+                            ) [ActParsDesignatorOptionY]
+                          ) [FactorDesig]
+                        ) [TermOne]
+                      ) [AddopTerms]
+                    ) [Expr]
+                  ) [Assign]
+                ) [DesignatorStatement]
+              ) [DesignatorS]
+            ) [Statements]
+            PrintS(
+              Expr(
+                NoMinus(
+                ) [NoMinus]
+                TermOne(
+                  FactorDesig(
+                    DesignatorIdent(
+                     x
+                    ) [DesignatorIdent]
+                    NoActParsDesignatorOption(
+                    ) [NoActParsDesignatorOption]
+                  ) [FactorDesig]
+                ) [TermOne]
+                NoAddopTerms(
+                ) [NoAddopTerms]
+              ) [Expr]
+              NoNumOption(
+              ) [NoNumOption]
+            ) [PrintS]
+          ) [Statements]
+          DesignatorS(
+            DesignatorStatement(
+              DesignatorIdent(
+               k
+              ) [DesignatorIdent]
+              ActP(
+                NoActParamOption(
+                ) [NoActParamOption]
+              ) [ActP]
+            ) [DesignatorStatement]
+          ) [DesignatorS]
+        ) [Statements]
+        PrintS(
+          Expr(
+            NoMinus(
+            ) [NoMinus]
+            TermOne(
+              FactorDesig(
+                DesignatorIdent(
+                 y
+                ) [DesignatorIdent]
+                NoActParsDesignatorOption(
+                ) [NoActParsDesignatorOption]
+              ) [FactorDesig]
+            ) [TermOne]
+            NoAddopTerms(
+            ) [NoAddopTerms]
+          ) [Expr]
+          NoNumOption(
+          ) [NoNumOption]
+        ) [PrintS]
+      ) [Statements]
+    ) [MethodDecl]
+  ) [MethodDeclarations]
+) [Program]
+INFO  10:16:39,680 - ===================================
+INFO  10:16:39,686 - Obradjuje se funkcija k na liniji 7
+INFO  10:16:39,687 - Pronadjena lokalna promenljiva na liniji 8 :ime c Var c: int, 0, 1 
+INFO  10:16:39,687 - Pronadjena lokalna promenljiva na liniji 10 :ime c Var c: int, 0, 1 
+INFO  10:16:39,688 - Obradjuje se void funkcija main na liniji 13
+INFO  10:16:39,688 - Pronadjena globalna promenljiva na liniji 14 :ime x Var x: int, 0, 0 
+INFO  10:16:39,688 - Pronadjena globalna promenljiva na liniji 16 :ime y Var y: int, 1, 0 
+INFO  10:16:39,688 - Pronadjen poziv funkcije k na liniji 16
+INFO  10:16:39,688 - Pronadjena globalna promenljiva na liniji 17 :ime x Var x: int, 0, 0 
+INFO  10:16:39,688 - Pronadjen poziv funkcijee k na liniji 18
+INFO  10:16:39,688 - Pronadjena globalna promenljiva na liniji 19 :ime y Var y: int, 1, 0 
+INFO  10:16:39,689 -  Print count calls = 4
+INFO  10:16:39,689 -  Deklarisanih promenljivih ima = 3
+INFO  10:16:39,689 - =================
+INFO  10:16:39,699 - PARSIRANJE USPESNO ZAVRSENO!!!

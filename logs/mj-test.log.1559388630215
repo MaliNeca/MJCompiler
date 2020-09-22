@@ -1,0 +1,177 @@
+INFO  13:29:57,502 - Compiling source file: C:\pp1Projekat\workspace\MJCompiler\test\program.mj
+INFO  13:29:57,548 - #2 program
+INFO  13:29:57,548 - #36 test301
+INFO  13:29:57,548 - #36 int
+INFO  13:29:57,548 - #36 x
+INFO  13:29:57,548 - #5 ;
+INFO  13:29:57,548 - #36 int
+INFO  13:29:57,548 - #36 y
+INFO  13:29:57,564 - #5 ;
+INFO  13:29:57,564 - #36 char
+INFO  13:29:57,564 - #36 c
+INFO  13:29:57,564 - #5 ;
+INFO  13:29:57,564 - #36 boolean
+INFO  13:29:57,564 - #36 b
+INFO  13:29:57,564 - #5 ;
+INFO  13:29:57,564 - #3 {
+INFO  13:29:57,564 - #13 void
+INFO  13:29:57,564 - #36 main
+INFO  13:29:57,564 - #24 (
+INFO  13:29:57,564 - #25 )
+INFO  13:29:57,564 - #3 {
+INFO  13:29:57,564 - #36 x
+INFO  13:29:57,564 - #23 =
+INFO  13:29:57,564 - #36 c
+INFO  13:29:57,564 - #26 +
+INFO  13:29:57,564 - #33 3
+INFO  13:29:57,564 - #26 +
+INFO  13:29:57,564 - #33 2
+INFO  13:29:57,564 - #5 ;
+INFO  13:29:57,564 - #4 }
+INFO  13:29:57,564 - #4 }
+INFO  13:29:57,564 - Program(
+  ProgName(
+   test301
+  ) [ProgName]
+  ConstVarDeclarations(
+    ConstVarDeclarations(
+      ConstVarDeclarations(
+        ConstVarDeclarations(
+          NoConstVarDeclarations(
+          ) [NoConstVarDeclarations]
+          VarD(
+            VarDeclarationTrue(
+              Type(
+               int
+              ) [Type]
+              VarI(
+                VarIdent(
+                 x
+                  NoBracket(
+                  ) [NoBracket]
+                ) [VarIdent]
+              ) [VarI]
+            ) [VarDeclarationTrue]
+          ) [VarD]
+        ) [ConstVarDeclarations]
+        VarD(
+          VarDeclarationTrue(
+            Type(
+             int
+            ) [Type]
+            VarI(
+              VarIdent(
+               y
+                NoBracket(
+                ) [NoBracket]
+              ) [VarIdent]
+            ) [VarI]
+          ) [VarDeclarationTrue]
+        ) [VarD]
+      ) [ConstVarDeclarations]
+      VarD(
+        VarDeclarationTrue(
+          Type(
+           char
+          ) [Type]
+          VarI(
+            VarIdent(
+             c
+              NoBracket(
+              ) [NoBracket]
+            ) [VarIdent]
+          ) [VarI]
+        ) [VarDeclarationTrue]
+      ) [VarD]
+    ) [ConstVarDeclarations]
+    VarD(
+      VarDeclarationTrue(
+        Type(
+         boolean
+        ) [Type]
+        VarI(
+          VarIdent(
+           b
+            NoBracket(
+            ) [NoBracket]
+          ) [VarIdent]
+        ) [VarI]
+      ) [VarDeclarationTrue]
+    ) [VarD]
+  ) [ConstVarDeclarations]
+  MethodDeclarations(
+    NoMethodDeclarations(
+    ) [NoMethodDeclarations]
+    MethodDecl(
+      MethodVoidName(
+       main
+      ) [MethodVoidName]
+      NoFormPars(
+      ) [NoFormPars]
+      NoVarDeclList(
+      ) [NoVarDeclList]
+      Statements(
+        NoStatements(
+        ) [NoStatements]
+        DesignatorS(
+          DesignatorStatement(
+            Designator(
+             x
+              DesignatorListOne(
+              ) [DesignatorListOne]
+            ) [Designator]
+            Assign(
+              Assignop(
+              ) [Assignop]
+              Expr(
+                NoMinus(
+                ) [NoMinus]
+                TermOne(
+                  FactorDesig(
+                    Designator(
+                     c
+                      DesignatorListOne(
+                      ) [DesignatorListOne]
+                    ) [Designator]
+                    NoActParsDesignatorOption(
+                    ) [NoActParsDesignatorOption]
+                  ) [FactorDesig]
+                ) [TermOne]
+                AddopTerms(
+                  AddopTerms(
+                    NoAddopTerms(
+                    ) [NoAddopTerms]
+                    APlus(
+                    ) [APlus]
+                    TermOne(
+                      FactorNumber(
+                       3
+                      ) [FactorNumber]
+                    ) [TermOne]
+                  ) [AddopTerms]
+                  APlus(
+                  ) [APlus]
+                  TermOne(
+                    FactorNumber(
+                     2
+                    ) [FactorNumber]
+                  ) [TermOne]
+                ) [AddopTerms]
+              ) [Expr]
+            ) [Assign]
+          ) [DesignatorStatement]
+        ) [DesignatorS]
+      ) [Statements]
+    ) [MethodDecl]
+  ) [MethodDeclarations]
+) [Program]
+INFO  13:29:57,564 - ===================================
+INFO  13:29:57,580 - Obradjuje se void funkcija main na liniji 15
+INFO  13:29:57,580 - Pronadjena globalna promenljiva na liniji 18 :ime x Var x: int, 0, 0 
+INFO  13:29:57,580 - Pronadjena globalna promenljiva na liniji 18 :ime c Var c: char, 2, 0 
+ERROR 13:29:57,580 - Greska, expr nije tipa int ili nije kompatibilan sa termomm na liniji 4
+ERROR 13:29:57,580 - Greska, expr i designator nisu istog tipa na liniji 18
+INFO  13:29:57,580 -  Print count calls = 0
+INFO  13:29:57,580 -  Deklarisanih promenljivih ima = 4
+INFO  13:29:57,580 - =================
+ERROR 13:29:57,580 - GRESKA PRILIKOM PARSIRANJA!!!

@@ -1,0 +1,76 @@
+INFO  16:18:05,575 - Compiling source file: C:\pp1Projekat\workspace\MJCompiler\test\program.mj
+INFO  16:18:05,663 - #2 program
+INFO  16:18:05,664 - #36 MJProgram
+INFO  16:18:05,664 - #3 {
+INFO  16:18:05,665 - #13 void
+INFO  16:18:05,666 - #36 k
+INFO  16:18:05,666 - #24 (
+INFO  16:18:05,667 - #25 )
+INFO  16:18:05,668 - #3 {
+INFO  16:18:05,669 - #4 }
+INFO  16:18:05,669 - #13 void
+INFO  16:18:05,670 - #36 main
+INFO  16:18:05,670 - #24 (
+INFO  16:18:05,670 - #25 )
+INFO  16:18:05,671 - #3 {
+INFO  16:18:05,671 - #36 k
+INFO  16:18:05,671 - #24 (
+INFO  16:18:05,671 - #25 )
+INFO  16:18:05,671 - #5 ;
+INFO  16:18:05,672 - #4 }
+INFO  16:18:05,673 - #4 }
+INFO  16:18:05,677 - Program(
+  ProgName(
+   MJProgram
+  ) [ProgName]
+  NoConstVarDeclarations(
+  ) [NoConstVarDeclarations]
+  MethodDeclarations(
+    MethodDeclarations(
+      NoMethodDeclarations(
+      ) [NoMethodDeclarations]
+      MethodDecl(
+        MethodVoidName(
+         k
+        ) [MethodVoidName]
+        NoFormPars(
+        ) [NoFormPars]
+        NoVarDeclList(
+        ) [NoVarDeclList]
+        NoStatements(
+        ) [NoStatements]
+      ) [MethodDecl]
+    ) [MethodDeclarations]
+    MethodDecl(
+      MethodVoidName(
+       main
+      ) [MethodVoidName]
+      NoFormPars(
+      ) [NoFormPars]
+      NoVarDeclList(
+      ) [NoVarDeclList]
+      Statements(
+        NoStatements(
+        ) [NoStatements]
+        DesignatorS(
+          DesignatorStatement(
+            DesignatorIdent(
+             k
+            ) [DesignatorIdent]
+            ActP(
+              NoActParamOption(
+              ) [NoActParamOption]
+            ) [ActP]
+          ) [DesignatorStatement]
+        ) [DesignatorS]
+      ) [Statements]
+    ) [MethodDecl]
+  ) [MethodDeclarations]
+) [Program]
+INFO  16:18:05,680 - ===================================
+INFO  16:18:05,685 - Obradjuje se void funkcija k na liniji 5
+INFO  16:18:05,685 - Obradjuje se void funkcija main na liniji 9
+INFO  16:18:05,686 -  Print count calls = 0
+INFO  16:18:05,686 -  Deklarisanih promenljivih ima = 0
+INFO  16:18:05,686 - =================
+INFO  16:18:05,693 - PARSIRANJE USPESNO ZAVRSENO!!!

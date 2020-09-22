@@ -1,0 +1,162 @@
+INFO  16:01:20,834 - Compiling source file: C:\pp1Projekat\workspace\MJCompiler\test\program.mj
+INFO  16:01:20,897 - #2 program
+INFO  16:01:20,897 - #36 test301
+INFO  16:01:20,897 - #36 int
+INFO  16:01:20,897 - #36 x
+INFO  16:01:20,897 - #5 ;
+INFO  16:01:20,897 - #36 int
+INFO  16:01:20,897 - #36 y
+INFO  16:01:20,897 - #5 ;
+INFO  16:01:20,897 - #36 char
+INFO  16:01:20,897 - #36 c
+INFO  16:01:20,897 - #5 ;
+INFO  16:01:20,897 - #36 boolean
+INFO  16:01:20,897 - #36 b
+INFO  16:01:20,897 - #5 ;
+INFO  16:01:20,897 - #36 int
+INFO  16:01:20,897 - #36 niz
+INFO  16:01:20,897 - #6 [
+INFO  16:01:20,897 - #7 ]
+INFO  16:01:20,897 - #5 ;
+INFO  16:01:20,897 - #3 {
+INFO  16:01:20,897 - #13 void
+INFO  16:01:20,897 - #36 main
+INFO  16:01:20,897 - #24 (
+INFO  16:01:20,897 - #25 )
+INFO  16:01:20,897 - #3 {
+INFO  16:01:20,897 - #36 niz
+INFO  16:01:20,897 - #23 =
+INFO  16:01:20,912 - #36 new
+INFO  16:01:20,912 - #36 int
+ERROR 16:01:20,912 - 
+Sintaksna greska na liniji 21
+INFO  16:01:20,912 - #6 [
+INFO  16:01:20,912 - #33 2
+INFO  16:01:20,912 - #7 ]
+INFO  16:01:20,912 - #5 ;
+INFO  16:01:20,912 - #4 }
+INFO  16:01:20,912 - #4 }
+INFO  16:01:20,912 - Program(
+  ProgName(
+   test301
+  ) [ProgName]
+  ConstVarDeclarations(
+    ConstVarDeclarations(
+      ConstVarDeclarations(
+        ConstVarDeclarations(
+          ConstVarDeclarations(
+            NoConstVarDeclarations(
+            ) [NoConstVarDeclarations]
+            VarD(
+              VarDeclarationTrue(
+                Type(
+                 int
+                ) [Type]
+                VarI(
+                  VarIdent(
+                   x
+                    NoBracket(
+                    ) [NoBracket]
+                  ) [VarIdent]
+                ) [VarI]
+              ) [VarDeclarationTrue]
+            ) [VarD]
+          ) [ConstVarDeclarations]
+          VarD(
+            VarDeclarationTrue(
+              Type(
+               int
+              ) [Type]
+              VarI(
+                VarIdent(
+                 y
+                  NoBracket(
+                  ) [NoBracket]
+                ) [VarIdent]
+              ) [VarI]
+            ) [VarDeclarationTrue]
+          ) [VarD]
+        ) [ConstVarDeclarations]
+        VarD(
+          VarDeclarationTrue(
+            Type(
+             char
+            ) [Type]
+            VarI(
+              VarIdent(
+               c
+                NoBracket(
+                ) [NoBracket]
+              ) [VarIdent]
+            ) [VarI]
+          ) [VarDeclarationTrue]
+        ) [VarD]
+      ) [ConstVarDeclarations]
+      VarD(
+        VarDeclarationTrue(
+          Type(
+           boolean
+          ) [Type]
+          VarI(
+            VarIdent(
+             b
+              NoBracket(
+              ) [NoBracket]
+            ) [VarIdent]
+          ) [VarI]
+        ) [VarDeclarationTrue]
+      ) [VarD]
+    ) [ConstVarDeclarations]
+    VarD(
+      VarDeclarationTrue(
+        Type(
+         int
+        ) [Type]
+        VarI(
+          VarIdent(
+           niz
+            Bracket(
+            ) [Bracket]
+          ) [VarIdent]
+        ) [VarI]
+      ) [VarDeclarationTrue]
+    ) [VarD]
+  ) [ConstVarDeclarations]
+  MethodDeclarations(
+    NoMethodDeclarations(
+    ) [NoMethodDeclarations]
+    MethodDecl(
+      MethodVoidName(
+       main
+      ) [MethodVoidName]
+      NoFormPars(
+      ) [NoFormPars]
+      NoVarDeclList(
+      ) [NoVarDeclList]
+      Statements(
+        NoStatements(
+        ) [NoStatements]
+        DesignatorS(
+          DesignatorStatement(
+            Designator(
+             niz
+              DesignatorListOne(
+              ) [DesignatorListOne]
+            ) [Designator]
+            AssignError(
+              Assignop(
+              ) [Assignop]
+            ) [AssignError]
+          ) [DesignatorStatement]
+        ) [DesignatorS]
+      ) [Statements]
+    ) [MethodDecl]
+  ) [MethodDeclarations]
+) [Program]
+INFO  16:01:20,912 - ===================================
+INFO  16:01:20,928 - Obradjuje se void funkcija main na liniji 16
+INFO  16:01:20,928 - Pronadjena globalna promenljiva na liniji 21 :ime niz Var niz: Arr of int, 4, 0 
+INFO  16:01:20,928 -  Print count calls = 0
+INFO  16:01:20,928 -  Deklarisanih promenljivih ima = 5
+INFO  16:01:20,928 - =================
+ERROR 16:01:20,928 - GRESKA PRILIKOM PARSIRANJA!!!

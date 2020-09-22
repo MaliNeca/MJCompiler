@@ -1,0 +1,40 @@
+INFO  16:13:38,906 - Compiling source file: C:\pp1Projekat\workspace\MJCompiler\test\program.mj
+INFO  16:13:38,966 - #2 program
+INFO  16:13:38,967 - #36 test301
+INFO  16:13:38,967 - #3 {
+INFO  16:13:38,969 - #13 void
+INFO  16:13:38,970 - #36 main
+INFO  16:13:38,970 - #24 (
+INFO  16:13:38,970 - #25 )
+INFO  16:13:38,971 - #3 {
+INFO  16:13:38,972 - #4 }
+INFO  16:13:38,973 - #4 }
+INFO  16:13:38,979 - Program(
+  ProgName(
+   test301
+  ) [ProgName]
+  NoConstVarDeclarations(
+  ) [NoConstVarDeclarations]
+  MethodDeclarations(
+    NoMethodDeclarations(
+    ) [NoMethodDeclarations]
+    MethodDecl(
+      MethodVoidName(
+       main
+      ) [MethodVoidName]
+      NoFormPars(
+      ) [NoFormPars]
+      NoVarDeclList(
+      ) [NoVarDeclList]
+      NoStatements(
+      ) [NoStatements]
+    ) [MethodDecl]
+  ) [MethodDeclarations]
+) [Program]
+INFO  16:13:38,983 - ===================================
+INFO  16:13:38,986 - Obradjuje se void funkcija main na liniji 10
+ERROR 16:13:38,986 - Greska, ne postoji main methoda
+INFO  16:13:38,986 -  Print count calls = 0
+INFO  16:13:38,986 -  Deklarisanih promenljivih ima = 0
+INFO  16:13:38,986 - =================
+ERROR 16:13:38,986 - GRESKA PRILIKOM PARSIRANJA!!!
